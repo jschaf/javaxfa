@@ -50,6 +50,9 @@ public class AerExcel {
     public AerExcel(String path) {
         try {
             workbook = new XSSFWorkbook(path);
+            parseDataTable();
+            parseVariables();
+            parseTranslation();
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -57,6 +60,9 @@ public class AerExcel {
     public AerExcel(InputStream excelFile) {
         try {
             workbook = new XSSFWorkbook(excelFile);
+            parseDataTable();
+            parseVariables();
+            parseTranslation();
         } catch (IOException e) {
             e.printStackTrace();
         }

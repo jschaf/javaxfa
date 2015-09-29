@@ -83,15 +83,18 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        try {
-            readFieldNames(RESOURCE, XMLDEST);
-
-            manipulatePdf(RESOURCE, "C:/Users/joe/a1059-data.xml", "C:/Users/joe/a1059-with-xfa-data.pdf");
-        } catch (IOException e) {
-            e.printStackTrace();
-        } catch (DocumentException e) {
-            e.printStackTrace();
-        }
+        AerExcel aerExcel = new AerExcel("C:/Users/joe/aerTest/AERData.xlsx");
+        Template template = new Template(aerExcel);
+        template.getXmlStrings();
+//        try {
+//            readFieldNames(RESOURCE, XMLDEST);
+//
+//            manipulatePdf(RESOURCE, "C:/Users/joe/a1059-data.xml", "C:/Users/joe/a1059-with-xfa-data.pdf");
+//        } catch (IOException e) {
+//            e.printStackTrace();
+//        } catch (DocumentException e) {
+//            e.printStackTrace();
+//        }
     }
 
 }

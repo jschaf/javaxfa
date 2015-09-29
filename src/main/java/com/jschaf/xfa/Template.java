@@ -156,4 +156,9 @@ public class Template {
         return entries.stream().map(Template::convertEntryToXml).collect(Collectors.toList());
     }
 
+    public List<String> getXmlStrings() {
+        convertEntriesToXml(formEntries).forEach(System.out::println);
+        return convertEntriesToXml(formEntries);
+    }
+
 }

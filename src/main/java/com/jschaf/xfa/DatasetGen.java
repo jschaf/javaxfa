@@ -24,7 +24,7 @@ import java.util.stream.Stream;
 import java.util.stream.StreamSupport;
 
 /**
- * Generates XFA Dataset from the template.
+ * Generates the XFA Dataset from the template.
  */
 public class DatasetGen {
 
