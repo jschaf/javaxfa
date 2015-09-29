@@ -36,25 +36,6 @@ public class XfaPdfTest {
     }
 
     @Test
-    public void documentXfaRoundTrip() throws IOException, DocumentException, TransformerException, XPathExpressionException {
-        XfaPdf doc = new XfaPdf(da1059Pdf);
-        Aer aer = new Aer();
-        aer.courseTitle = "Benning School";
-        aer.todaysDate = LocalDate.parse("2015-09-09");
-        String xml = doc.convertAerToXml(aer);
-//        System.out.println(xml);
-
-        FileOutputStream fileOutput = new FileOutputStream("C:/Users/joe/yolofordays.pdf");
-        doc.fillPdfWithXfa(xml, fileOutput);
-
-        System.out.println("Filled pdf");
-
-
-        XfaPdf xfaPdf = new XfaPdf("C:/Users/joe/yolofordays.pdf");
-//        System.out.println(xfaPdf.getFieldNames());
-    }
-
-    @Test
     public void getXfaDocumentTest() throws IOException {
         XfaPdf doc = new XfaPdf(da410Pdf);
         System.out.println(DatasetGen.convertDocumentToString(doc.getXfaDocument()));

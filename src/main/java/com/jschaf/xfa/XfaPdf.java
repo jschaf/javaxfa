@@ -49,14 +49,6 @@ public class XfaPdf {
         this(new FileInputStream(path));
     }
 
-    public Aer getAerFromJson(String json) throws IOException {
-        return mapper.readValue(json, Aer.class);
-    }
-
-    public String convertAerToXml(Aer aer) throws JsonProcessingException {
-        return xmlMapper.writeValueAsString(aer);
-    }
-
     public Document getXfaDocument() {
         AcroFields form = pdf.getAcroFields();
         return form.getXfa().getDomDocument();
