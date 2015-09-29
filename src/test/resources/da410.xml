@@ -1,0 +1,1936 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xdp:xdp xmlns:xdp="http://ns.adobe.com/xdp/" timeStamp="2015-06-08T14:19:12Z" uuid="0bac09de-0a38-44c8-9cee-0cf163b33a76">
+    <config xmlns="http://www.xfa.org/schema/xci/3.0/">
+        <agent name="designer">
+            <!--  [0..n]  -->
+            <destination>pdf</destination>
+            <pdf>
+                <!--  [0..n]  -->
+                <fontInfo/>
+            </pdf>
+        </agent>
+        <present>
+            <!--  [0..n]  -->
+            <pdf>
+                <!--  [0..n]  -->
+                <version>1.7</version>
+                <adobeExtensionLevel>8</adobeExtensionLevel>
+                <creator>Adobe LiveCycle Designer 11.0</creator>
+                <producer>Adobe LiveCycle Designer 11.0</producer>
+                <scriptModel>XFA</scriptModel>
+                <interactive>1</interactive>
+                <tagged>1</tagged>
+                <fontInfo>
+                    <embed>0</embed>
+                </fontInfo>
+                <encryption>
+                    <encrypt>1</encrypt>
+                    <encryptionLevel>128bit</encryptionLevel>
+                    <permissions>
+                        <accessibleContent>1</accessibleContent>
+                        <contentCopy>0</contentCopy>
+                        <documentAssembly>0</documentAssembly>
+                        <formFieldFilling>1</formFieldFilling>
+                        <modifyAnnots>1</modifyAnnots>
+                        <print>1</print>
+                        <printHighQuality>1</printHighQuality>
+                        <change>0</change>
+                        <plaintextMetadata>1</plaintextMetadata>
+                    </permissions>
+                </encryption>
+                <compression>
+                    <level>6</level>
+                    <compressLogicalStructure>1</compressLogicalStructure>
+                    <compressObjectStream>1</compressObjectStream>
+                </compression>
+                <linearized>1</linearized>
+                <silentPrint>
+                    <addSilentPrint>0</addSilentPrint>
+                    <printerName/>
+                </silentPrint>
+                <viewerPreferences>
+                    <duplexOption>duplexFlipLongEdge</duplexOption>
+                    <numberOfCopies>0</numberOfCopies>
+                    <printScaling>appDefault</printScaling>
+                    <pickTrayByPDFSize>1</pickTrayByPDFSize>
+                    <enforce>printScaling</enforce>
+                    <ADBE_JSDebugger>delegate</ADBE_JSDebugger>
+                    <ADBE_JSConsole>delegate</ADBE_JSConsole>
+                    <addViewerPreferences>1</addViewerPreferences>
+                </viewerPreferences>
+            </pdf>
+            <common>
+                <log>
+                    <to>memory</to>
+                    <mode>overwrite</mode>
+                </log>
+                <template>
+                    <base>H:\DA PAM 25-40\Forms for Tarek\Forms for Tarek March2015\Tarek (3)\</base>
+                </template>
+            </common>
+            <script>
+                <runScripts>server</runScripts>
+            </script>
+            <xdp>
+                <packets>*</packets>
+            </xdp>
+            <destination>pdf</destination>
+            <output>
+                <to>uri</to>
+                <uri>H:\DA PAM 25-40\Forms for Tarek\Forms for Tarek March2015\Tarek (3)\A410.pdf</uri>
+            </output>
+        </present>
+        <acrobat>
+            <acrobat7>
+                <dynamicRender>forbidden</dynamicRender>
+            </acrobat7>
+            <common>
+                <versionControl sourceBelow="maintain"/>
+                <data>
+                    <adjustData/>
+                    <xsl>
+                        <uri/>
+                    </xsl>
+                    <outputXSL>
+                        <uri/>
+                    </outputXSL>
+                </data>
+                <template>
+                    <base>H:\DA PAM 25-40\Forms for Tarek\Forms for Tarek March2015\Tarek (3)\</base>
+                    <relevant/>
+                    <uri/>
+                </template>
+            </common>
+            <autoSave>enabled</autoSave>
+            <validate>preSubmit</validate>
+        </acrobat>
+    </config>
+    <template xmlns="http://www.xfa.org/schema/xfa-template/3.3/">
+        <?formServer defaultPDFRenderFormat acrobat10.0dynamic?>
+        <?formServer allowRenderCaching 0?>
+        <?formServer formModel client?>
+        <subform name="form1" layout="tb" locale="en_US" restoreState="auto">
+            <pageSet>
+                <pageArea name="Page1" id="Page1">
+                    <draw name="Rectangle1" y="148.631mm" x="39.35mm" w="137.431mm" h="100.652mm">
+                        <value>
+                            <rectangle>
+                                <edge thickness="0.508mm"/>
+                                <corner radius="5.08mm" thickness="0.508mm"/>
+                            </rectangle>
+                        </value>
+                    </draw>
+                    <draw name="Rectangle1" y="20.552mm" x="39.467mm" w="137.431mm" h="100.652mm">
+                        <value>
+                            <rectangle>
+                                <edge thickness="0.508mm"/>
+                                <corner radius="5.08mm" thickness="0.508mm"/>
+                            </rectangle>
+                        </value>
+                    </draw>
+                    <contentArea w="215.9mm" h="279.4mm" name="ContentArea1"/>
+                    <medium stock="letter" short="215.9mm" long="279.4mm"/>
+                    <draw name="G14" x="50.902mm" y="37.725mm" w="11.046pt" h="10.8pt">
+                        <value>
+                            <image aspect="none"/>
+                        </value>
+                        <traversal>
+                            <traverse ref="T32[0]"/>
+                        </traversal>
+                    </draw>
+                    <draw name="T16" x="47.303mm" y="53.346mm" w="4.034in" minH="0.129in">
+                        <value>
+                            <text>ACCOUNTABLE FORM, IDENTIFIED BELOW, HAS BEEN ISSUED TO USING INDIVIDUAL  </text>
+                        </value>
+                        <ui>
+                            <textEdit/>
+                        </ui>
+                        <para vAlign="middle"/>
+                        <font size="7pt" typeface="Arial"/>
+                        <traversal>
+                            <traverse ref="T23[0]"/>
+                        </traversal>
+                    </draw>
+                    <draw name="T17" x="150.148mm" y="38.106mm" w="0.93in" minH="0.129in">
+                        <value>
+                            <text>DATE PREPARED  </text>
+                        </value>
+                        <ui>
+                            <textEdit/>
+                        </ui>
+                        <para vAlign="middle"/>
+                        <font size="7pt" typeface="Arial"/>
+                        <traversal>
+                            <traverse ref="T52[0]"/>
+                        </traversal>
+                    </draw>
+                    <draw name="T18" x="68.868mm" y="58.629mm" w="2.833in" minH="0.129in">
+                        <value>
+                            <text>FORM DESIGNATION, NUMBER, EDITION DATE AND TITLE  </text>
+                        </value>
+                        <ui>
+                            <textEdit/>
+                        </ui>
+                        <para vAlign="middle"/>
+                        <font size="7pt" typeface="Arial"/>
+                        <traversal>
+                            <traverse ref="T19[0]"/>
+                        </traversal>
+                    </draw>
+                    <draw name="T19" x="41.792mm" y="71.329mm" w="2.372in" minH="0.129in">
+                        <value>
+                            <text>PRINTER OR INSTALLATION MAKING SHIPMENT  </text>
+                        </value>
+                        <ui>
+                            <textEdit/>
+                        </ui>
+                        <para vAlign="middle"/>
+                        <font size="7pt" typeface="Arial"/>
+                        <traversal>
+                            <traverse ref="T20[0]"/>
+                        </traversal>
+                    </draw>
+                    <draw name="T20" x="58.098mm" y="84.156mm" minH="0.177in" minW="100.813mm">
+                        <value>
+                            <text>RECEIPT IS ACKNOWLEDGED OF FORM IDENTIFIED ABOVE</text>
+                        </value>
+                        <ui>
+                            <textEdit/>
+                        </ui>
+                        <para vAlign="middle"/>
+                        <font typeface="Arial"/>
+                        <traversal>
+                            <traverse ref="T21[0]"/>
+                        </traversal>
+                    </draw>
+                    <draw name="T21" x="41.792mm" y="88.271mm" w="0.892in" minH="0.129in">
+                        <value>
+                            <text>DATE RECEIVED  </text>
+                        </value>
+                        <ui>
+                            <textEdit/>
+                        </ui>
+                        <para vAlign="middle"/>
+                        <font size="7pt" typeface="Arial"/>
+                        <traversal>
+                            <traverse ref="T24[0]"/>
+                        </traversal>
+                    </draw>
+                    <draw name="T22" x="41.792mm" y="117.254mm" w="1.756in" minH="0.129in">
+                        <value>
+                            <text>SEE INSTRUCTIONS ON PAGE 2.  </text>
+                        </value>
+                        <ui>
+                            <textEdit/>
+                        </ui>
+                        <para vAlign="middle"/>
+                        <font size="7pt" typeface="Arial"/>
+                        <traversal>
+                            <traverse ref="T30[0]"/>
+                        </traversal>
+                    </draw>
+                    <draw name="T23" x="41.792mm" y="58.629mm" w="0.567in" minH="0.129in">
+                        <value>
+                            <text>QUANTITY </text>
+                        </value>
+                        <ui>
+                            <textEdit/>
+                        </ui>
+                        <para vAlign="middle"/>
+                        <font size="7pt" typeface="Arial"/>
+                        <traversal>
+                            <traverse ref="T18[0]"/>
+                        </traversal>
+                    </draw>
+                    <draw name="T24" x="72.272mm" y="88.271mm" w="2.021in" minH="0.129in">
+                        <value>
+                            <text>NAME OF INSTALLATION OR INDIVIDUAL  </text>
+                        </value>
+                        <ui>
+                            <textEdit/>
+                        </ui>
+                        <para vAlign="middle"/>
+                        <font size="7pt" typeface="Arial"/>
+                        <traversal>
+                            <traverse ref="T49[0]"/>
+                        </traversal>
+                    </draw>
+                    <draw name="T25" x="114.588mm" y="100.971mm" w="0.675in" minH="0.129in">
+                        <value>
+                            <text>SIGNATURE  </text>
+                        </value>
+                        <ui>
+                            <textEdit/>
+                        </ui>
+                        <para vAlign="middle"/>
+                        <font size="7pt" typeface="Arial"/>
+                        <traversal>
+                            <traverse ref="T50[0]"/>
+                        </traversal>
+                    </draw>
+                    <draw name="T26" x="43.062mm" y="30.283mm" w="0.398in" minH="0.129in">
+                        <value>
+                            <text>SERIAL</text>
+                        </value>
+                        <ui>
+                            <textEdit/>
+                        </ui>
+                        <para vAlign="middle"/>
+                        <font size="7pt" typeface="Arial"/>
+                        <traversal>
+                            <traverse ref="T27[0]"/>
+                        </traversal>
+                    </draw>
+                    <draw name="T27" x="40.928mm" y="32.594mm" w="0.546in" minH="0.129in">
+                        <value>
+                            <text>NUMBERS</text>
+                        </value>
+                        <ui>
+                            <textEdit/>
+                        </ui>
+                        <para vAlign="middle"/>
+                        <font size="7pt" typeface="Arial"/>
+                        <traversal>
+                            <traverse ref="T28[0]"/>
+                        </traversal>
+                    </draw>
+                    <draw name="T28" x="41.36mm" y="35.134mm" w="0.519in" minH="0.128in">
+                        <value>
+                            <text>(Inclusive)</text>
+                        </value>
+                        <ui>
+                            <textEdit/>
+                        </ui>
+                        <para vAlign="middle"/>
+                        <font posture="italic" size="7pt" typeface="Arial"/>
+                        <traversal>
+                            <traverse ref="G14[0]"/>
+                        </traversal>
+                    </draw>
+                    <draw name="T29" x="94.005mm" y="181.33mm" minH="0.149in" minW="21.717mm">
+                        <value>
+                            <text>INSTRUCTIONS</text>
+                        </value>
+                        <ui>
+                            <textEdit/>
+                        </ui>
+                        <para vAlign="middle"/>
+                        <font weight="bold" size="8pt" typeface="Arial"/>
+                        <traversal>
+                            <traverse ref="T40[0]"/>
+                        </traversal>
+                    </draw>
+                    <draw name="T30" x="39.222mm" y="120.83mm" minH="0.176in" minW="42.85mm">
+                        <value>
+                            <text>DA FORM 410, MAR 2015</text>
+                        </value>
+                        <ui>
+                            <textEdit/>
+                        </ui>
+                        <para vAlign="middle"/>
+                        <font weight="bold" typeface="Arial" size="8pt"/>
+                        <traversal>
+                            <traverse ref="T44[0]"/>
+                        </traversal>
+                    </draw>
+                    <draw name="T31" x="163.941mm" y="121.553mm" w="13.305mm" minH="0.111in">
+                        <value>
+                            <text>PAGE 1 OF 2</text>
+                        </value>
+                        <ui>
+                            <textEdit/>
+                        </ui>
+                        <para vAlign="middle"/>
+                        <font size="6pt" typeface="Arial"/>
+                        <traversal>
+                            <traverse ref="T29[0]"/>
+                        </traversal>
+                    </draw>
+                    <draw name="T32" x="57.032mm" y="38.106mm" w="0.39in" minH="0.129in">
+                        <value>
+                            <text>FROM  </text>
+                        </value>
+                        <ui>
+                            <textEdit/>
+                        </ui>
+                        <para vAlign="middle"/>
+                        <font size="7pt" typeface="Arial"/>
+                        <traversal>
+                            <traverse ref="T33[0]"/>
+                        </traversal>
+                    </draw>
+                    <draw name="T33" x="65.718mm" y="38.106mm" w="1.158in" minH="0.128in">
+                        <value>
+                            <text>(Including letter symbol)</text>
+                        </value>
+                        <ui>
+                            <textEdit/>
+                        </ui>
+                        <para vAlign="middle"/>
+                        <font posture="italic" size="7pt" typeface="Arial"/>
+                        <traversal>
+                            <traverse ref="T34[0]"/>
+                        </traversal>
+                    </draw>
+                    <draw name="T34" x="103.59mm" y="38.106mm" w="0.24in" minH="0.129in">
+                        <value>
+                            <text>TO  </text>
+                        </value>
+                        <ui>
+                            <textEdit/>
+                        </ui>
+                        <para vAlign="middle"/>
+                        <font size="7pt" typeface="Arial"/>
+                        <traversal>
+                            <traverse ref="T35[0]"/>
+                        </traversal>
+                    </draw>
+                    <draw name="T35" x="108.467mm" y="38.106mm" w="1.158in" minH="0.128in">
+                        <value>
+                            <text>(Including letter symbol)</text>
+                        </value>
+                        <ui>
+                            <textEdit/>
+                        </ui>
+                        <para vAlign="middle"/>
+                        <font posture="italic" size="7pt" typeface="Arial"/>
+                        <traversal>
+                            <traverse ref="T17[0]"/>
+                        </traversal>
+                    </draw>
+                    <draw name="T38" x="68.623mm" y="202.616mm" minH="0.137in" minW="77.165mm">
+                        <value>
+                            <text>CONSIGNEE - Upon receipt of the shipment, return the signed</text>
+                        </value>
+                        <ui>
+                            <textEdit/>
+                        </ui>
+                        <para vAlign="middle"/>
+                        <font size="8pt" typeface="Arial"/>
+                        <traversal>
+                            <traverse ref="T39[0]"/>
+                        </traversal>
+                    </draw>
+                    <draw name="T39" x="68.623mm" y="205.791mm" minH="0.137in" minW="34.696mm">
+                        <value>
+                            <text>copy to the issuing agency.</text>
+                        </value>
+                        <ui>
+                            <textEdit/>
+                        </ui>
+                        <para vAlign="middle"/>
+                        <font size="8pt" typeface="Arial"/>
+                    </draw>
+                    <draw name="T40" x="68.623mm" y="186.741mm" minH="0.137in" minW="73.228mm">
+                        <value>
+                            <text>ISSUING AGENCY - Prepare this form in triplicate. Original</text>
+                        </value>
+                        <ui>
+                            <textEdit/>
+                        </ui>
+                        <para vAlign="middle"/>
+                        <font size="8pt" typeface="Arial"/>
+                        <traversal>
+                            <traverse ref="T41[0]"/>
+                        </traversal>
+                    </draw>
+                    <draw name="T41" x="68.623mm" y="189.916mm" minH="0.137in" minW="74.803mm">
+                        <value>
+                            <text>and one copy will be forwarded with the shipment to the con-</text>
+                        </value>
+                        <ui>
+                            <textEdit/>
+                        </ui>
+                        <para vAlign="middle"/>
+                        <font size="8pt" typeface="Arial"/>
+                        <traversal>
+                            <traverse ref="T42[0]"/>
+                        </traversal>
+                    </draw>
+                    <draw name="T42" x="68.623mm" y="193.091mm" minH="0.137in" minW="72.568mm">
+                        <value>
+                            <text>signee and suspend the third copy until the signed copy is</text>
+                        </value>
+                        <ui>
+                            <textEdit/>
+                        </ui>
+                        <para vAlign="middle"/>
+                        <font size="8pt" typeface="Arial"/>
+                        <traversal>
+                            <traverse ref="T43[0]"/>
+                        </traversal>
+                    </draw>
+                    <draw name="T43" x="68.623mm" y="196.266mm" minH="0.137in" minW="33.655mm">
+                        <value>
+                            <text>returned by the consignee.</text>
+                        </value>
+                        <ui>
+                            <textEdit/>
+                        </ui>
+                        <para vAlign="middle"/>
+                        <font size="8pt" typeface="Arial"/>
+                        <traversal>
+                            <traverse ref="T38[0]"/>
+                        </traversal>
+                    </draw>
+                    <draw name="T44" x="91.662mm" y="117.117mm" w="84.186mm" minH="0.129in">
+                        <value>
+                            <text>Form approved by Comptroller General of U.S., 10 Nov 48</text>
+                        </value>
+                        <ui>
+                            <textEdit/>
+                        </ui>
+                        <para vAlign="middle" hAlign="center"/>
+                        <font size="7pt" typeface="Arial"/>
+                        <traversal>
+                            <traverse ref="T46[0]"/>
+                        </traversal>
+                    </draw>
+                    <draw name="T46" x="87.809mm" y="121.256mm" w="54.978mm" h="4.497mm">
+                        <value>
+                            <text>PREVIOUS EDITIONS ARE OBSOLETE.</text>
+                        </value>
+                        <ui>
+                            <textEdit/>
+                        </ui>
+                        <para vAlign="middle"/>
+                        <font size="8pt" typeface="Arial"/>
+                        <traversal>
+                            <traverse ref="T31[0]"/>
+                        </traversal>
+                        <?renderCache.bounds 155843 12747 0 0 0 0 0 0?>
+                        <?renderCache.textRun 31 PREVIOUS EDITIONS ARE OBSOLETE. 0 0 8689 0 0 0 "Arial" 0 0 8000 ISO-8859-1?>
+
+                    </draw>
+                    <draw name="T49" x="41.792mm" y="100.971mm" w="2.5in" minH="0.129in">
+                        <value>
+                            <text>TYPED NAME, GRADE OR TITLE OF ACCOUNTABLE </text>
+                        </value>
+                        <ui>
+                            <textEdit/>
+                        </ui>
+                        <para vAlign="middle"/>
+                        <font size="7pt" typeface="Arial"/>
+                        <traversal>
+                            <traverse ref="T25[0]"/>
+                        </traversal>
+                    </draw>
+                    <draw name="T50" x="41.792mm" y="103.511mm" w="0.482in" minH="0.129in">
+                        <value>
+                            <text>OFFICER</text>
+                        </value>
+                        <ui>
+                            <textEdit/>
+                        </ui>
+                        <para vAlign="middle"/>
+                        <font size="7pt" typeface="Arial"/>
+                    </draw>
+                    <draw name="T52" x="47.303mm" y="42.348mm" w="4.464in" minH="0.129in">
+                        <value>
+                            <text>ACCOUNTABLE FORM IDENTIFIED BELOW IS BEING FORWARDED TO YOUR STATION TODAY.  </text>
+                        </value>
+                        <ui>
+                            <textEdit/>
+                        </ui>
+                        <para vAlign="middle"/>
+                        <font size="7pt" typeface="Arial"/>
+                        <traversal>
+                            <traverse ref="T53[0]"/>
+                        </traversal>
+                    </draw>
+                    <draw name="T53" x="47.303mm" y="45.294mm" w="4.442in" minH="0.129in">
+                        <value>
+                            <text>UPON ARRIVAL ACCOUNTABLE OFFICER IS REQUESTED TO COMPLETE AND RETURN THIS  </text>
+                        </value>
+                        <ui>
+                            <textEdit/>
+                        </ui>
+                        <para vAlign="middle"/>
+                        <font size="7pt" typeface="Arial"/>
+                        <traversal>
+                            <traverse ref="T54[0]"/>
+                        </traversal>
+                    </draw>
+                    <draw name="T54" x="47.303mm" y="48.266mm" w="3.307in" minH="0.129in">
+                        <value>
+                            <text>RECEIPT TO THE INSTALLATION OR ORGANIZATION NAMED BELOW.</text>
+                        </value>
+                        <ui>
+                            <textEdit/>
+                        </ui>
+                        <para vAlign="middle"/>
+                        <font size="7pt" typeface="Arial"/>
+                        <traversal>
+                            <traverse ref="T16[0]"/>
+                        </traversal>
+                    </draw>
+                    <draw name="R55" y="71.168mm" x="39.472mm" w="137.16mm" h="0in">
+                        <value>
+                            <line/>
+                        </value>
+                    </draw>
+                    <draw name="R56" y="83.868mm" x="39.472mm" w="137.16mm" h="0in">
+                        <value>
+                            <line/>
+                        </value>
+                    </draw>
+                    <draw name="R57" y="88.102mm" x="39.472mm" w="137.16mm" h="0in">
+                        <value>
+                            <line/>
+                        </value>
+                    </draw>
+                    <draw name="R58" y="100.802mm" x="39.472mm" w="137.16mm" h="0in">
+                        <value>
+                            <line/>
+                        </value>
+                    </draw>
+                    <draw name="R59" y="100.833mm" x="112.21mm" w="0in" h="15.672mm">
+                        <value>
+                            <line/>
+                        </value>
+                    </draw>
+                    <draw name="R60" y="116.622mm" x="91.33mm" w="0in" h="3.937mm">
+                        <value>
+                            <line/>
+                        </value>
+                    </draw>
+                    <draw name="R61" y="30.952mm" x="101.49mm" w="0in" h="10.67mm">
+                        <value>
+                            <line/>
+                        </value>
+                    </draw>
+                    <draw name="R62" y="30.952mm" x="148.057mm" w="0in" h="10.668mm">
+                        <value>
+                            <line/>
+                        </value>
+                    </draw>
+                    <draw name="R63" y="116.622mm" x="39.472mm" w="137.16mm" h="0in">
+                        <value>
+                            <line/>
+                        </value>
+                    </draw>
+                    <draw name="R64" y="30.952mm" x="54.923mm" w="0in" h="10.668mm">
+                        <value>
+                            <line/>
+                        </value>
+                    </draw>
+                    <draw name="R65" y="41.535mm" x="39.472mm" w="137.16mm" h="0in">
+                        <value>
+                            <line/>
+                        </value>
+                    </draw>
+                    <draw name="R70" y="58.59mm" x="66.777mm" w="0in" h="12.446mm">
+                        <value>
+                            <line/>
+                        </value>
+                    </draw>
+                    <draw name="R71" y="58.468mm" x="39.472mm" w="137.16mm" h="0in">
+                        <value>
+                            <line/>
+                        </value>
+                    </draw>
+                    <draw name="R72" y="88.102mm" x="70.163mm" w="0in" h="12.573mm">
+                        <value>
+                            <line/>
+                        </value>
+                    </draw>
+                    <draw name="R76" y="39.418mm" x="41.588mm" w="10.791mm" h="0in">
+                        <value>
+                            <line>
+                                <edge thickness="0.635mm"/>
+                            </line>
+                        </value>
+                    </draw>
+                    <?templateDesigner expand 0?>
+
+                    <draw name="T36" x="41.1mm" y="21.291mm" minH="0.176in" w="134.28mm">
+                        <value>
+                            <text>RECEIPT FOR ACCOUNTABLE FORM </text>
+                        </value>
+                        <ui>
+                            <textEdit/>
+                        </ui>
+                        <para vAlign="middle" hAlign="center"/>
+                        <font weight="bold" typeface="Arial"/>
+                        <traversal>
+                            <traverse ref="T22[0]"/>
+                        </traversal>
+                    </draw>
+                    <draw name="R71" y="30.644mm" x="39.582mm" w="137.16mm" h="0in">
+                        <value>
+                            <line/>
+                        </value>
+                    </draw>
+                    <draw name="T52" x="41.36mm" y="26.272mm" w="134.14mm" minH="0.129in">
+                        <value>
+                            <text>For use of this form, see DA PAM 25-40; the proponent agency is OAASA.</text>
+                        </value>
+                        <ui>
+                            <textEdit/>
+                        </ui>
+                        <para vAlign="middle" hAlign="center" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" marginLeft="0pt" marginRight="0pt"/>
+                        <font size="8pt" typeface="Arial" baselineShift="0pt"/>
+                        <traversal>
+                            <traverse ref="T53[0]"/>
+                        </traversal>
+                    </draw>
+                    <draw name="T31" x="160.671mm" y="123.767mm" w="16.605mm" minH="0.111in">
+                        <value>
+                            <text>APD LC v1.00ES</text>
+                        </value>
+                        <ui>
+                            <textEdit/>
+                        </ui>
+                        <para vAlign="middle"/>
+                        <font size="6pt" typeface="Arial"/>
+                        <traversal>
+                            <traverse ref="T29[0]"/>
+                        </traversal>
+                    </draw>
+                    <draw name="T31" x="163.546mm" y="249.693mm" w="13.305mm" minH="0.111in">
+                        <value>
+                            <text>PAGE 2 OF 2</text>
+                        </value>
+                        <ui>
+                            <textEdit/>
+                        </ui>
+                        <para vAlign="middle"/>
+                        <font size="6pt" typeface="Arial"/>
+                        <traversal>
+                            <traverse ref="T29[0]"/>
+                        </traversal>
+                    </draw>
+                    <draw name="T31" x="160.276mm" y="251.907mm" w="16.605mm" minH="0.111in">
+                        <value>
+                            <text>APD LC v1.00ES</text>
+                        </value>
+                        <ui>
+                            <textEdit/>
+                        </ui>
+                        <para vAlign="middle"/>
+                        <font size="6pt" typeface="Arial"/>
+                        <traversal>
+                            <traverse ref="T29[0]"/>
+                        </traversal>
+                    </draw>
+                    <draw name="T30" x="39.413mm" y="248.86mm" minH="0.176in" minW="42.85mm">
+                        <value>
+                            <text>DA FORM 410, MAR 2015</text>
+                        </value>
+                        <ui>
+                            <textEdit/>
+                        </ui>
+                        <para vAlign="middle" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" marginLeft="0pt" marginRight="0pt"/>
+                        <font typeface="Arial" size="8pt" posture="italic" baselineShift="0pt"/>
+                        <traversal>
+                            <traverse ref="T44[0]"/>
+                        </traversal>
+                    </draw>
+                </pageArea>
+                <?templateDesigner expand 1?>
+
+            </pageSet>
+            <subform w="8.5in" h="279.4mm" name="Page1">
+                <field name="FROM" y="31.036mm" x="55.598mm" w="128.94pt" h="7.112mm">
+                    <ui>
+                        <textEdit hScrollPolicy="off" multiLine="1" vScrollPolicy="off"/>
+                    </ui>
+                    <font typeface="Times New Roman"/>
+                    <?templateDesigner expand 1?>
+
+                    <bind match="global"/>
+                    <assist>
+                        <speak>d ay form 410, june 19 55.
+                            replaces edition of 1 january 19 53, and d ay form 410 dash 1, 1 january 19 53, which are  obsolete.
+                            form approved by comptroller. general of u s.  10 november 19 48.
+                            ay p d l c version 1.00.
+                            serial
+                            numbers.
+                            inclusive.
+                            field from.
+                            including letter symbol.
+                            enter text.</speak>
+                    </assist>
+                    <para lineHeight="10pt"/>
+                    <traversal>
+                        <traverse ref="TO[0]"/>
+                    </traversal>
+                </field>
+                <field name="TO" y="31.036mm" x="102.165mm" w="128.94pt" h="7.112mm">
+                    <ui>
+                        <textEdit hScrollPolicy="off" multiLine="1" vScrollPolicy="off"/>
+                    </ui>
+                    <font typeface="Times New Roman"/>
+                    <bind match="global"/>
+                    <assist>
+                        <speak>field to.
+                            including letter symbol.
+                            enter text.</speak>
+                    </assist>
+                    <para lineHeight="10pt"/>
+                    <traversal>
+                        <traverse ref="DATE[0]"/>
+                    </traversal>
+                </field>
+                <field name="DATE" y="33.576mm" x="148.732mm" w="77.94pt" h="11.94pt">
+                    <ui>
+                        <textEdit hScrollPolicy="off"/>
+                    </ui>
+                    <font typeface="Times New Roman"/>
+                    <para hAlign="center"/>
+                    <bind match="global"/>
+                    <assist>
+                        <speak>field date prepared.
+                            enter text.</speak>
+                    </assist>
+                    <traversal>
+                        <traverse ref="ACCOUNT_A[0]"/>
+                    </traversal>
+                </field>
+                <field name="ACCOUNT_A" w="4.318mm" h="4.318mm" x="40.838mm" y="42.545mm">
+                    <ui>
+                        <checkButton size="2.8222mm">
+                            <border>
+                                <edge/>
+                                <fill/>
+                            </border>
+                        </checkButton>
+                    </ui>
+                    <font typeface="Times New Roman"/>
+                    <margin leftInset="0mm" rightInset="0mm" topInset="0mm" bottomInset="0mm"/>
+                    <para vAlign="middle"/>
+                    <value>
+                        <text>0</text>
+                    </value>
+                    <items>
+                        <text>1</text>
+                        <text>0</text>
+                    </items>
+                    <bind match="global"/>
+                    <assist>
+                        <speak>check box.
+                            check for accountable form identified below is being forwarded to your station today. upon arrival accountable officer is requested to complete and return this. receipt to the installation or organization named below.</speak>
+                    </assist>
+                    <traversal>
+                        <traverse ref="ACCOUNT_B[0]"/>
+                    </traversal>
+                    <event activity="click" name="event__click">
+                        <script contentType="application/x-javascript">
+                            //--&gt; if first checkbox is checked then uncheck the second checkbox
+                            if (ACCOUNT_A.rawValue == 1)
+                            ACCOUNT_B.rawValue = 0;
+
+                        </script>
+                    </event>
+                </field>
+                <field name="ACCOUNT_B" w="4.318mm" h="4.318mm" y="52.7mm" x="40.897mm">
+                    <ui>
+                        <checkButton size="2.8222mm">
+                            <border>
+                                <edge/>
+                                <fill/>
+                            </border>
+                        </checkButton>
+                    </ui>
+                    <font typeface="Times New Roman"/>
+                    <margin leftInset="0mm" rightInset="0mm" topInset="0mm" bottomInset="0mm"/>
+                    <para vAlign="middle"/>
+                    <value>
+                        <text>0</text>
+                    </value>
+                    <items>
+                        <text>1</text>
+                        <text>0</text>
+                    </items>
+                    <bind match="global"/>
+                    <assist>
+                        <speak>check for accountable form, identified below, has been issued to using individual.</speak>
+                    </assist>
+                    <traversal>
+                        <traverse ref="QUANTITY[0]"/>
+                    </traversal>
+                    <event activity="click" name="event__click">
+                        <script contentType="application/x-javascript">
+                            //--&gt; if second checkbox is checked then uncheck the first checkbox
+                            if (ACCOUNT_B.rawValue == 1)
+                            ACCOUNT_A.rawValue = 0;
+                        </script>
+                    </event>
+                </field>
+                <field name="QUANTITY" y="66.663mm" x="40.114mm" w="73.14pt" h="11.94pt">
+                    <ui>
+                        <numericEdit hScrollPolicy="off"/>
+                    </ui>
+                    <font typeface="Times New Roman"/>
+                    <value>
+                        <decimal fracDigits="0" leadDigits="4"/>
+                    </value>
+                    <bind match="global"/>
+                    <assist>
+                        <speak>field quantity.
+                            enter text.</speak>
+                    </assist>
+                    <para hAlign="center"/>
+                    <traversal>
+                        <traverse ref="FORM[0]"/>
+                    </traversal>
+                </field>
+                <field name="FORM" y="62.429mm" x="67.256mm" w="308.34pt" h="23.94pt">
+                    <ui>
+                        <textEdit hScrollPolicy="off" multiLine="1" vScrollPolicy="off"/>
+                    </ui>
+                    <font typeface="Times New Roman"/>
+                    <bind match="global"/>
+                    <assist>
+                        <speak>field form designation, number, edition date and title.
+                            enter text.</speak>
+                    </assist>
+                    <para lineHeight="10pt"/>
+                    <traversal>
+                        <traverse ref="PRINTER[0]"/>
+                    </traversal>
+                </field>
+                <field name="PRINTER" y="75.194mm" x="39.959mm" w="384.54pt" h="23.94pt">
+                    <ui>
+                        <textEdit hScrollPolicy="off" multiLine="1" vScrollPolicy="off"/>
+                    </ui>
+                    <font typeface="Times New Roman"/>
+                    <bind match="global"/>
+                    <assist>
+                        <speak>field printer or installation making shipment.</speak>
+                    </assist>
+                    <para lineHeight="10pt"/>
+                    <traversal>
+                        <traverse ref="DATE_REC[0]"/>
+                    </traversal>
+                </field>
+                <field name="DATE_REC" y="96.361mm" x="40.219mm" w="82.74pt" h="11.94pt">
+                    <ui>
+                        <textEdit hScrollPolicy="off"/>
+                    </ui>
+                    <font typeface="Times New Roman"/>
+                    <para hAlign="center"/>
+                    <bind match="global"/>
+                    <assist>
+                        <speak>receipt is acknowledged of form identified above.
+                            field date received.
+                            enter text. </speak>
+                    </assist>
+                    <traversal>
+                        <traverse ref="INSTALL[0]"/>
+                    </traversal>
+                </field>
+                <field name="INSTALL" y="92.128mm" x="70.487mm" w="298.74pt" h="23.94pt">
+                    <ui>
+                        <textEdit hScrollPolicy="off" multiLine="1" vScrollPolicy="off"/>
+                    </ui>
+                    <font typeface="Times New Roman"/>
+                    <bind match="global"/>
+                    <assist>
+                        <speak>field name of installation or individual.
+                            enter text. </speak>
+                    </assist>
+                    <para lineHeight="10pt"/>
+                    <traversal>
+                        <traverse ref="NAME[0]"/>
+                    </traversal>
+                </field>
+                <field name="NAME" y="109.157mm" x="40.31mm" w="202.74pt" h="7.112mm">
+                    <ui>
+                        <textEdit hScrollPolicy="off" multiLine="1" vScrollPolicy="off"/>
+                    </ui>
+                    <font typeface="Times New Roman"/>
+                    <bind match="global"/>
+                    <assist>
+                        <speak>field typed name, grade or title of accountable officer.
+                            enter text. </speak>
+                    </assist>
+                    <para lineHeight="10pt"/>
+                    <traversal>
+                        <traverse ref="signature_BUTTON1[0]"/>
+                    </traversal>
+                </field>
+                <field name="signature_BUTTON1" w="60.982mm" h="9mm" x="113.528mm" y="107.322mm">
+                    <ui>
+                        <signature type="PDF1.6">
+                            <border presence="hidden"/>
+                            <margin/>
+                            <manifest action="all"/>
+                        </signature>
+                    </ui>
+                    <font typeface="Arial" size="8pt"/>
+                    <margin topInset="0mm" bottomInset="0mm" leftInset="0mm" rightInset="0mm"/>
+                    <bind match="none"/>
+                    <event activity="preSign" name="event__preSign">
+                        <script contentType="application/x-javascript">
+                            xfa.host.messageBox("Your digital signature has the same legal effect and consequences as a hand written signature.", "Electronic Signature Notice", 1);
+
+                            //DATE.rawValue = util.printd("yyyymmdd", new Date());	/**Replace "DateField" with the hierarchy name of your date field**/
+                            //DATE.access = "readOnly"; /**Replace "DateField" with the hierarchy name of your date field**/
+                            Page2.signature_BUTTON1.rawValue = "See signature on Page 1, Signature Block";
+                            Page3.signature_BUTTON1.rawValue = "See signature on Page 1, Signature Block";
+
+                        </script>
+                    </event>
+                    <para vAlign="middle"/>
+                    <event activity="postSign" name="event__postSign">
+                        <script contentType="application/x-javascript">
+                            var getSigField1 = event.target.getField("form1[0].Page1[0].signature_BUTTON1[0]"); /**Make sure "signature_BUTTON1" is the current signature hierarchy name**/
+                            var oState1 = getSigField1.signatureValidate();
+
+                            if (oState1 == 0){
+                            // If cancelling signature then delete the current field's signed state.
+                            //	DATE.rawValue = "";
+                            //	DATE.access = "open";
+                            Page2.signature_BUTTON1.rawValue = "See signature on Page 1, Signature Block";
+                            Page3.signature_BUTTON1.rawValue = "See signature on Page 1, Signature Block";
+                            }
+
+                            form1.Page3.signature_BUTTON1::preSign - (JavaScript, client)
+
+                            xfa.host.messageBox("Your digital signature has the same legal effect and consequences as a hand written signature.", "Electronic Signature Notice", 1);
+
+                        </script>
+                    </event>
+                    <event activity="change" name="event__change">
+                        <script contentType="application/x-javascript">try{
+                            var getSigField1 = event.target.getField("form1[0].Page1[0].signature_BUTTON1[0]"); /**Make sure "signature_BUTTON1" is the current signature hierarchy name**/
+                            var oState1 = getSigField1.signatureValidate();
+
+                            if (oState1 == 0){
+                            //		DATE.rawValue = ""; /**Replace "DateField" with the hierarchy name of your date field**/
+                            //	    DATE.access = "open"; /**Replace "DateField" with the hierarchy name of your date field**/
+                            Page2.signature_BUTTON1.rawValue = "See signature on Page 1, Signature Block";
+                            Page3.signature_BUTTON1.rawValue = "See signature on Page 1, Signature Block";
+
+                            }
+                            xfa.host.setFocus(this);
+                            }
+                            catch(e){app.alert(e)}
+                        </script>
+                    </event>
+                    <assist>
+                        <speak>Signature of Accountable Officer-Electronic Signature</speak>
+                    </assist>
+                    <traversal>
+                        <traverse ref="NAME[0]"/>
+                    </traversal>
+                </field>
+                <traversal>
+                    <traverse operation="first" ref="FROM[0]"/>
+                </traversal>
+                <?templateDesigner expand 0?>
+
+            </subform>
+            <subform w="8.5in" h="279.4mm" name="Page2">
+                <field name="FROM" y="30.776mm" x="55.598mm" w="128.94pt" h="7.112mm" access="readOnly">
+                    <ui>
+                        <textEdit hScrollPolicy="off" multiLine="1" vScrollPolicy="off"/>
+                    </ui>
+                    <font typeface="Times New Roman"/>
+                    <?templateDesigner expand 1?>
+
+                    <bind match="global"/>
+                    <assist>
+                        <speak>d ay form 410, june 19 55.
+                            ay p d l c version 1.00.
+                            page 2 of 3.
+                            This page does not contain any fillable fields and is reed only.
+                            This page is a duplicate of page 1.
+                            this is prefilled from a previous section.</speak>
+                    </assist>
+                    <para lineHeight="10pt"/>
+                    <traversal>
+                        <traverse ref="TO[0]"/>
+                    </traversal>
+                </field>
+                <field name="TO" y="30.776mm" x="102.165mm" w="128.94pt" h="7.112mm" access="readOnly">
+                    <ui>
+                        <textEdit hScrollPolicy="off" multiLine="1" vScrollPolicy="off"/>
+                    </ui>
+                    <font typeface="Times New Roman"/>
+                    <bind match="global"/>
+                    <para lineHeight="10pt"/>
+                    <assist>
+                        <speak>this is prefilled from a previous section</speak>
+                    </assist>
+                    <traversal>
+                        <traverse ref="DATE[0]"/>
+                    </traversal>
+                </field>
+                <field name="DATE" y="33.836mm" x="148.732mm" w="77.94pt" h="11.94pt" access="readOnly">
+                    <ui>
+                        <textEdit hScrollPolicy="off"/>
+                    </ui>
+                    <font typeface="Times New Roman"/>
+                    <para hAlign="center"/>
+                    <bind match="global"/>
+                    <assist>
+                        <speak>this is prefilled from a previous section</speak>
+                    </assist>
+                    <traversal>
+                        <traverse ref="ACCOUNT_A[0]"/>
+                    </traversal>
+                </field>
+                <field name="ACCOUNT_A" w="4.318mm" h="4.318mm" x="40.838mm" y="42.285mm" access="readOnly">
+                    <ui>
+                        <checkButton size="2.8222mm">
+                            <border>
+                                <edge/>
+                                <fill/>
+                            </border>
+                        </checkButton>
+                    </ui>
+                    <font typeface="Times New Roman"/>
+                    <margin leftInset="0mm" rightInset="0mm" topInset="0mm" bottomInset="0mm"/>
+                    <para vAlign="middle"/>
+                    <value>
+                        <text>0</text>
+                    </value>
+                    <items>
+                        <text>1</text>
+                        <text>0</text>
+                    </items>
+                    <assist>
+                        <speak>this is prefilled from a previous section</speak>
+                    </assist>
+                    <traversal>
+                        <traverse ref="ACCOUNT_B[0]"/>
+                    </traversal>
+                    <bind match="global"/>
+                </field>
+                <field name="ACCOUNT_B" w="4.318mm" h="4.318mm" y="52.7mm" x="40.897mm" access="readOnly">
+                    <ui>
+                        <checkButton size="2.8222mm">
+                            <border>
+                                <edge/>
+                                <fill/>
+                            </border>
+                        </checkButton>
+                    </ui>
+                    <font typeface="Times New Roman"/>
+                    <margin leftInset="0mm" rightInset="0mm" topInset="0mm" bottomInset="0mm"/>
+                    <para vAlign="middle"/>
+                    <value>
+                        <text>0</text>
+                    </value>
+                    <items>
+                        <text>1</text>
+                        <text>0</text>
+                    </items>
+                    <assist>
+                        <speak>this is prefilled from a previous section</speak>
+                    </assist>
+                    <traversal>
+                        <traverse ref="QUANTITY[0]"/>
+                    </traversal>
+                    <bind match="global"/>
+                </field>
+                <field name="QUANTITY" y="66.645mm" x="40.57mm" w="73.14pt" h="11.94pt" access="readOnly">
+                    <ui>
+                        <numericEdit hScrollPolicy="off"/>
+                    </ui>
+                    <font typeface="Times New Roman"/>
+                    <value>
+                        <decimal fracDigits="0" leadDigits="4"/>
+                    </value>
+                    <bind match="global"/>
+                    <assist>
+                        <speak>this is prefilled from a previous section</speak>
+                    </assist>
+                    <para hAlign="center"/>
+                    <traversal>
+                        <traverse ref="FORM[0]"/>
+                    </traversal>
+                </field>
+                <field name="FORM" y="62.411mm" x="67.452mm" w="308.34pt" h="23.94pt" access="readOnly">
+                    <ui>
+                        <textEdit hScrollPolicy="off" multiLine="1" vScrollPolicy="off"/>
+                    </ui>
+                    <font typeface="Times New Roman"/>
+                    <bind match="global"/>
+                    <assist>
+                        <speak>this is prefilled from a previous section</speak>
+                    </assist>
+                    <para lineHeight="10pt"/>
+                    <traversal>
+                        <traverse ref="QUANTITY[0]"/>
+                    </traversal>
+                </field>
+                <field name="PRINTER" y="74.851mm" x="40.57mm" w="384.54pt" h="23.94pt" access="readOnly">
+                    <ui>
+                        <textEdit hScrollPolicy="off" multiLine="1" vScrollPolicy="off"/>
+                    </ui>
+                    <font typeface="Times New Roman"/>
+                    <bind match="global"/>
+                    <assist>
+                        <speak>this is prefilled from a previous section</speak>
+                    </assist>
+                    <para lineHeight="10pt"/>
+                    <traversal>
+                        <traverse ref="DATE_REC[0]"/>
+                    </traversal>
+                </field>
+                <field name="DATE_REC" y="96.278mm" x="40.57mm" w="82.74pt" h="11.94pt" access="readOnly">
+                    <ui>
+                        <textEdit hScrollPolicy="off"/>
+                    </ui>
+                    <font typeface="Times New Roman"/>
+                    <para hAlign="center"/>
+                    <bind match="global"/>
+                    <assist>
+                        <speak>this is prefilled from a previous section</speak>
+                    </assist>
+                    <traversal>
+                        <traverse ref="INSTALL[0]"/>
+                    </traversal>
+                </field>
+                <field name="INSTALL" y="92.045mm" x="70.838mm" w="298.74pt" h="23.94pt" access="readOnly">
+                    <ui>
+                        <textEdit hScrollPolicy="off" multiLine="1" vScrollPolicy="off"/>
+                    </ui>
+                    <font typeface="Times New Roman"/>
+                    <bind match="global"/>
+                    <assist>
+                        <speak>this is prefilled from a previous section</speak>
+                    </assist>
+                    <para lineHeight="10pt"/>
+                    <traversal>
+                        <traverse ref="NAME[0]"/>
+                    </traversal>
+                </field>
+                <field name="NAME" y="109.157mm" x="40.57mm" w="202.74pt" h="7.112mm" access="readOnly">
+                    <ui>
+                        <textEdit hScrollPolicy="off" multiLine="1" vScrollPolicy="off"/>
+                    </ui>
+                    <font typeface="Times New Roman"/>
+                    <bind match="global"/>
+                    <assist>
+                        <speak>this is prefilled from a previous section</speak>
+                    </assist>
+                    <para lineHeight="10pt"/>
+                    <traversal>
+                        <traverse ref="signature_BUTTON1[0]"/>
+                    </traversal>
+                </field>
+                <bind match="none"/>
+                <traversal>
+                    <traverse operation="first" ref="FROM[0]"/>
+                </traversal>
+                <field name="signature_BUTTON1" y="107.321mm" x="113.528mm" w="60.982mm" h="9mm" access="readOnly">
+                    <ui>
+                        <textEdit hScrollPolicy="off">
+                            <border presence="hidden"/>
+                            <margin/>
+                        </textEdit>
+                    </ui>
+                    <font typeface="Arial" size="8pt"/>
+                    <margin topInset="0mm" bottomInset="0mm" leftInset="0mm" rightInset="0mm"/>
+                    <para vAlign="middle"/>
+                    <event activity="preSign" name="event__preSign">
+                        <script contentType="application/x-javascript">
+                            xfa.host.messageBox("Your digital signature has the same legal effect and consequences as a hand written signature.", "Electronic Signature Notice", 1);
+
+                            //DATE.rawValue = util.printd("yyyymmdd", new Date());	/**Replace "DateField" with the hierarchy name of your date field**/
+                            //DATE.access = "readOnly"; /**Replace "DateField" with the hierarchy name of your date field**/
+
+                        </script>
+                    </event>
+                    <event activity="postSign" name="event__postSign">
+                        <script contentType="application/x-javascript">
+                            var getSigField1 = event.target.getField("form1[0].Page2[0].signature_BUTTON1[0]"); /**Make sure "signature_BUTTON1" is the current signature hierarchy name**/
+                            var oState1 = getSigField1.signatureValidate();
+
+                            if (oState1 == 0){
+                            // If cancelling signature then delete the current field's signed state.
+                            //	DATE.rawValue = "";
+                            //	DATE.access = "open";
+                            }
+                        </script>
+                    </event>
+                    <event activity="change" name="event__change">
+                        <script contentType="application/x-javascript">try{
+                            var getSigField1 = event.target.getField("form1[0].Page2[0].signature_BUTTON1[0]"); /**Make sure "signature_BUTTON1" is the current signature hierarchy name**/
+                            var oState1 = getSigField1.signatureValidate();
+
+                            if (oState1 == 0){
+                            //		DATE.rawValue = ""; /**Replace "DateField" with the hierarchy name of your date field**/
+                            //	    DATE.access = "open"; /**Replace "DateField" with the hierarchy name of your date field**/
+                            }
+                            xfa.host.setFocus(this);
+                            }
+                            catch(e){app.alert(e)}
+                        </script>
+                    </event>
+                    <bind match="none"/>
+                    <assist>
+                        <speak>this is prefilled from a previous section</speak>
+                    </assist>
+                    <traversal>
+                        <traverse ref="NAME[0]"/>
+                    </traversal>
+                </field>
+                <?templateDesigner expand 0?>
+
+            </subform>
+            <subform w="8.5in" h="279.4mm" name="Page3">
+                <field name="FROM" y="30.776mm" x="55.598mm" w="128.94pt" h="7.112mm" access="readOnly">
+                    <ui>
+                        <textEdit hScrollPolicy="off" multiLine="1" vScrollPolicy="off"/>
+                    </ui>
+                    <font typeface="Times New Roman"/>
+                    <?templateDesigner expand 1?>
+
+                    <bind match="global"/>
+                    <assist>
+                        <speak>d ay form 410, june 19 55.
+                            ay p d l c version 1.00.
+                            page 3 of 3.
+                            This page does not contain any fillable fields and is reed only.
+                            This page is a duplicate of page 1.
+                            this is prefilled from a previous section.</speak>
+                    </assist>
+                    <para lineHeight="10pt"/>
+                    <traversal>
+                        <traverse ref="TO[0]"/>
+                    </traversal>
+                </field>
+                <field name="TO" y="30.776mm" x="102.165mm" w="128.94pt" h="7.112mm" access="readOnly">
+                    <ui>
+                        <textEdit hScrollPolicy="off" multiLine="1" vScrollPolicy="off"/>
+                    </ui>
+                    <font typeface="Times New Roman"/>
+                    <bind match="global"/>
+                    <para lineHeight="10pt"/>
+                    <assist>
+                        <speak>this is prefilled from a previous section</speak>
+                    </assist>
+                    <traversal>
+                        <traverse ref="DATE[0]"/>
+                    </traversal>
+                </field>
+                <field name="DATE" y="33.316mm" x="148.732mm" w="77.94pt" h="11.94pt" access="readOnly">
+                    <ui>
+                        <textEdit hScrollPolicy="off"/>
+                    </ui>
+                    <font typeface="Times New Roman"/>
+                    <para hAlign="center"/>
+                    <bind match="global"/>
+                    <assist>
+                        <speak>this is prefilled from a previous section</speak>
+                    </assist>
+                    <traversal>
+                        <traverse ref="ACCOUNT_A[0]"/>
+                    </traversal>
+                </field>
+                <field name="ACCOUNT_A" w="4.318mm" h="4.318mm" x="40.838mm" y="42.545mm" access="readOnly">
+                    <ui>
+                        <checkButton size="2.8222mm">
+                            <border>
+                                <edge/>
+                                <fill/>
+                            </border>
+                        </checkButton>
+                    </ui>
+                    <font typeface="Times New Roman"/>
+                    <margin leftInset="0mm" rightInset="0mm" topInset="0mm" bottomInset="0mm"/>
+                    <para vAlign="middle"/>
+                    <value>
+                        <text>0</text>
+                    </value>
+                    <items>
+                        <text>1</text>
+                        <text>0</text>
+                    </items>
+                    <assist>
+                        <speak>this is prefilled from a previous section</speak>
+                    </assist>
+                    <traversal>
+                        <traverse ref="ACCOUNT_B[0]"/>
+                    </traversal>
+                    <bind match="global"/>
+                </field>
+                <field name="ACCOUNT_B" w="4.318mm" h="4.318mm" y="52.7mm" x="40.897mm" access="readOnly">
+                    <ui>
+                        <checkButton size="2.8222mm">
+                            <border>
+                                <edge/>
+                                <fill/>
+                            </border>
+                        </checkButton>
+                    </ui>
+                    <font typeface="Times New Roman"/>
+                    <margin leftInset="0mm" rightInset="0mm" topInset="0mm" bottomInset="0mm"/>
+                    <para vAlign="middle"/>
+                    <value>
+                        <text>0</text>
+                    </value>
+                    <items>
+                        <text>1</text>
+                        <text>0</text>
+                    </items>
+                    <assist>
+                        <speak>this is prefilled from a previous section</speak>
+                    </assist>
+                    <traversal>
+                        <traverse ref="QUANTITY[0]"/>
+                    </traversal>
+                    <bind match="global"/>
+                </field>
+                <field name="QUANTITY" y="66.645mm" x="40.57mm" w="73.14pt" h="11.94pt" access="readOnly">
+                    <ui>
+                        <numericEdit hScrollPolicy="off"/>
+                    </ui>
+                    <font typeface="Times New Roman"/>
+                    <value>
+                        <decimal fracDigits="0" leadDigits="4"/>
+                    </value>
+                    <bind match="global"/>
+                    <assist>
+                        <speak>this is prefilled from a previous section</speak>
+                    </assist>
+                    <para hAlign="center"/>
+                    <traversal>
+                        <traverse ref="FORM[0]"/>
+                    </traversal>
+                </field>
+                <field name="FORM" y="62.411mm" x="67.452mm" w="308.34pt" h="23.94pt" access="readOnly">
+                    <ui>
+                        <textEdit hScrollPolicy="off" multiLine="1" vScrollPolicy="off"/>
+                    </ui>
+                    <font typeface="Times New Roman"/>
+                    <bind match="global"/>
+                    <assist>
+                        <speak>this is prefilled from a previous section</speak>
+                    </assist>
+                    <para lineHeight="10pt"/>
+                    <traversal>
+                        <traverse ref="PRINTER[0]"/>
+                    </traversal>
+                </field>
+                <field name="PRINTER" y="75.111mm" x="40.57mm" w="384.54pt" h="23.94pt" access="readOnly">
+                    <ui>
+                        <textEdit hScrollPolicy="off" multiLine="1" vScrollPolicy="off"/>
+                    </ui>
+                    <font typeface="Times New Roman"/>
+                    <bind match="global"/>
+                    <assist>
+                        <speak>this is prefilled from a previous section</speak>
+                    </assist>
+                    <para lineHeight="10pt"/>
+                    <traversal>
+                        <traverse ref="DATE_REC[0]"/>
+                    </traversal>
+                </field>
+                <field name="DATE_REC" y="96.018mm" x="40.57mm" w="82.74pt" h="11.94pt" access="readOnly">
+                    <ui>
+                        <textEdit hScrollPolicy="off"/>
+                    </ui>
+                    <font typeface="Times New Roman"/>
+                    <para hAlign="center"/>
+                    <bind match="global"/>
+                    <assist>
+                        <speak>this is prefilled from a previous section</speak>
+                    </assist>
+                    <traversal>
+                        <traverse ref="INSTALL[0]"/>
+                    </traversal>
+                </field>
+                <field name="INSTALL" y="92.045mm" x="70.838mm" w="298.74pt" h="23.94pt" access="readOnly">
+                    <ui>
+                        <textEdit hScrollPolicy="off" multiLine="1" vScrollPolicy="off"/>
+                    </ui>
+                    <font typeface="Times New Roman"/>
+                    <bind match="global"/>
+                    <assist>
+                        <speak>this is prefilled from a previous section</speak>
+                    </assist>
+                    <para lineHeight="10pt"/>
+                    <traversal>
+                        <traverse ref="NAME[0]"/>
+                    </traversal>
+                </field>
+                <field name="NAME" y="109.157mm" x="40.57mm" w="202.74pt" h="7.112mm" access="readOnly">
+                    <ui>
+                        <textEdit hScrollPolicy="off" multiLine="1" vScrollPolicy="off"/>
+                    </ui>
+                    <font typeface="Times New Roman"/>
+                    <bind match="global"/>
+                    <assist>
+                        <speak>this is prefilled from a previous section</speak>
+                    </assist>
+                    <para lineHeight="10pt"/>
+                    <traversal>
+                        <traverse ref="signature_BUTTON1[0]"/>
+                    </traversal>
+                </field>
+                <field name="signature_BUTTON1" y="107.322mm" x="113.528mm" w="60.982mm" h="9mm" access="readOnly">
+                    <ui>
+                        <textEdit hScrollPolicy="off">
+                            <border presence="hidden"/>
+                            <margin/>
+                        </textEdit>
+                    </ui>
+                    <font typeface="Arial" size="8pt"/>
+                    <margin topInset="0mm" bottomInset="0mm" leftInset="0mm" rightInset="0mm"/>
+                    <para vAlign="middle"/>
+                    <event activity="preSign" name="event__preSign">
+                        <script contentType="application/x-javascript">
+                            xfa.host.messageBox("Your digital signature has the same legal effect and consequences as a hand written signature.", "Electronic Signature Notice", 1);
+
+                            //DATE.rawValue = util.printd("yyyymmdd", new Date());	/**Replace "DateField" with the hierarchy name of your date field**/
+                            //DATE.access = "readOnly"; /**Replace "DateField" with the hierarchy name of your date field**/
+
+                        </script>
+                    </event>
+                    <event activity="postSign" name="event__postSign">
+                        <script contentType="application/x-javascript">
+                            var getSigField1 = event.target.getField("form1[0].Page1[0].signature_BUTTON1[0]"); /**Make sure "signature_BUTTON1" is the current signature hierarchy name**/
+                            var oState1 = getSigField1.signatureValidate();
+
+                            if (oState1 == 0){
+                            // If cancelling signature then delete the current field's signed state.
+                            //	DATE.rawValue = "";
+                            //	DATE.access = "open";
+                            }
+                        </script>
+                    </event>
+                    <event activity="change" name="event__change">
+                        <script contentType="application/x-javascript">try{
+                            var getSigField1 = event.target.getField("form1[0].Page3[0].signature_BUTTON1[0]"); /**Make sure "signature_BUTTON1" is the current signature hierarchy name**/
+                            var oState1 = getSigField1.signatureValidate();
+
+                            if (oState1 == 0){
+                            //		DATE.rawValue = ""; /**Replace "DateField" with the hierarchy name of your date field**/
+                            //	    DATE.access = "open"; /**Replace "DateField" with the hierarchy name of your date field**/
+                            }
+                            xfa.host.setFocus(this);
+                            }
+                            catch(e){app.alert(e)}
+                        </script>
+                    </event>
+                    <bind match="none"/>
+                    <assist>
+                        <speak>this is prefilled from a previous section</speak>
+                    </assist>
+                    <traversal>
+                        <traverse ref="NAME[0]"/>
+                    </traversal>
+                </field>
+                <bind match="none"/>
+                <traversal>
+                    <traverse operation="first" ref="FROM[0]"/>
+                </traversal>
+                <?templateDesigner expand 0?>
+
+            </subform>
+            <proto/>
+            <desc>
+                <text name="version">1.00</text>
+                <text name="description">DA FORM 410, JUN 1955</text>
+                <text name="title">RECEIPT FOR ACCOUNTABLE FORM</text>
+                <text name="creator">APD</text>
+            </desc>
+            <event activity="enter" name="event__enter">
+                <script contentType="application/x-javascript">
+                    app.runtimeHighlight = true;
+                </script>
+            </event>
+            <event activity="docReady" ref="$host" name="event__docReady">
+                <script contentType="application/x-javascript">
+                    app.runtimeHighlight = false;
+                    xfa.host.setFocus(xfa.form.form1.Page1.FROM);
+                </script>
+            </event>
+            <?templateDesigner Hyphenation excludeInitialCap:1, excludeAllCaps:1, wordCharCnt:7, remainCharCnt:3, pushCharCnt:3?>
+            <?templateDesigner expand 1?>
+            <?renderCache.subset "Arial" 0 0 ISO-8859-1 4 224 56 0003000F0010001100130014001500170018001B001E002400250026002700280029002A002B002C002E002F0030003100320033003400350036003700380039003A003C003D004400450046004700480049004A004B004C004F005000510052005300550056005700580059005A005C ,-.012458;ABCDEFGHIKLMNOPQRSTUVWYZabcdefghilmnoprstuvwy?>
+            <?renderCache.subset "Arial" 1 0 ISO-8859-1 4 96 24 0003000F00130014001500170018002400250026002700280029002B002C002F00300031003200330035003600370038 ,01245ABCDEFHILMNOPRSTU?>
+            <?renderCache.subset "Arial" 0 1 ISO-8859-1 4 136 34 0003000B000C000F001300140015001700180024002600270029002B002C0030003200350045004600470048004A004C004F00500051005200550056005700580059005C (),01245ACDFHIMORbcdegilmnorstuvy?>
+        </subform>
+        <?templateDesigner DefaultPreviewDynamic 1?>
+        <?templateDesigner Grid show:0, snap:0, units:0, color:ff8080, origin:(0,0), interval:(125000,125000), objsnap:0, guidesnap:0, pagecentersnap:0?>
+        <?templateDesigner WidowOrphanControl 0?>
+        <?originalXFAVersion http://www.xfa.org/schema/xfa-template/3.3/?>
+        <?templateDesigner SavePDFWithLog 0?>
+        <?templateDesigner DefaultLanguage JavaScript?>
+        <?templateDesigner DefaultRunAt client?>
+        <?acrobat JavaScript strictScoping?>
+        <?acrobat allowAutosave enabled?>
+        <?PDFPrintOptions embedViewerPrefs 1?>
+        <?PDFPrintOptions embedPrintOnFormOpen 0?>
+        <?PDFPrintOptions scalingPrefs 0?>
+        <?PDFPrintOptions enforceScalingPrefs 1?>
+        <?PDFPrintOptions paperSource 1?>
+        <?PDFPrintOptions duplexMode 1?>
+        <?templateDesigner DefaultPreviewType interactive?>
+        <?templateDesigner DefaultPreviewPagination simplex?>
+        <?templateDesigner XDPPreviewFormat 20?>
+        <?templateDesigner DefaultCaptionFontSettings face:Arial;size:8;weight:normal;style:normal?>
+        <?templateDesigner DefaultValueFontSettings face:Times New Roman;size:10;weight:normal;style:normal?>
+        <?templateDesigner FormTargetVersion 33?>
+        <?templateDesigner Zoom 154?>
+        <?templateDesigner Rulers horizontal:1, vertical:1, guidelines:1, crosshairs:0?>
+        <?templateDesigner SaveTaggedPDF 1?>
+        <?templateDesigner SavePDFWithEmbeddedFonts 0?>
+    </template>
+    <localeSet xmlns="http://www.xfa.org/schema/xfa-locale-set/2.7/">
+        <locale name="en_CA" desc="English (Canada)">
+            <calendarSymbols name="gregorian">
+                <monthNames>
+                    <month>January</month>
+                    <month>February</month>
+                    <month>March</month>
+                    <month>April</month>
+                    <month>May</month>
+                    <month>June</month>
+                    <month>July</month>
+                    <month>August</month>
+                    <month>September</month>
+                    <month>October</month>
+                    <month>November</month>
+                    <month>December</month>
+                </monthNames>
+                <monthNames abbr="1">
+                    <month>Jan</month>
+                    <month>Feb</month>
+                    <month>Mar</month>
+                    <month>Apr</month>
+                    <month>May</month>
+                    <month>Jun</month>
+                    <month>Jul</month>
+                    <month>Aug</month>
+                    <month>Sep</month>
+                    <month>Oct</month>
+                    <month>Nov</month>
+                    <month>Dec</month>
+                </monthNames>
+                <dayNames>
+                    <day>Sunday</day>
+                    <day>Monday</day>
+                    <day>Tuesday</day>
+                    <day>Wednesday</day>
+                    <day>Thursday</day>
+                    <day>Friday</day>
+                    <day>Saturday</day>
+                </dayNames>
+                <dayNames abbr="1">
+                    <day>Sun</day>
+                    <day>Mon</day>
+                    <day>Tue</day>
+                    <day>Wed</day>
+                    <day>Thu</day>
+                    <day>Fri</day>
+                    <day>Sat</day>
+                </dayNames>
+                <meridiemNames>
+                    <meridiem>AM</meridiem>
+                    <meridiem>PM</meridiem>
+                </meridiemNames>
+                <eraNames>
+                    <era>BC</era>
+                    <era>AD</era>
+                </eraNames>
+            </calendarSymbols>
+            <datePatterns>
+                <datePattern name="full">EEEE, MMMM D, YYYY</datePattern>
+                <datePattern name="long">MMMM D, YYYY</datePattern>
+                <datePattern name="med">D-MMM-YY</datePattern>
+                <datePattern name="short">DD/MM/YY</datePattern>
+            </datePatterns>
+            <timePatterns>
+                <timePattern name="full">h:MM:SS A Z</timePattern>
+                <timePattern name="long">h:MM:SS A Z</timePattern>
+                <timePattern name="med">h:MM:SS A</timePattern>
+                <timePattern name="short">h:MM A</timePattern>
+            </timePatterns>
+            <dateTimeSymbols>GyMdkHmsSEDFwWahKzZ</dateTimeSymbols>
+            <numberPatterns>
+                <numberPattern name="numeric">z,zz9.zzz</numberPattern>
+                <numberPattern name="currency">$z,zz9.99</numberPattern>
+                <numberPattern name="percent">z,zz9%</numberPattern>
+            </numberPatterns>
+            <numberSymbols>
+                <numberSymbol name="decimal">.</numberSymbol>
+                <numberSymbol name="grouping">,</numberSymbol>
+                <numberSymbol name="percent">%</numberSymbol>
+                <numberSymbol name="minus">-</numberSymbol>
+                <numberSymbol name="zero">0</numberSymbol>
+            </numberSymbols>
+            <currencySymbols>
+                <currencySymbol name="symbol">$</currencySymbol>
+                <currencySymbol name="isoname">CAD</currencySymbol>
+                <currencySymbol name="decimal">.</currencySymbol>
+            </currencySymbols>
+            <typefaces>
+                <typeface name="Myriad Pro"/>
+                <typeface name="Minion Pro"/>
+                <typeface name="Courier Std"/>
+                <typeface name="Adobe Pi Std"/>
+                <typeface name="Adobe Hebrew"/>
+                <typeface name="Adobe Arabic"/>
+                <typeface name="Adobe Thai"/>
+                <typeface name="Kozuka Gothic Pro-VI M"/>
+                <typeface name="Kozuka Mincho Pro-VI R"/>
+                <typeface name="Adobe Ming Std L"/>
+                <typeface name="Adobe Song Std L"/>
+                <typeface name="Adobe Myungjo Std M"/>
+            </typefaces>
+        </locale>
+        <locale name="en_US" desc="English (United States)">
+            <calendarSymbols name="gregorian">
+                <monthNames>
+                    <month>January</month>
+                    <month>February</month>
+                    <month>March</month>
+                    <month>April</month>
+                    <month>May</month>
+                    <month>June</month>
+                    <month>July</month>
+                    <month>August</month>
+                    <month>September</month>
+                    <month>October</month>
+                    <month>November</month>
+                    <month>December</month>
+                </monthNames>
+                <monthNames abbr="1">
+                    <month>Jan</month>
+                    <month>Feb</month>
+                    <month>Mar</month>
+                    <month>Apr</month>
+                    <month>May</month>
+                    <month>Jun</month>
+                    <month>Jul</month>
+                    <month>Aug</month>
+                    <month>Sep</month>
+                    <month>Oct</month>
+                    <month>Nov</month>
+                    <month>Dec</month>
+                </monthNames>
+                <dayNames>
+                    <day>Sunday</day>
+                    <day>Monday</day>
+                    <day>Tuesday</day>
+                    <day>Wednesday</day>
+                    <day>Thursday</day>
+                    <day>Friday</day>
+                    <day>Saturday</day>
+                </dayNames>
+                <dayNames abbr="1">
+                    <day>Sun</day>
+                    <day>Mon</day>
+                    <day>Tue</day>
+                    <day>Wed</day>
+                    <day>Thu</day>
+                    <day>Fri</day>
+                    <day>Sat</day>
+                </dayNames>
+                <meridiemNames>
+                    <meridiem>AM</meridiem>
+                    <meridiem>PM</meridiem>
+                </meridiemNames>
+                <eraNames>
+                    <era>BC</era>
+                    <era>AD</era>
+                </eraNames>
+            </calendarSymbols>
+            <datePatterns>
+                <datePattern name="full">EEEE, MMMM D, YYYY</datePattern>
+                <datePattern name="long">MMMM D, YYYY</datePattern>
+                <datePattern name="med">MMM D, YYYY</datePattern>
+                <datePattern name="short">M/D/YY</datePattern>
+            </datePatterns>
+            <timePatterns>
+                <timePattern name="full">h:MM:SS A Z</timePattern>
+                <timePattern name="long">h:MM:SS A Z</timePattern>
+                <timePattern name="med">h:MM:SS A</timePattern>
+                <timePattern name="short">h:MM A</timePattern>
+            </timePatterns>
+            <dateTimeSymbols>GyMdkHmsSEDFwWahKzZ</dateTimeSymbols>
+            <numberPatterns>
+                <numberPattern name="numeric">z,zz9.zzz</numberPattern>
+                <numberPattern name="currency">$z,zz9.99|($z,zz9.99)</numberPattern>
+                <numberPattern name="percent">z,zz9%</numberPattern>
+            </numberPatterns>
+            <numberSymbols>
+                <numberSymbol name="decimal">.</numberSymbol>
+                <numberSymbol name="grouping">,</numberSymbol>
+                <numberSymbol name="percent">%</numberSymbol>
+                <numberSymbol name="minus">-</numberSymbol>
+                <numberSymbol name="zero">0</numberSymbol>
+            </numberSymbols>
+            <currencySymbols>
+                <currencySymbol name="symbol">$</currencySymbol>
+                <currencySymbol name="isoname">USD</currencySymbol>
+                <currencySymbol name="decimal">.</currencySymbol>
+            </currencySymbols>
+            <typefaces>
+                <typeface name="Myriad Pro"/>
+                <typeface name="Minion Pro"/>
+                <typeface name="Courier Std"/>
+                <typeface name="Adobe Pi Std"/>
+                <typeface name="Adobe Hebrew"/>
+                <typeface name="Adobe Arabic"/>
+                <typeface name="Adobe Thai"/>
+                <typeface name="Kozuka Gothic Pro-VI M"/>
+                <typeface name="Kozuka Mincho Pro-VI R"/>
+                <typeface name="Adobe Ming Std L"/>
+                <typeface name="Adobe Song Std L"/>
+                <typeface name="Adobe Myungjo Std M"/>
+            </typefaces>
+        </locale>
+    </localeSet>
+    <xfa:datasets xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/">
+        <xfa:data>
+            <form1>
+                <Page1 xfa:dataNode="dataGroup"/>
+                <FROM/>
+                <TO/>
+                <DATE/>
+                <ACCOUNT_A>0</ACCOUNT_A>
+                <ACCOUNT_B>0</ACCOUNT_B>
+                <QUANTITY/>
+                <FORM/>
+                <PRINTER/>
+                <DATE_REC/>
+                <INSTALL/>
+                <NAME/>
+            </form1>
+        </xfa:data>
+    </xfa:datasets>
+    <PDFSecurity xmlns="http://ns.adobe.com/xtd/" print="1" printHighQuality="1" change="0" modifyAnnots="1" formFieldFilling="1" documentAssembly="0" contentCopy="0" accessibleContent="1" metadata="1">
+    </PDFSecurity>
+    <x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 5.2-c001 63.139439, 2011/06/07-10:39:26        ">
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+
+            <rdf:Description xmlns:xmp="http://ns.adobe.com/xap/1.0/" rdf:about="">
+
+                <xmp:MetadataDate>2015-06-08T14:19:12Z</xmp:MetadataDate>
+
+                <xmp:CreatorTool>Adobe LiveCycle Designer 11.0</xmp:CreatorTool>
+
+            </rdf:Description>
+
+            <rdf:Description xmlns:pdf="http://ns.adobe.com/pdf/1.3/" rdf:about="">
+
+                <pdf:Producer>Adobe LiveCycle Designer 11.0</pdf:Producer>
+
+            </rdf:Description>
+
+            <rdf:Description xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/" rdf:about="">
+
+                <xmpMM:DocumentID>uuid:0bac09de-0a38-44c8-9cee-0cf163b33a76</xmpMM:DocumentID>
+
+                <xmpMM:InstanceID>uuid:2d8c715a-4e1f-4e5d-b4a7-40c9c95df264</xmpMM:InstanceID>
+
+            </rdf:Description>
+
+            <rdf:Description xmlns:dc="http://purl.org/dc/elements/1.1/" rdf:about="">
+
+                <dc:format>application/pdf</dc:format>
+
+                <dc:description>
+
+                    <rdf:Alt>
+
+                        <rdf:li xml:lang="x-default">DA FORM 410, JUN 1955</rdf:li>
+
+                    </rdf:Alt>
+
+                </dc:description>
+
+                <dc:creator>
+
+                    <rdf:Seq>
+
+                        <rdf:li>APD</rdf:li>
+
+                    </rdf:Seq>
+
+                </dc:creator>
+
+                <dc:title>
+
+                    <rdf:Alt>
+
+                        <rdf:li xml:lang="x-default">RECEIPT FOR ACCOUNTABLE FORM</rdf:li>
+
+                    </rdf:Alt>
+
+                </dc:title>
+
+            </rdf:Description>
+
+            <rdf:Description xmlns:pdfx="http://ns.adobe.com/pdfx/1.3/" rdf:about="">
+
+                <pdfx:Doc_Num>410</pdfx:Doc_Num>
+
+                <pdfx:Prefix>DA</pdfx:Prefix>
+
+                <pdfx:Scope>Army</pdfx:Scope>
+
+                <pdfx:Suffix/>
+
+                <pdfx:Form_Month>Jun</pdfx:Form_Month>
+
+                <pdfx:Form_Year>1955</pdfx:Form_Year>
+
+                <pdfx:PIN>000159</pdfx:PIN>
+
+                <pdfx:Pub_ID>33</pdfx:Pub_ID>
+
+                <pdfx:Pub_Type>PAM</pdfx:Pub_Type>
+
+                <pdfx:Pub_Series>25</pdfx:Pub_Series>
+
+                <pdfx:Pre_Dir>PAM 25-33</pdfx:Pre_Dir>
+
+                <pdfx:Pub_Day>15</pdfx:Pub_Day>
+
+                <pdfx:Pub_Month>Sept</pdfx:Pub_Month>
+
+                <pdfx:Pub_Year>1996</pdfx:Pub_Year>
+
+                <pdfx:Proponent>AASA</pdfx:Proponent>
+
+                <pdfx:Form_Version>1.00</pdfx:Form_Version>
+
+                <pdfx:Unicode>EMO</pdfx:Unicode>
+
+                <pdfx:PA_Code>No</pdfx:PA_Code>
+
+                <pdfx:Distrubution>Unrestricted</pdfx:Distrubution>
+
+                <pdfx:OMB_Number/>
+
+                <pdfx:OMB_Expire/>
+
+                <pdfx:Security_Class>UC</pdfx:Security_Class>
+
+                <pdfx:Product_Type>Form</pdfx:Product_Type>
+
+                <pdfx:Signature>Yes</pdfx:Signature>
+
+            </rdf:Description>
+
+            <rdf:Description xmlns:desc="http://ns.adobe.com/xfa/promoted-desc/" rdf:about="">
+
+                <desc:version rdf:parseType="Resource">
+
+                    <rdf:value>1.00</rdf:value>
+
+                    <desc:ref>/template/subform[1]</desc:ref>
+
+                </desc:version>
+
+            </rdf:Description>
+
+        </rdf:RDF>
+    </x:xmpmeta>
+    <xfdf xmlns="http://ns.adobe.com/xfdf/" xml:space="preserve">
+    <annots/>
+  </xfdf>
+    <form xmlns="http://www.xfa.org/schema/xfa-form/2.8/">
+    </form>
+</xdp:xdp>

@@ -1,0 +1,4040 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xdp:xdp xmlns:xdp="http://ns.adobe.com/xdp/" timeStamp="2014-05-12T19:50:20Z" uuid="018124cf-6a10-413d-a994-7ee90c103497">
+  <config xmlns="http://www.xfa.org/schema/xci/3.0/">
+    <agent name="designer">
+      <!--  [0..n]  -->
+      <destination>pdf</destination>
+      <pdf>
+        <!--  [0..n]  -->
+        <fontInfo/>
+      </pdf>
+    </agent>
+    <present>
+      <!--  [0..n]  -->
+      <pdf>
+        <!--  [0..n]  -->
+        <version>1.7</version>
+        <adobeExtensionLevel>5</adobeExtensionLevel>
+        <renderPolicy>client</renderPolicy>
+        <creator>Adobe LiveCycle Designer 11.0</creator>
+        <producer>Adobe LiveCycle Designer 11.0</producer>
+        <scriptModel>XFA</scriptModel>
+        <interactive>1</interactive>
+        <tagged>1</tagged>
+        <fontInfo>
+          <embed>1</embed>
+        </fontInfo>
+        <encryption>
+          <encrypt>1</encrypt>
+          <encryptionLevel>128bit</encryptionLevel>
+          <permissions>
+            <accessibleContent>1</accessibleContent>
+            <contentCopy>1</contentCopy>
+            <documentAssembly>1</documentAssembly>
+            <formFieldFilling>1</formFieldFilling>
+            <modifyAnnots>1</modifyAnnots>
+            <print>1</print>
+            <printHighQuality>1</printHighQuality>
+            <change>1</change>
+            <plaintextMetadata>1</plaintextMetadata>
+          </permissions>
+        </encryption>
+        <compression>
+          <level>6</level>
+          <compressLogicalStructure>1</compressLogicalStructure>
+          <compressObjectStream>1</compressObjectStream>
+        </compression>
+        <linearized>1</linearized>
+        <silentPrint>
+          <addSilentPrint>0</addSilentPrint>
+          <printerName/>
+        </silentPrint>
+        <viewerPreferences>
+          <duplexOption>simplex</duplexOption>
+          <numberOfCopies>0</numberOfCopies>
+          <printScaling>appDefault</printScaling>
+          <pickTrayByPDFSize>1</pickTrayByPDFSize>
+          <enforce/>
+          <ADBE_JSDebugger>delegate</ADBE_JSDebugger>
+          <ADBE_JSConsole>delegate</ADBE_JSConsole>
+          <addViewerPreferences>1</addViewerPreferences>
+        </viewerPreferences>
+      </pdf>
+      <common>
+        <log>
+          <to>memory</to>
+          <mode>overwrite</mode>
+        </log>
+        <template>
+          <base>C:\Users\pianwilt\Desktop\DA Form 1059\</base>
+        </template>
+      </common>
+      <cache>
+        <macroCache/>
+      </cache>
+      <script>
+        <runScripts>server</runScripts>
+      </script>
+      <xdp>
+        <packets>*</packets>
+      </xdp>
+      <destination>pdf</destination>
+      <output>
+        <to>uri</to>
+        <uri>C:\Users\pianwilt\Desktop\DA Form 1059\A1059.pdf</uri>
+      </output>
+    </present>
+    <acrobat>
+      <acrobat7>
+        <dynamicRender>required</dynamicRender>
+      </acrobat7>
+      <common>
+        <versionControl sourceBelow="maintain"/>
+        <validationMessaging>allMessagesIndividually</validationMessaging>
+        <data>
+          <xsl>
+            <uri/>
+          </xsl>
+          <outputXSL>
+            <uri/>
+          </outputXSL>
+        </data>
+        <template>
+          <base>C:\Users\pianwilt\Desktop\DA Form 1059\</base>
+          <relevant/>
+          <uri/>
+        </template>
+      </common>
+      <autoSave/>
+      <validate>preSubmit</validate>
+    </acrobat>
+  </config>
+  <template xmlns="http://www.xfa.org/schema/xfa-template/3.0/">
+    <?formServer defaultPDFRenderFormat acrobat9.1dynamic?>
+    <?formServer allowRenderCaching 1?>
+    <?formServer formModel both?>      
+    <subform name="form1" layout="tb" locale="en_US" restoreState="auto" allowMacro="1">         
+      <pageSet>            
+        <pageArea id="Page1">               
+          <contentArea x="0.25in" y="0.25in" w="8in" h="10.5in"/>               
+          <medium stock="letter" short="215.9mm" long="279.4mm"/>               
+          <draw name="Rectangle1" y="11.432mm" x="10.583mm" w="194.733mm" h="254.986mm">                  
+            <value>                     
+              <rectangle>                        
+                <edge thickness="0.7056mm"/>                        
+                <corner radius="5.08mm" thickness="0.706mm"/>                     
+              </rectangle>                  
+            </value>               
+          </draw>
+          <?templateDesigner expand 1?>            
+        </pageArea>
+        <?templateDesigner expand 1?>         
+      </pageSet>         
+      <subform w="203.2mm" h="266.7mm" name="Page1">            
+        <draw name="T51" x="182.736mm" y="260.633mm" w="16.236mm" h="2.117mm">               
+          <value>                  
+            <exData contentType="text/html">                     
+              <body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/">                        
+                <p style="font-family:Arial;font-size:6pt;text-decoration:none;letter-spacing:0in">APD LC v1.01ES</p>
+              </body>
+            </exData>
+          </value>
+          <ui>
+            <textEdit/>
+          </ui>
+          <para vAlign="middle" hAlign="right" lineHeight="8pt"/>
+          <font size="7.4pt" typeface="ArialMT"/>
+        </draw>
+        <draw name="T48" y="260.94mm" x="4.617mm" w="46.332mm" h="3.529mm">
+          <value>
+            <text>DA FORM 1059, MAR 2014</text>
+          </value>
+          <ui>
+            <textEdit/>
+          </ui>
+          <para vAlign="middle"/>
+          <font weight="bold" typeface="Arial"/>
+          <traversal>
+            <traverse ref="T164[0]"/>
+          </traversal>
+          <?renderCache.bounds 131335 10003 0 0 0 0 0 0?>
+          <?renderCache.textRun 22 DA FORM 1059, MAR 2014 0 0 7897 0 0 0 "Arial" 1 0 10000 ISO-8859-1?>
+
+        </draw>
+        <field name="Todays_Date" y="9.639mm" x="156.057mm" w="37.62mm" h="3.529mm" hAlign="center">
+          <value>
+            <date/>
+          </value>
+          <font typeface="Times New Roman"/>
+          <assist>
+            <speak priority="toolTip">Type the Date in Y Y Y Y M M D D format</speak>
+            <toolTip>Type the Date in YYYYMMDD format.</toolTip>
+          </assist>
+          <traversal>
+            <traverse ref="Name[0]"/>
+          </traversal>
+          <format>
+            <picture>date{YYYYMMDD}</picture>
+          </format>
+          <para hAlign="center"/>
+          <ui>
+            <picture>date{YYYYMMDD}</picture>
+          </ui>
+          <bind>
+            <picture>date{YYYYMMDD}</picture>
+          </bind>
+          <event activity="exit" name="event__exit">
+            <script contentType="application/x-javascript">
+              if(this.rawValue == this.formattedValue){
+              app.alert("Please use the calendar or enter a date in 'YYYYMMDD' format"); 
+              xfa.host.setFocus(this.somExpression);
+              this.rawValue= "";
+              }
+            </script>               
+          </event>            
+        </field>            
+        <field name="Name" y="18.517mm" x="5.346mm" w="95.074mm" h="3.529mm">               
+          <ui>                  
+            <textEdit hScrollPolicy="off"/>               
+          </ui>               
+          <font typeface="Times New Roman"/>               
+          <assist>                  
+            <speak priority="toolTip">Type the Last Name, First Name, Middle Initial)</speak>
+            <toolTip>Type the Last Name, First Name, Middle Initial)</toolTip>
+          </assist>
+          <traversal>
+            <traverse ref="SSN[0]"/>
+          </traversal>
+        </field>
+        <field name="SSN" y="18.517mm" x="102.624mm" w="23.738mm" h="3.529mm">
+          <ui>
+            <textEdit/>
+          </ui>
+          <font typeface="Times New Roman"/>
+          <format>
+            <picture>text{999-99-9999}</picture>
+          </format>
+          <assist>
+            <speak priority="toolTip">Type the Social Security Number</speak>
+            <toolTip>Type the Social Security Number</toolTip>
+          </assist>
+          <traversal>
+            <traverse ref="aRank1dropdwnList2[0]"/>
+          </traversal>
+          <validate formatTest="error" scriptTest="warning">
+            <message>
+              <text name="scriptTest"/>
+              <text name="formatTest">You must have a minimum of 9 numeric characters for the Social Security Number field.</text>
+            </message>
+            <picture>text{999-99-9999}</picture>
+          </validate>
+          <value>
+            <text maxChars="9"/>
+          </value>
+        </field>
+        <field name="SPECIALTY_MOSC" y="18.517mm" x="165.457mm" w="32.449mm" h="3.529mm">
+          <font typeface="Times New Roman"/>
+          <assist>
+            <speak priority="toolTip">Type the Specialty dash M O S C</speak>
+            <toolTip>Type the Specialty/MOSC</toolTip>
+          </assist>
+          <traversal>
+            <traverse ref="COURSE_TITLE[0]"/>
+          </traversal>
+          <ui>
+            <textEdit hScrollPolicy="off"/>
+          </ui>
+        </field>
+        <field name="COURSE_TITLE" y="27.112mm" x="5.346mm" w="95.074mm" h="3.529mm">
+          <ui>
+            <textEdit hScrollPolicy="off"/>
+          </ui>
+          <font typeface="Times New Roman"/>
+          <assist>
+            <speak priority="toolTip">Type the Course Title</speak>
+            <toolTip>Type the Course Title</toolTip>
+          </assist>
+          <traversal>
+            <traverse ref="Name_School[0]"/>
+          </traversal>
+        </field>
+        <field name="From" y="38.083mm" x="111.665mm" w="34.295mm" h="3.529mm" hAlign="center">
+          <value>
+            <date/>
+          </value>
+          <assist>
+            <toolTip>Duration of Course, type the From date in YYYYMMDD format.</toolTip>
+            <speak priority="toolTip">Duration of Course, type the From date in Y Y Y Y M M D D format.</speak>
+          </assist>
+          <traversal>
+            <traverse ref="Thru[0]"/>
+          </traversal>
+          <font typeface="Times New Roman"/>
+          <format>
+            <picture>date{YYYYMMDD}</picture>
+          </format>
+          <para hAlign="center"/>
+          <event activity="exit" name="event__exit">
+            <script contentType="application/x-javascript">
+              if(this.rawValue == this.formattedValue){
+              app.alert("Please use the calendar or enter a date in 'YYYYMMDD' format"); 
+              xfa.host.setFocus(this.somExpression);
+              this.rawValue= "";
+              }
+            </script>               
+          </event>            
+        </field>            
+        <field name="Thru" y="38.083mm" x="163.359mm" w="30.318mm" h="3.529mm" hAlign="center">               
+          <value>                  
+            <date/>               
+          </value>               
+          <assist>                  
+            <toolTip>Duration of Course, type the Thru date in YYYYMMDD format.</toolTip>
+            <speak priority="toolTip">Duration of Course, type the Thru date in Y Y Y Y M M D D format.</speak>
+          </assist>
+          <traversal>
+            <traverse ref="Performance_Summary1[0]"/>
+          </traversal>
+          <font typeface="Times New Roman"/>
+          <format>
+            <picture>date{YYYYMMDD}</picture>
+          </format>
+          <para hAlign="center"/>
+          <event activity="exit" name="event__exit">
+            <script contentType="application/x-javascript">
+              if(this.rawValue == this.formattedValue){
+              app.alert("Please use the calendar or enter a date in 'YYYYMMDD' format"); 
+              xfa.host.setFocus(this.somExpression);
+              this.rawValue= "";
+              }
+            </script>               
+          </event>            
+        </field>            
+        <field name="Typed_Name_Grade_Rater" y="225.38mm" x="5.714mm" w="102.61mm" h="7.763mm">               
+          <ui>                  
+            <textEdit multiLine="1" hScrollPolicy="off" vScrollPolicy="off"/>               
+          </ui>               
+          <font typeface="Times New Roman"/>               
+          <assist>                  
+            <speak priority="toolTip">Type the Name, Grade, Branch, and Title of the Rater</speak>
+            <toolTip>Type the Name, Grade, Branch, and Title of the Rater</toolTip>
+          </assist>
+          <traversal>
+            <traverse ref="RaterDate[0]"/>
+          </traversal>
+        </field>
+        <field access="readOnly" h="4.081mm" name="RaterDate" w="27.35mm" x="109.727mm" y="227.647mm">
+          <ui>
+            <textEdit>
+              <border presence="hidden">
+                <?templateDesigner StyleID aped0?>
+              </border>
+              <margin/>
+            </textEdit>
+          </ui>
+          <font typeface="Times New Roman"/>
+          <margin bottomInset="0mm" leftInset="0mm" rightInset="0mm" topInset="0mm"/>
+          <para vAlign="middle" hAlign="center"/>
+          <assist>
+            <speak priority="toolTip">b11. Type Date in YYYYMMDD format.</speak>
+            <toolTip>Type the DATE in Y Y Y Y M M D D format.</toolTip>
+          </assist>
+          <traversal>
+            <traverse ref="Rater_Signature[0]"/>
+          </traversal>
+          <event activity="exit" name="event__exit">
+            <script contentType="application/x-javascript">
+              if(this.rawValue == this.formattedValue){
+              app.alert("Please use the calendar or enter a date in 'YYYYMMDD' format"); 
+              xfa.host.setFocus(this.somExpression);
+              this.rawValue= "";
+              }
+            </script>               
+          </event>            
+        </field>            
+        <field name="Typed_Name_Grade_Review" y="238.345mm" x="5.714mm" w="102.61mm" h="7.763mm">               
+          <ui>                  
+            <textEdit multiLine="1" hScrollPolicy="off" vScrollPolicy="off"/>               
+          </ui>               
+          <font typeface="Times New Roman"/>               
+          <assist>                  
+            <speak priority="toolTip">Type the Name, Grade, Branch, and Title of the Reviewing Officer</speak>
+            <toolTip>Type the Name, Grade, Branch, and Title of the Reviewing Officer</toolTip>
+          </assist>
+          <traversal>
+            <traverse ref="ReviewerDate[0]"/>
+          </traversal>
+        </field>
+        <field access="readOnly" h="4.081mm" name="ReviewerDate" w="27.35mm" x="109.772mm" y="240.033mm">
+          <ui>
+            <textEdit>
+              <border presence="hidden">
+                <?templateDesigner StyleID aped0?>
+              </border>
+              <margin/>
+            </textEdit>
+          </ui>
+          <font typeface="Times New Roman"/>
+          <margin bottomInset="0mm" leftInset="0mm" rightInset="0mm" topInset="0mm"/>
+          <para vAlign="middle" hAlign="center"/>
+          <assist>
+            <speak priority="toolTip">b11. Type Date in YYYYMMDD format.</speak>
+            <toolTip>Type the DATE in Y Y Y Y M M D D format.</toolTip>
+          </assist>
+          <traversal>
+            <traverse ref="Reviewing_Signature[0]"/>
+          </traversal>
+          <event activity="exit" name="event__exit">
+            <script contentType="application/x-javascript">
+              if(this.rawValue == this.formattedValue){
+              app.alert("Please use the calendar or enter a date in 'YYYYMMDD' format"); 
+              xfa.host.setFocus(this.somExpression);
+              this.rawValue= "";
+              }
+            </script>               
+          </event>            
+        </field>            
+        <field access="readOnly" h="4.081mm" name="RatedSoldierDate" w="46.986mm" x="9.999mm" y="253.557mm">               
+          <ui>                  
+            <textEdit>                     
+              <border presence="hidden">
+                <?templateDesigner StyleID aped0?>
+              </border>                     
+              <margin/>                  
+            </textEdit>               
+          </ui>               
+          <font typeface="Times New Roman"/>               
+          <margin bottomInset="0mm" leftInset="0mm" rightInset="0mm" topInset="0mm"/>               
+          <para vAlign="middle" hAlign="center"/>               
+          <assist>                  
+            <speak priority="toolTip">b11. Type Date in YYYYMMDD format.</speak>
+            <toolTip>Type the DATE in Y Y Y Y M M D D format.</toolTip>
+          </assist>
+          <event activity="exit" name="event__exit">
+            <script contentType="application/x-javascript">
+              if(this.rawValue == this.formattedValue){
+              app.alert("Please use the calendar or enter a date in 'YYYYMMDD' format"); 
+              xfa.host.setFocus(this.somExpression);
+              this.rawValue= "";
+              }
+            </script>               
+          </event>               
+          <traversal>                  
+            <traverse ref="RatedSoldier_Signature[0]"/>               
+          </traversal>            
+        </field>            
+        <draw name="T88" x="5.346mm" y="221.617mm" w="77.595mm" h="2.823mm">               
+          <value>                  
+            <text>a. TYPED NAME, GRADE, BRANCH, AND TITLE OF RATER</text>
+          </value>
+          <ui>
+            <textEdit/>
+          </ui>
+          <para vAlign="middle"/>
+          <font size="8pt" typeface="Arial"/>
+          <traversal>
+            <traverse ref="T95[0]"/>
+          </traversal>
+          <?renderCache.bounds 219954 8002 0 0 0 0 0 0?>
+          <?renderCache.textRun 48 a. TYPED NAME, GRADE, BRANCH, AND TITLE OF RATER 0 0 6317 0 0 0 "Arial" 0 0 8000 ISO-8859-1?>
+
+        </draw>
+        <draw name="T89" x="5.346mm" y="234.321mm" minH="3.046mm" w="97.344mm">
+          <value>
+            <text>b. TYPED NAME, GRADE, BRANCH, AND TITLE OF REVIEWING OFFICER</text>
+          </value>
+          <ui>
+            <textEdit/>
+          </ui>
+          <para vAlign="middle"/>
+          <font size="8pt" typeface="Arial"/>
+          <traversal>
+            <traverse ref="T95[1]"/>
+          </traversal>
+        </draw>
+        <draw name="T90" x="139.354mm" y="221.656mm" w="16.459mm" h="2.823mm">
+          <value>
+            <text>SIGNATURE</text>
+          </value>
+          <ui>
+            <textEdit/>
+          </ui>
+          <para vAlign="middle"/>
+          <font size="8pt" typeface="Arial"/>
+          <traversal>
+            <traverse ref="T89[0]"/>
+          </traversal>
+          <?renderCache.bounds 46655 8002 0 0 0 0 0 0?>
+          <?renderCache.textRun 9 SIGNATURE 0 0 6317 0 0 0 "Arial" 0 0 8000 ISO-8859-1?>
+
+        </draw>
+        <draw name="T91" x="139.354mm" y="234.321mm" w="16.465mm" h="2.823mm">
+          <value>
+            <text>SIGNATURE</text>
+          </value>
+          <ui>
+            <textEdit/>
+          </ui>
+          <para vAlign="middle"/>
+          <font size="8pt" typeface="Arial"/>
+          <traversal>
+            <traverse ref="T95[2]"/>
+          </traversal>
+          <?renderCache.bounds 46672 8002 0 0 0 0 0 0?>
+          <?renderCache.textRun 9 SIGNATURE 0 0 6317 0 0 0 "Arial" 0 0 8000 ISO-8859-1?>
+
+        </draw>
+        <draw name="T92" x="64.009mm" y="247.216mm" w="45.476mm" h="2.823mm">
+          <value>
+            <text> SIGNATURE OF RATED SOLDIER</text>
+          </value>
+          <ui>
+            <textEdit/>
+          </ui>
+          <para vAlign="middle"/>
+          <font size="8pt" typeface="Arial"/>
+          <traversal>
+            <traverse ref="T48[0]"/>
+          </traversal>
+          <?renderCache.bounds 128908 8002 0 0 0 0 0 0?>
+          <?renderCache.textRun 27  SIGNATURE OF RATED SOLDIER 0 0 6317 0 0 0 "Arial" 0 0 8000 ISO-8859-1?>
+
+        </draw>
+        <draw name="T95" x="109.85mm" y="221.656mm" w="26.489mm" h="2.831mm">
+          <value>
+            <exData contentType="text/html">
+              <body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/">
+                <p style="text-decoration:none;letter-spacing:0in">DATE
+                <span style="font-style:italic"> (YYYYMMDD)</span>
+                </p>
+              </body>
+            </exData>
+          </value>
+          <ui>
+            <textEdit/>
+          </ui>
+          <para vAlign="middle"/>
+          <font size="8pt" typeface="Arial"/>
+          <traversal>
+            <traverse ref="T90[0]"/>
+          </traversal>
+        </draw>
+        <draw name="T163" x="86.831mm" y="217.439mm" hAlign="center" w="29.47mm" h="2.823mm">
+          <value>
+            <text>15. AUTHENTICATION</text>
+          </value>
+          <ui>
+            <textEdit/>
+          </ui>
+          <para vAlign="middle" hAlign="center"/>
+          <font size="8pt" typeface="Arial"/>
+          <traversal>
+            <traverse ref="T88[0]"/>
+          </traversal>
+          <?renderCache.bounds 83537 8002 0 0 0 0 0 0?>
+          <?renderCache.textRun 18 15. AUTHENTICATION 0 0 6317 0 0 0 "Arial" 0 0 8000 ISO-8859-1?>
+
+        </draw>
+        <draw name="R184" y="221.097mm" x="109.024mm" w="0in" h="25.599mm">
+          <value>
+            <line/>
+          </value>
+        </draw>
+        <draw name="R185" y="216.863mm" x="4.233mm" w="194.733mm" h="0in">
+          <value>
+            <line/>
+          </value>
+        </draw>
+        <draw name="R186" y="221.097mm" x="4.233mm" w="194.733mm" h="0in">
+          <value>
+            <line/>
+          </value>
+        </draw>
+        <draw name="R187" y="233.801mm" x="4.233mm" w="194.733mm" h="0in">
+          <value>
+            <line/>
+          </value>
+        </draw>
+        <draw name="R188" y="221.097mm" x="138.416mm" w="0in" h="25.599mm">
+          <value>
+            <line/>
+          </value>
+        </draw>
+        <draw name="R189" y="246.696mm" x="4.233mm" w="194.733mm" h="0in">
+          <value>
+            <line/>
+          </value>
+        </draw>
+        <draw name="R190" y="246.696mm" x="62.967mm" w="0in" h="13.107mm">
+          <value>
+            <line/>
+          </value>
+        </draw>
+        <draw name="T95" x="110.033mm" y="234.321mm" w="26.489mm" h="2.831mm">
+          <value>
+            <exData contentType="text/html">
+              <body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/">
+                <p style="letter-spacing:0in">DATE
+                <span style="font-style:italic"> (YYYYMMDD)</span>
+                </p>
+              </body>
+            </exData>
+          </value>
+          <ui>
+            <textEdit/>
+          </ui>
+          <para vAlign="middle"/>
+          <font size="8pt" typeface="Arial"/>
+          <traversal>
+            <traverse ref="T91[0]"/>
+          </traversal>
+        </draw>
+        <draw name="T95" x="5.346mm" y="247.216mm" w="29.468mm" h="2.831mm">
+          <value>
+            <exData contentType="text/html">
+              <body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/">
+                <p style="text-decoration:none;letter-spacing:0in">c. DATE
+                <span style="font-style:italic"> (YYYYMMDD)</span>
+                </p>
+              </body>
+            </exData>
+          </value>
+          <ui>
+            <textEdit/>
+          </ui>
+          <para vAlign="middle"/>
+          <font size="8pt" typeface="Arial"/>
+          <traversal>
+            <traverse ref="T92[0]"/>
+          </traversal>
+        </draw>
+        <field name="Comments" y="124.154mm" x="5.29mm" w="192.616mm" h="92.428mm">
+          <ui>
+            <textEdit multiLine="1" hScrollPolicy="off" vScrollPolicy="off"/>
+          </ui>
+          <font typeface="Times New Roman"/>
+          <assist>
+            <speak priority="toolTip">Type the comments</speak>
+            <toolTip>Type the comments</toolTip>
+          </assist>
+          <traversal>
+            <traverse ref="Typed_Name_Grade_Rater[0]"/>
+          </traversal>
+        </field>
+        <draw name="T78" x="153.197mm" y="5.855mm" w="26.489mm" h="2.831mm">
+          <value>
+            <exData contentType="text/html">
+              <body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/">
+                <p style="font-family:Arial;letter-spacing:0in">DATE
+                <span style="font-style:italic"> (YYYYMMDD)</span>
+                </p>
+              </body>
+            </exData>
+          </value>
+          <ui>
+            <textEdit/>
+          </ui>
+          <para vAlign="middle"/>
+          <font size="8pt" typeface="ArialMT"/>
+          <traversal>
+            <traverse ref="T80[0]"/>
+          </traversal>
+        </draw>
+        <draw name="T80" x="5.346mm" y="14.731mm" w="62.254mm" h="3.452mm">
+          <value>
+            <text>1. LAST NAME - FIRST NAME - MIDDLE INITIAL</text>
+          </value>
+          <ui>
+            <textEdit/>
+          </ui>
+          <para vAlign="middle"/>
+          <font size="8pt" typeface="Arial"/>
+          <traversal>
+            <traverse ref="T81[0]"/>
+          </traversal>
+          <margin topInset="0.1764mm"/>
+          <?renderCache.bounds 176468 9285 0 0 0 500 0 0?>
+          <?renderCache.textRun 42 1. LAST NAME - FIRST NAME - MIDDLE INITIAL 0 0 7458 0 0 0 "Arial" 0 0 8000 ISO-8859-1?>
+
+        </draw>
+        <draw name="T81" x="102.624mm" y="14.731mm" w="8.941mm" h="3.452mm">
+          <value>
+            <text>2. SSN</text>
+          </value>
+          <ui>
+            <textEdit/>
+          </ui>
+          <para vAlign="middle"/>
+          <font size="8pt" typeface="Arial"/>
+          <traversal>
+            <traverse ref="T82[0]"/>
+          </traversal>
+          <margin topInset="0.1764mm"/>
+          <?renderCache.bounds 25345 9285 0 0 0 500 0 0?>
+          <?renderCache.textRun 6 2. SSN 0 0 7458 0 0 0 "Arial" 0 0 8000 ISO-8859-1?>
+
+        </draw>
+        <draw name="T82" x="128.301mm" y="14.731mm" w="13.174mm" h="3.452mm">
+          <value>
+            <text>3. RANK</text>
+          </value>
+          <ui>
+            <textEdit/>
+          </ui>
+          <para vAlign="middle"/>
+          <font size="8pt" typeface="Arial"/>
+          <traversal>
+            <traverse ref="T84[0]"/>
+          </traversal>
+          <margin topInset="0.1764mm"/>
+          <?renderCache.bounds 37344 9285 0 0 0 500 0 0?>
+          <?renderCache.textRun 7 3. RANK 0 0 7458 0 0 0 "Arial" 0 0 8000 ISO-8859-1?>
+
+        </draw>
+        <draw name="T84" x="165.295mm" y="14.731mm" w="29.355mm" h="3.452mm">
+          <value>
+            <text>5. SPECIALTY/MOSC</text>
+          </value>
+          <ui>
+            <textEdit/>
+          </ui>
+          <para vAlign="middle"/>
+          <font size="8pt" typeface="Arial"/>
+          <traversal>
+            <traverse ref="T85[0]"/>
+          </traversal>
+          <margin topInset="0.1764mm"/>
+          <?renderCache.bounds 83211 9285 0 0 0 500 0 0?>
+          <?renderCache.textRun 17 5. SPECIALTY/MOSC 0 0 7458 0 0 0 "Arial" 0 0 8000 ISO-8859-1?>
+
+        </draw>
+        <draw name="T85" x="5.346mm" y="23.685mm" h="2.823mm" minW="22.713mm">
+          <value>
+            <text>6. COURSE TITLE</text>
+          </value>
+          <ui>
+            <textEdit/>
+          </ui>
+          <para vAlign="middle"/>
+          <font size="8pt" typeface="Arial"/>
+          <traversal>
+            <traverse ref="T86[0]"/>
+          </traversal>
+        </draw>
+        <draw name="T86" x="102.624mm" y="23.685mm" w="28.698mm" h="2.823mm">
+          <value>
+            <text>7. NAME OF SCHOOL</text>
+          </value>
+          <ui>
+            <textEdit/>
+          </ui>
+          <para vAlign="middle"/>
+          <font size="8pt" typeface="Arial"/>
+          <traversal>
+            <traverse ref="T166[0]"/>
+          </traversal>
+          <?renderCache.bounds 81349 8002 0 0 0 0 0 0?>
+          <?renderCache.textRun 17 7. NAME OF SCHOOL 0 0 6317 0 0 0 "Arial" 0 0 8000 ISO-8859-1?>
+
+        </draw>
+        <draw name="T99" x="30.696mm" y="6.35mm" hAlign="center" w="91.14mm" h="3.529mm">
+          <value>
+            <text>SERVICE SCHOOL ACADEMIC EVALUATION REPORT</text>
+          </value>
+          <ui>
+            <textEdit/>
+          </ui>
+          <para vAlign="middle" hAlign="center"/>
+          <font weight="bold" typeface="Arial"/>
+          <traversal>
+            <traverse ref="T100[0]"/>
+          </traversal>
+          <?renderCache.bounds 258350 10003 0 0 0 0 0 0?>
+          <?renderCache.textRun 41 SERVICE SCHOOL ACADEMIC EVALUATION REPORT 0 0 7897 0 0 0 "Arial" 1 0 10000 ISO-8859-1?>
+
+        </draw>
+        <draw name="T100" x="31.56mm" y="10.53mm" hAlign="center" w="89.382mm" h="2.823mm">
+          <value>
+            <text> For use of this form, see AR 623-3; the proponent agency is DCS, G-1.</text>
+          </value>
+          <ui>
+            <textEdit/>
+          </ui>
+          <para vAlign="middle" hAlign="center"/>
+          <font size="8pt" typeface="Arial"/>
+          <traversal>
+            <traverse ref="T78[0]"/>
+          </traversal>
+          <?renderCache.bounds 253366 8002 0 0 0 0 0 0?>
+          <?renderCache.textRun 70  For use of this form, see AR 623-3; the proponent agency is DCS, G-1. 0 0 6317 0 0 0 "Arial" 0 0 8000 ISO-8859-1?>
+
+        </draw>
+        <draw name="T101" x="102.624mm" y="32.183mm" w="55.959mm" h="2.831mm">
+          <value>
+            <exData contentType="text/html">
+              <body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/">
+                <p style="text-decoration:none;letter-spacing:0in">10. DURATION OF COURSE
+                <span style="font-style:italic"> (YYYYMMDD)</span>
+                </p>
+              </body>
+            </exData>
+          </value>
+          <ui>
+            <textEdit/>
+          </ui>
+          <para vAlign="middle"/>
+          <font size="8pt" typeface="Arial"/>
+          <traversal>
+            <traverse ref="T103[0]"/>
+          </traversal>
+        </draw>
+        <draw name="T103" x="102.624mm" y="38.65mm" w="7.369mm" h="2.823mm">
+          <value>
+            <text>From:</text>
+          </value>
+          <ui>
+            <textEdit/>
+          </ui>
+          <para vAlign="middle"/>
+          <font size="8pt" typeface="Arial"/>
+          <traversal>
+            <traverse ref="T106[0]"/>
+          </traversal>
+          <?renderCache.bounds 20889 8002 0 0 0 0 0 0?>
+          <?renderCache.textRun 5 From: 0 0 6317 0 0 0 "Arial" 0 0 8000 ISO-8859-1?>
+
+        </draw>
+        <draw name="T106" x="154.775mm" y="38.65mm" w="6.587mm" h="2.823mm">
+          <value>
+            <text>Thru:</text>
+          </value>
+          <ui>
+            <textEdit/>
+          </ui>
+          <para vAlign="middle"/>
+          <font size="8pt" typeface="Arial"/>
+          <traversal>
+            <traverse ref="T107[0]"/>
+          </traversal>
+          <?renderCache.bounds 18672 8002 0 0 0 0 0 0?>
+          <?renderCache.textRun 5 Thru: 0 0 6317 0 0 0 "Arial" 0 0 8000 ISO-8859-1?>
+
+        </draw>
+        <draw name="T107" x="5.346mm" y="44.857mm" w="41.869mm" h="2.823mm">
+          <value>
+            <text>11. PERFORMANCE SUMMARY</text>
+          </value>
+          <ui>
+            <textEdit/>
+          </ui>
+          <para vAlign="middle"/>
+          <font size="8pt" typeface="Arial"/>
+          <traversal>
+            <traverse ref="T110[0]"/>
+          </traversal>
+          <?renderCache.bounds 118684 8002 0 0 0 0 0 0?>
+          <?renderCache.textRun 23 11. PERFORMANCE SUMMARY 0 0 6317 0 0 0 "Arial" 0 0 8000 ISO-8859-1?>
+
+        </draw>
+        <draw name="T108" x="102.624mm" y="44.857mm" w="42.328mm" h="2.823mm">
+          <value>
+            <text>12. DEMONSTRATED ABILITIES</text>
+          </value>
+          <ui>
+            <textEdit/>
+          </ui>
+          <para vAlign="middle"/>
+          <font size="8pt" typeface="Arial"/>
+          <traversal>
+            <traverse ref="T121[0]"/>
+          </traversal>
+          <?renderCache.bounds 119985 8002 0 0 0 0 0 0?>
+          <?renderCache.textRun 26 12. DEMONSTRATED ABILITIES 0 0 6317 0 0 0 "Arial" 0 0 8000 ISO-8859-1?>
+
+        </draw>
+        <draw name="T109" x="18.715mm" y="49.966mm" w="46.559mm" h="2.823mm">
+          <value>
+            <text>EXCEEDED COURSE STANDARDS</text>
+          </value>
+          <ui>
+            <textEdit/>
+          </ui>
+          <para vAlign="middle"/>
+          <font size="8pt" typeface="Arial"/>
+          <traversal>
+            <traverse ref="T111[0]"/>
+          </traversal>
+          <?renderCache.bounds 131978 8002 0 0 0 0 0 0?>
+          <?renderCache.textRun 25 EXCEEDED COURSE STANDARDS 0 0 6317 0 0 0 "Arial" 0 0 8000 ISO-8859-1?>
+
+        </draw>
+        <draw name="T110" x="6.07mm" y="49.966mm" w="3.451mm" h="2.823mm">
+          <value>
+            <text>*a.</text>
+          </value>
+          <ui>
+            <textEdit/>
+          </ui>
+          <para vAlign="middle"/>
+          <font size="8pt" typeface="Arial"/>
+          <traversal>
+            <traverse ref="T109[0]"/>
+          </traversal>
+          <?renderCache.bounds 9782 8002 0 0 0 0 0 0?>
+          <?renderCache.textRun 3 *a. 0 0 6317 0 0 0 "Arial" 0 0 8000 ISO-8859-1?>
+
+        </draw>
+        <draw name="T111" x="18.715mm" y="54.64mm" w="44.845mm" h="2.823mm">
+          <value>
+            <text>(Limited to 20% of class enrollment)</text>
+          </value>
+          <ui>
+            <textEdit/>
+          </ui>
+          <para vAlign="middle"/>
+          <font posture="italic" size="8pt" typeface="Arial"/>
+          <traversal>
+            <traverse ref="T114[0]"/>
+          </traversal>
+          <?renderCache.bounds 127120 8002 0 0 0 0 0 0?>
+          <?renderCache.textRun 36 (Limited to 20% of class enrollment) 0 0 6341 0 0 0 "Arial" 0 1 8000 ISO-8859-1?>
+
+        </draw>
+        <draw name="T112" x="18.715mm" y="63.19mm" w="45.32mm" h="2.823mm">
+          <value>
+            <exData contentType="text/html">
+              <body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/">
+                <p style="font-family:Arial;letter-spacing:0in">ACHIEVED COURSE STANDARDS</p>
+              </body>
+            </exData>
+          </value>
+          <ui>
+            <textEdit/>
+          </ui>
+          <para vAlign="middle"/>
+          <font size="8pt" typeface="ArialMT"/>
+          <traversal>
+            <traverse ref="T116[0]"/>
+          </traversal>
+        </draw>
+        <draw name="T114" x="6.07mm" y="63.19mm" w="3.451mm" h="2.823mm">
+          <value>
+            <text> b.</text>
+          </value>
+          <ui>
+            <textEdit/>
+          </ui>
+          <para vAlign="middle"/>
+          <font size="8pt" typeface="Arial"/>
+          <traversal>
+            <traverse ref="T112[0]"/>
+          </traversal>
+          <?renderCache.bounds 9782 8002 0 0 0 0 0 0?>
+          <?renderCache.textRun 3  b. 0 0 6317 0 0 0 "Arial" 0 0 8000 ISO-8859-1?>
+
+        </draw>
+        <draw name="T115" x="18.715mm" y="72.27mm" minH="2.824mm" w="64.454mm">
+          <value>
+            <text>MARGINALLY ACHIEVED COURSE STANDARDS</text>
+          </value>
+          <ui>
+            <textEdit/>
+          </ui>
+          <para vAlign="middle"/>
+          <font size="8pt" typeface="Arial"/>
+          <traversal>
+            <traverse ref="T118[0]"/>
+          </traversal>
+        </draw>
+        <draw name="T116" x="6.07mm" y="72.17mm" w="3.451mm" h="2.823mm">
+          <value>
+            <text>*c.</text>
+          </value>
+          <ui>
+            <textEdit/>
+          </ui>
+          <para vAlign="middle"/>
+          <font size="8pt" typeface="Arial"/>
+          <traversal>
+            <traverse ref="T115[0]"/>
+          </traversal>
+          <?renderCache.bounds 9782 8002 0 0 0 0 0 0?>
+          <?renderCache.textRun 3 *c. 0 0 6317 0 0 0 "Arial" 0 0 8000 ISO-8859-1?>
+
+        </draw>
+        <draw name="T117" x="18.715mm" y="81.15mm" w="58.807mm" h="2.823mm">
+          <value>
+            <text>FAILED TO ACHIEVE COURSE STANDARDS</text>
+          </value>
+          <ui>
+            <textEdit/>
+          </ui>
+          <para vAlign="middle"/>
+          <font size="8pt" typeface="Arial"/>
+          <traversal>
+            <traverse ref="T119[0]"/>
+          </traversal>
+          <?renderCache.bounds 166697 8002 0 0 0 0 0 0?>
+          <?renderCache.textRun 34 FAILED TO ACHIEVE COURSE STANDARDS 0 0 6317 0 0 0 "Arial" 0 0 8000 ISO-8859-1?>
+
+        </draw>
+        <draw name="T118" x="6.07mm" y="81.15mm" w="3.451mm" h="2.823mm">
+          <value>
+            <text>*d.</text>
+          </value>
+          <ui>
+            <textEdit/>
+          </ui>
+          <para vAlign="middle"/>
+          <font size="8pt" typeface="Arial"/>
+          <traversal>
+            <traverse ref="T117[0]"/>
+          </traversal>
+          <?renderCache.bounds 9782 8002 0 0 0 0 0 0?>
+          <?renderCache.textRun 3 *d. 0 0 6317 0 0 0 "Arial" 0 0 8000 ISO-8859-1?>
+
+        </draw>
+        <draw name="T119" x="18.715mm" y="92.205mm" w="66.172mm" h="2.823mm">
+          <value>
+            <text>*Rating must be supported by comments in ITEM 14.</text>
+          </value>
+          <ui>
+            <textEdit/>
+          </ui>
+          <para vAlign="middle"/>
+          <font posture="italic" size="8pt" typeface="Arial"/>
+          <traversal>
+            <traverse ref="T108[0]"/>
+          </traversal>
+          <?renderCache.bounds 187574 8002 0 0 0 0 0 0?>
+          <?renderCache.textRun 49 *Rating must be supported by comments in ITEM 14. 0 0 6341 0 0 0 "Arial" 0 1 8000 ISO-8859-1?>
+
+        </draw>
+        <draw name="T121" x="107.417mm" y="49.738mm" w="41.39mm" h="2.823mm">
+          <value>
+            <exData contentType="text/html">
+              <body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/">
+                <p>a.
+                <span style="font-weight:bold">WRITTEN COMMUNICATION</span>
+                </p>
+              </body>
+            </exData>
+          </value>
+          <ui>
+            <textEdit/>
+          </ui>
+          <para vAlign="middle"/>
+          <font size="8pt" typeface="Arial"/>
+          <traversal>
+            <traverse ref="T122[0]"/>
+          </traversal>
+          <?renderCache.bounds 117326 8002 0 0 0 0 0 0?>
+          <?renderCache.textRun 3 a.  0 0 6317 0 0 0 "Arial" 0 0 8000 ISO-8859-1?>
+          <?renderCache.textRun 21 WRITTEN COMMUNICATION 0 8895 6317 0 0 0 "Arial" 1 0 8000 ISO-8859-1?>
+
+        </draw>
+        <draw name="T122" x="115.327mm" y="53.549mm" w="23.515mm" h="2.823mm">
+          <value>
+            <text>NOT EVALUATED</text>
+          </value>
+          <ui>
+            <textEdit/>
+          </ui>
+          <para vAlign="middle"/>
+          <font size="8pt" typeface="Arial"/>
+          <traversal>
+            <traverse ref="T123[0]"/>
+          </traversal>
+          <?renderCache.bounds 66657 8002 0 0 0 0 0 0?>
+          <?renderCache.textRun 13 NOT EVALUATED 0 0 6317 0 0 0 "Arial" 0 0 8000 ISO-8859-1?>
+
+        </draw>
+        <draw name="T123" x="148.124mm" y="52.936mm" w="9.565mm" h="2.823mm">
+          <value>
+            <text>UNSAT</text>
+          </value>
+          <ui>
+            <textEdit/>
+          </ui>
+          <para vAlign="middle"/>
+          <font size="8pt" typeface="Arial"/>
+          <traversal>
+            <traverse ref="T124[0]"/>
+          </traversal>
+          <?renderCache.bounds 27113 8002 0 0 0 0 0 0?>
+          <?renderCache.textRun 5 UNSAT 0 0 6317 0 0 0 "Arial" 0 0 8000 ISO-8859-1?>
+
+        </draw>
+        <draw name="T124" x="166.803mm" y="53.549mm" w="5.489mm" h="2.823mm">
+          <value>
+            <text>SAT</text>
+          </value>
+          <ui>
+            <textEdit/>
+          </ui>
+          <para vAlign="middle"/>
+          <font size="8pt" typeface="Arial"/>
+          <traversal>
+            <traverse ref="T125[0]"/>
+          </traversal>
+          <?renderCache.bounds 15559 8002 0 0 0 0 0 0?>
+          <?renderCache.textRun 3 SAT 0 0 6317 0 0 0 "Arial" 0 0 8000 ISO-8859-1?>
+
+        </draw>
+        <draw name="T125" x="182.538mm" y="53.549mm" w="14.741mm" h="2.823mm">
+          <value>
+            <text>SUPERIOR</text>
+          </value>
+          <ui>
+            <textEdit/>
+          </ui>
+          <para vAlign="middle"/>
+          <font size="8pt" typeface="Arial"/>
+          <traversal>
+            <traverse ref="T127[0]"/>
+          </traversal>
+          <?renderCache.bounds 41786 8002 0 0 0 0 0 0?>
+          <?renderCache.textRun 8 SUPERIOR 0 0 6317 0 0 0 "Arial" 0 0 8000 ISO-8859-1?>
+
+        </draw>
+        <draw name="T127" x="107.417mm" y="58.978mm" w="36.531mm" h="2.823mm">
+          <value>
+            <exData contentType="text/html">
+              <body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/">
+                <p>b.
+                <span style="xfa-spacerun:yes"> </span>
+                <span style="font-weight:bold">ORAL COMMUNICATION</span>
+                </p>
+              </body>
+            </exData>
+          </value>
+          <ui>
+            <textEdit/>
+          </ui>
+          <para vAlign="middle"/>
+          <font size="8pt" typeface="Arial"/>
+          <traversal>
+            <traverse ref="T128[0]"/>
+          </traversal>
+          <?renderCache.bounds 103552 8002 0 0 0 0 0 0?>
+          <?renderCache.textRun 3 b.  0 0 6317 0 0 0 "Arial" 0 0 8000 ISO-8859-1?>
+          <?renderCache.textRun 18 ORAL COMMUNICATION 0 8895 6317 0 0 0 "Arial" 1 0 8000 ISO-8859-1?>
+
+        </draw>
+        <draw name="T128" x="115.327mm" y="62.789mm" w="23.523mm" minH="2.822mm">
+          <value>
+            <text>NOT EVALUATED</text>
+          </value>
+          <ui>
+            <textEdit/>
+          </ui>
+          <para vAlign="middle"/>
+          <font size="8pt" typeface="Arial"/>
+          <traversal>
+            <traverse ref="T129[0]"/>
+          </traversal>
+        </draw>
+        <draw name="T129" x="147.838mm" y="62.789mm" w="9.565mm" minH="2.822mm">
+          <value>
+            <text>UNSAT</text>
+          </value>
+          <ui>
+            <textEdit/>
+          </ui>
+          <para vAlign="middle"/>
+          <font size="8pt" typeface="Arial"/>
+          <traversal>
+            <traverse ref="T130[0]"/>
+          </traversal>
+        </draw>
+        <draw name="T130" x="166.803mm" y="62.789mm" w="5.489mm" minH="2.822mm">
+          <value>
+            <text>SAT</text>
+          </value>
+          <ui>
+            <textEdit/>
+          </ui>
+          <para vAlign="middle"/>
+          <font size="8pt" typeface="Arial"/>
+          <traversal>
+            <traverse ref="T131[0]"/>
+          </traversal>
+        </draw>
+        <draw name="T131" x="182.538mm" y="62.789mm" w="14.741mm" minH="2.822mm">
+          <value>
+            <text>SUPERIOR</text>
+          </value>
+          <ui>
+            <textEdit/>
+          </ui>
+          <para vAlign="middle"/>
+          <font size="8pt" typeface="Arial"/>
+          <traversal>
+            <traverse ref="T133[0]"/>
+          </traversal>
+        </draw>
+        <draw name="T133" x="107.417mm" y="68.245mm" w="31.977mm" h="2.823mm">
+          <value>
+            <exData contentType="text/html">
+              <body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/">
+                <p>c.
+                <span style="xfa-spacerun:yes"> </span>
+                <span style="font-weight:bold">LEADERSHIP SKILLS</span>
+                </p>
+              </body>
+            </exData>
+          </value>
+          <ui>
+            <textEdit/>
+          </ui>
+          <para vAlign="middle"/>
+          <font size="8pt" typeface="Arial"/>
+          <traversal>
+            <traverse ref="T134[0]"/>
+          </traversal>
+          <?renderCache.bounds 90643 8002 0 0 0 0 0 0?>
+          <?renderCache.textRun 3 c.  0 0 6317 0 0 0 "Arial" 0 0 8000 ISO-8859-1?>
+          <?renderCache.textRun 17 LEADERSHIP SKILLS 0 8445 6317 0 0 0 "Arial" 1 0 8000 ISO-8859-1?>
+
+        </draw>
+        <draw name="T134" x="115.327mm" y="72.056mm" w="23.523mm" minH="2.822mm">
+          <value>
+            <text>NOT EVALUATED</text>
+          </value>
+          <ui>
+            <textEdit/>
+          </ui>
+          <para vAlign="middle"/>
+          <font size="8pt" typeface="Arial"/>
+          <traversal>
+            <traverse ref="T135[0]"/>
+          </traversal>
+        </draw>
+        <draw name="T135" x="147.838mm" y="72.056mm" w="9.565mm" minH="2.822mm">
+          <value>
+            <text>UNSAT</text>
+          </value>
+          <ui>
+            <textEdit/>
+          </ui>
+          <para vAlign="middle"/>
+          <font size="8pt" typeface="Arial"/>
+          <traversal>
+            <traverse ref="T136[0]"/>
+          </traversal>
+        </draw>
+        <draw name="T136" x="166.803mm" y="72.056mm" w="6.968mm" minH="0.137in">
+          <value>
+            <text>SAT</text>
+          </value>
+          <ui>
+            <textEdit/>
+          </ui>
+          <para vAlign="middle"/>
+          <font size="8pt" typeface="Arial"/>
+          <traversal>
+            <traverse ref="T137[0]"/>
+          </traversal>
+        </draw>
+        <draw name="T137" x="182.538mm" y="72.056mm" w="14.741mm" minH="2.822mm">
+          <value>
+            <text>SUPERIOR</text>
+          </value>
+          <ui>
+            <textEdit/>
+          </ui>
+          <para vAlign="middle"/>
+          <font size="8pt" typeface="Arial"/>
+          <traversal>
+            <traverse ref="T139[0]"/>
+          </traversal>
+        </draw>
+        <draw name="T139" x="107.417mm" y="77.485mm" w="50.329mm" h="2.823mm">
+          <value>
+            <exData contentType="text/html">
+              <body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/">
+                <p>d.
+                <span style="xfa-spacerun:yes"> </span>
+                <span style="font-weight:bold">CONTRIBUTION TO GROUP WORK</span>
+                </p>
+              </body>
+            </exData>
+          </value>
+          <ui>
+            <textEdit/>
+          </ui>
+          <para vAlign="middle"/>
+          <font size="8pt" typeface="Arial"/>
+          <traversal>
+            <traverse ref="T140[0]"/>
+          </traversal>
+          <?renderCache.bounds 142665 8002 0 0 0 0 0 0?>
+          <?renderCache.textRun 3 d.  0 0 6317 0 0 0 "Arial" 0 0 8000 ISO-8859-1?>
+          <?renderCache.textRun 26 CONTRIBUTION TO GROUP WORK 0 8895 6317 0 0 0 "Arial" 1 0 8000 ISO-8859-1?>
+
+        </draw>
+        <draw name="T140" x="115.327mm" y="81.296mm" w="23.523mm" minH="2.822mm">
+          <value>
+            <text>NOT EVALUATED</text>
+          </value>
+          <ui>
+            <textEdit/>
+          </ui>
+          <para vAlign="middle"/>
+          <font size="8pt" typeface="Arial"/>
+          <traversal>
+            <traverse ref="T141[0]"/>
+          </traversal>
+        </draw>
+        <draw name="T141" x="147.838mm" y="81.296mm" w="9.565mm" minH="2.822mm">
+          <value>
+            <text>UNSAT</text>
+          </value>
+          <ui>
+            <textEdit/>
+          </ui>
+          <para vAlign="middle"/>
+          <font size="8pt" typeface="Arial"/>
+          <traversal>
+            <traverse ref="T142[0]"/>
+          </traversal>
+        </draw>
+        <draw name="T142" x="166.803mm" y="81.296mm" w="5.489mm" minH="2.822mm">
+          <value>
+            <text>SAT</text>
+          </value>
+          <ui>
+            <textEdit/>
+          </ui>
+          <para vAlign="middle"/>
+          <font size="8pt" typeface="Arial"/>
+          <traversal>
+            <traverse ref="T143[0]"/>
+          </traversal>
+        </draw>
+        <draw name="T143" x="182.538mm" y="81.296mm" w="14.741mm" minH="2.822mm">
+          <value>
+            <text>SUPERIOR</text>
+          </value>
+          <ui>
+            <textEdit/>
+          </ui>
+          <para vAlign="middle"/>
+          <font size="8pt" typeface="Arial"/>
+          <traversal>
+            <traverse ref="T145[0]"/>
+          </traversal>
+        </draw>
+        <draw name="T145" x="107.417mm" y="86.725mm" minH="2.835mm" w="71.206mm">
+          <value>
+            <exData contentType="text/html">
+              <body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/">
+                <p>e.
+                <span style="xfa-spacerun:yes"> </span>
+                <span style="font-weight:bold">EVALUATION OF STUDENT'S RESEARCH ABILITY</span>
+                </p>
+              </body>
+            </exData>
+          </value>
+          <ui>
+            <textEdit/>
+          </ui>
+          <para vAlign="middle"/>
+          <font size="8pt" typeface="Arial"/>
+          <traversal>
+            <traverse ref="T146[0]"/>
+          </traversal>
+        </draw>
+        <draw name="T146" x="115.327mm" y="90.537mm" w="23.523mm" minH="2.822mm">
+          <value>
+            <text>NOT EVALUATED</text>
+          </value>
+          <ui>
+            <textEdit/>
+          </ui>
+          <para vAlign="middle"/>
+          <font size="8pt" typeface="Arial"/>
+          <traversal>
+            <traverse ref="T147[0]"/>
+          </traversal>
+        </draw>
+        <draw name="T147" x="147.838mm" y="90.537mm" w="9.565mm" minH="2.822mm">
+          <value>
+            <text>UNSAT</text>
+          </value>
+          <ui>
+            <textEdit/>
+          </ui>
+          <para vAlign="middle"/>
+          <font size="8pt" typeface="Arial"/>
+          <traversal>
+            <traverse ref="T148[0]"/>
+          </traversal>
+        </draw>
+        <draw name="T148" x="166.803mm" y="90.537mm" w="5.489mm" minH="2.822mm">
+          <value>
+            <text>SAT</text>
+          </value>
+          <ui>
+            <textEdit/>
+          </ui>
+          <para vAlign="middle"/>
+          <font size="8pt" typeface="Arial"/>
+          <traversal>
+            <traverse ref="T149[0]"/>
+          </traversal>
+        </draw>
+        <draw name="T149" x="182.538mm" y="90.537mm" w="14.741mm" minH="2.822mm">
+          <value>
+            <text>SUPERIOR</text>
+          </value>
+          <ui>
+            <textEdit/>
+          </ui>
+          <para vAlign="middle"/>
+          <font size="8pt" typeface="Arial"/>
+          <traversal>
+            <traverse ref="T150[0]"/>
+          </traversal>
+        </draw>
+        <draw name="T150" x="107.417mm" y="96.365mm" minH="0.128in" w="90.969mm">
+          <value>
+            <text>(SUPERIOR/UNSAT rating must be supported by comments in ITEM 14)</text>
+          </value>
+          <ui>
+            <textEdit/>
+          </ui>
+          <para vAlign="middle"/>
+          <font posture="italic" size="7.7pt" typeface="Arial"/>
+          <traversal>
+            <traverse ref="T151[0]"/>
+          </traversal>
+        </draw>
+        <draw name="T151" x="5.346mm" y="101.777mm" minH="3.055mm" w="177.137mm">
+          <value>
+            <text>13. HAS THE STUDENT DEMONSTRATED THE ACADEMIC POTENTIAL FOR SELECTION TO HIGHER LEVEL SCHOOLING/TRAINING?</text>
+          </value>
+          <ui>
+            <textEdit/>
+          </ui>
+          <para vAlign="middle"/>
+          <font size="8pt" typeface="Arial"/>
+          <traversal>
+            <traverse ref="T152[0]"/>
+          </traversal>
+        </draw>
+        <draw name="T152" x="18.255mm" y="106.147mm" w="5.645mm" h="2.823mm">
+          <value>
+            <text>YES</text>
+          </value>
+          <ui>
+            <textEdit/>
+          </ui>
+          <para vAlign="middle"/>
+          <font size="8pt" typeface="Arial"/>
+          <traversal>
+            <traverse ref="T153[0]"/>
+          </traversal>
+          <?renderCache.bounds 16002 8002 0 0 0 0 0 0?>
+          <?renderCache.textRun 3 YES 0 0 6317 0 0 0 "Arial" 0 0 8000 ISO-8859-1?>
+
+        </draw>
+        <draw name="T153" x="39.928mm" y="106.147mm" w="4.232mm" h="2.823mm">
+          <value>
+            <text>NO</text>
+          </value>
+          <ui>
+            <textEdit/>
+          </ui>
+          <para vAlign="middle"/>
+          <font size="8pt" typeface="Arial"/>
+          <traversal>
+            <traverse ref="T154[0]"/>
+          </traversal>
+          <?renderCache.bounds 11996 8002 0 0 0 0 0 0?>
+          <?renderCache.textRun 2 NO 0 0 6317 0 0 0 "Arial" 0 0 8000 ISO-8859-1?>
+
+        </draw>
+        <draw name="T154" x="61.603mm" y="106.147mm" w="4.703mm" h="2.823mm">
+          <value>
+            <text>N/A</text>
+          </value>
+          <ui>
+            <textEdit/>
+          </ui>
+          <para vAlign="middle"/>
+          <font size="8pt" typeface="Arial"/>
+          <traversal>
+            <traverse ref="T155[0]"/>
+          </traversal>
+          <?renderCache.bounds 13331 8002 0 0 0 0 0 0?>
+          <?renderCache.textRun 3 N/A 0 0 6317 0 0 0 "Arial" 0 0 8000 ISO-8859-1?>
+
+        </draw>
+        <draw name="T155" x="72.44mm" y="106.147mm" w="79.332mm" h="2.823mm">
+          <value>
+            <text>(A "NO" response must be supported by comments in ITEM 14)</text>
+          </value>
+          <ui>
+            <textEdit/>
+          </ui>
+          <para vAlign="middle"/>
+          <font posture="italic" size="8pt" typeface="Arial"/>
+          <traversal>
+            <traverse ref="T156[0]"/>
+          </traversal>
+          <?renderCache.bounds 224878 8002 0 0 0 0 0 0?>
+          <?renderCache.textRun 58 (A "NO" response must be supported by comments in ITEM 14) 0 0 6341 0 0 0 "Arial" 0 1 8000 ISO-8859-1?>
+
+        </draw>
+        <draw name="T156" x="5.346mm" y="110.834mm" w="192.616mm" h="13.011mm">
+          <value>
+            <exData contentType="text/html">
+              <body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/">
+                <p style="font-family:Arial;text-decoration:none;letter-spacing:0in">14. COMMENTS
+                <span style="xfa-spacerun:yes"> </span>
+                <span style="font-style:italic">(This item is intended to obtain a word picture of each student that will accurately and completely portray academic</span>
+                <span style="xfa-spacerun:yes"> </span>
+                <span style="font-style:italic">performance, intellectual qualities, and communication skills and abilities. The narrative should also discuss broader aspects of the student's</span>
+                <span style="xfa-spacerun:yes"> </span>
+                <span style="font-style:italic">potential, leadership capabilities, moral and overall professional qualities. In particular, comments should be made if the student failed to</span>
+                <span style="xfa-spacerun:yes"> </span>
+                <span style="font-style:italic">respond to recommendations for improving academic or personal affairs.)</span>
+                </p>
+              </body>
+            </exData>
+          </value>
+          <ui>
+            <textEdit/>
+          </ui>
+          <para vAlign="middle"/>
+          <font size="8pt" typeface="ArialMT"/>
+          <traversal>
+            <traverse ref="T163[0]"/>
+          </traversal>
+        </draw>
+        <draw name="T164" x="78.828mm" y="260.633mm" hAlign="center" w="45.543mm" h="2.47mm">
+          <value>
+            <text>PREVIOUS EDITIONS ARE OBSOLETE.</text>
+          </value>
+          <ui>
+            <textEdit/>
+          </ui>
+          <para vAlign="middle" hAlign="center"/>
+          <font size="7pt" typeface="Arial"/>
+          <traversal>
+            <traverse ref="T51[0]"/>
+          </traversal>
+          <?renderCache.bounds 129098 7002 0 0 0 0 0 0?>
+          <?renderCache.textRun 31 PREVIOUS EDITIONS ARE OBSOLETE. 0 0 5528 0 0 0 "Arial" 0 0 7000 ISO-8859-1?>
+
+        </draw>
+        <draw name="T166" x="5.346mm" y="32.183mm" w="96.101mm" h="6.209mm">
+          <value>
+            <text>9. THIS IS A REFERRED REPORT, DO YOU WISH TO MAKE COMMENTS?</text>
+          </value>
+          <ui>
+            <textEdit/>
+          </ui>
+          <para vAlign="middle"/>
+          <font size="8pt" typeface="Arial"/>
+          <traversal>
+            <traverse ref="T101[0]"/>
+          </traversal>
+          <?renderCache.bounds 272412 17600 0 0 0 0 0 0?>
+          <?renderCache.textRun 50 9. THIS IS A REFERRED REPORT, DO YOU WISH TO MAKE  0 0 6316 0 0 0 "Arial" 0 0 8000 ISO-8859-1?>
+          <?renderCache.textRun 9 COMMENTS? 0 0 15916 0 0 0 "Arial" 0 0 8000 ISO-8859-1?>
+
+        </draw>
+        <draw name="R174" y="5.41mm" x="152.146mm" w="0in" h="8.882mm">
+          <value>
+            <line>
+              <edge thickness="0.3528mm"/>
+            </line>
+          </value>
+        </draw>
+        <draw name="R176" y="14.291mm" x="101.567mm" w="0in" h="30.045mm">
+          <value>
+            <line/>
+          </value>
+        </draw>
+        <draw name="R177" y="14.291mm" x="127.168mm" w="0in" h="8.873mm">
+          <value>
+            <line/>
+          </value>
+        </draw>
+        <draw name="R178" y="14.291mm" x="147.466mm" w="0in" h="8.873mm">
+          <value>
+            <line/>
+          </value>
+        </draw>
+        <draw name="R180" y="23.165mm" x="4.233mm" w="194.733mm" h="0in">
+          <value>
+            <line/>
+          </value>
+        </draw>
+        <draw name="R181" y="31.826mm" x="4.233mm" w="194.733mm" h="0in">
+          <value>
+            <line/>
+          </value>
+        </draw>
+        <draw name="R182" y="23.165mm" x="178.274mm" w="0in" h="8.661mm">
+          <value>
+            <line/>
+          </value>
+        </draw>
+        <draw name="R183" y="110.103mm" x="4.233mm" w="194.733mm" h="0in">
+          <value>
+            <line/>
+          </value>
+        </draw>
+        <draw name="R191" y="44.337mm" x="4.233mm" w="194.733mm" h="0in">
+          <value>
+            <line>
+              <edge thickness="0.441mm"/>
+            </line>
+          </value>
+        </draw>
+        <draw name="R192" y="101.134mm" x="4.233mm" w="194.733mm" h="0in">
+          <value>
+            <line>
+              <edge thickness="0.441mm"/>
+            </line>
+          </value>
+        </draw>
+        <draw name="R193" y="44.337mm" x="101.567mm" w="0in" h="56.797mm">
+          <value>
+            <line>
+              <edge thickness="0.441mm"/>
+            </line>
+          </value>
+        </draw>
+        <field name="Name_School" y="27.112mm" x="102.624mm" w="74.754mm" h="3.529mm">
+          <ui>
+            <textEdit hScrollPolicy="off"/>
+          </ui>
+          <font typeface="Times New Roman"/>
+          <assist>
+            <speak priority="toolTip">Type the name of the school.</speak>
+            <toolTip>Type the name of the school</toolTip>
+          </assist>
+          <traversal>
+            <traverse ref="Component1[0]"/>
+          </traversal>
+        </field>
+        <draw name="R179" y="14.291mm" x="164.32mm" w="0in" h="8.873mm">
+          <value>
+            <line/>
+          </value>
+        </draw>
+        <field name="Performance_Summary1" w="4.251mm" h="4.235mm" x="11.952mm" y="49.26mm">
+          <ui>
+            <checkButton size="4.2333mm">
+              <border>
+                <edge/>
+                <fill/>
+              </border>
+            </checkButton>
+          </ui>
+          <font typeface="Times New Roman"/>
+          <margin leftInset="0mm" rightInset="0mm"/>
+          <para vAlign="middle"/>
+          <value>
+            <integer>0</integer>
+          </value>
+          <items>
+            <integer>1</integer>
+            <integer>0</integer>
+            <integer>2</integer>
+          </items>
+          <border/>
+          <event activity="click" name="event__click">
+            <script>Performance_Summary2.rawValue = 0
+            Performance_Summary3.rawValue = 0
+            Performance_Summary4.rawValue = 0
+            </script>               
+          </event>               
+          <assist>                  
+            <speak priority="toolTip">Check if EXCEEDED COURSE STANDARDS, (Limited to 20% of class enrollment). Supply comments in item 14.</speak>
+            <toolTip>Check if EXCEEDED COURSE STANDARDS, (Limited to 20% of class enrollment). Supply comments in item 14.</toolTip>
+          </assist>
+          <traversal>
+            <traverse ref="Performance_Summary2[0]"/>
+          </traversal>
+        </field>
+        <field name="Performance_Summary2" w="4.251mm" h="4.235mm" x="11.952mm" y="62.483mm">
+          <ui>
+            <checkButton size="4.2333mm">
+              <border>
+                <edge/>
+                <fill/>
+              </border>
+            </checkButton>
+          </ui>
+          <font typeface="Times New Roman"/>
+          <margin leftInset="0mm" rightInset="0mm"/>
+          <para vAlign="middle"/>
+          <value>
+            <integer>0</integer>
+          </value>
+          <items>
+            <integer>1</integer>
+            <integer>0</integer>
+            <integer>2</integer>
+          </items>
+          <border/>
+          <event activity="click" name="event__click">
+            <script>Performance_Summary1.rawValue = 0
+            Performance_Summary3.rawValue = 0
+            Performance_Summary4.rawValue = 0
+            </script>               
+          </event>               
+          <assist>                  
+            <speak priority="toolTip">Check if, ACHIEVED COURSE STANDARDS</speak>
+            <toolTip>Check if, ACHIEVED COURSE STANDARDS</toolTip>
+          </assist>
+          <traversal>
+            <traverse ref="Performance_Summary3[0]"/>
+          </traversal>
+        </field>
+        <field name="Performance_Summary3" w="4.251mm" h="4.235mm" x="11.952mm" y="71.465mm">
+          <ui>
+            <checkButton size="4.2333mm">
+              <border>
+                <edge/>
+                <fill/>
+              </border>
+            </checkButton>
+          </ui>
+          <font typeface="Times New Roman"/>
+          <margin leftInset="0mm" rightInset="0mm"/>
+          <para vAlign="middle"/>
+          <value>
+            <integer>0</integer>
+          </value>
+          <items>
+            <integer>1</integer>
+            <integer>0</integer>
+            <integer>2</integer>
+          </items>
+          <border/>
+          <event activity="click" name="event__click">
+            <script>Performance_Summary1.rawValue = 0
+            Performance_Summary2.rawValue = 0
+            Performance_Summary4.rawValue = 0
+            </script>               
+          </event>               
+          <assist>                  
+            <speak priority="toolTip">Check if, MARGINALLY ACHIEVED COURSE STANDARDS. Supply comments in item 14</speak>
+            <toolTip>Check if, MARGINALLY ACHIEVED COURSE STANDARDS. Supply comments in item 14</toolTip>
+          </assist>
+          <traversal>
+            <traverse ref="Performance_Summary4[0]"/>
+          </traversal>
+        </field>
+        <field name="Performance_Summary4" w="4.251mm" h="4.235mm" x="11.952mm" y="80.444mm">
+          <ui>
+            <checkButton size="4.2333mm">
+              <border>
+                <edge/>
+                <fill/>
+              </border>
+            </checkButton>
+          </ui>
+          <font typeface="Times New Roman"/>
+          <margin leftInset="0mm" rightInset="0mm"/>
+          <para vAlign="middle"/>
+          <value>
+            <integer>0</integer>
+          </value>
+          <items>
+            <integer>1</integer>
+            <integer>0</integer>
+            <integer>2</integer>
+          </items>
+          <border/>
+          <event activity="click" name="event__click">
+            <script>Performance_Summary1.rawValue = 0
+            Performance_Summary2.rawValue = 0
+            Performance_Summary3.rawValue = 0
+            </script>               
+          </event>               
+          <assist>                  
+            <speak priority="toolTip">Check if, FAILED TO ACHIEVE COURSE STANDARDS. Supply comments in item 14</speak>
+            <toolTip>Check if, FAILED TO ACHIEVE COURSE STANDARDS. Supply comments in item 14</toolTip>
+          </assist>
+          <traversal>
+            <traverse ref="NOT_EVALUATED1[0]"/>
+          </traversal>
+        </field>
+        <field name="NOT_EVALUATED1" w="3.548mm" h="3.567mm" x="110.733mm" y="53.177mm">
+          <ui>
+            <checkButton>
+              <border>
+                <edge/>
+                <fill/>
+              </border>
+            </checkButton>
+          </ui>
+          <font typeface="Times New Roman"/>
+          <margin leftInset="0mm" rightInset="0mm"/>
+          <para vAlign="middle"/>
+          <value>
+            <integer>0</integer>
+          </value>
+          <items>
+            <integer>1</integer>
+            <integer>0</integer>
+            <integer>2</integer>
+          </items>
+          <border/>
+          <event activity="click" name="event__click">
+            <script>UNSAT1.rawValue = 0
+            SAT1.rawValue = 0
+            SUPERIOR1.rawValue = 0
+            </script>               
+          </event>               
+          <assist>                  
+            <speak priority="toolTip">Check for Not evaluated.</speak>
+            <toolTip>Check for Not evaluated</toolTip>
+          </assist>
+          <traversal>
+            <traverse ref="UNSAT1[0]"/>
+          </traversal>
+        </field>
+        <field name="UNSAT1" w="3.548mm" h="3.567mm" x="142.929mm" y="53.177mm">
+          <ui>
+            <checkButton>
+              <border>
+                <edge/>
+                <fill/>
+              </border>
+            </checkButton>
+          </ui>
+          <font typeface="Times New Roman"/>
+          <margin leftInset="0mm" rightInset="0mm"/>
+          <para vAlign="middle"/>
+          <value>
+            <integer>0</integer>
+          </value>
+          <items>
+            <integer>1</integer>
+            <integer>0</integer>
+            <integer>2</integer>
+          </items>
+          <border/>
+          <assist>
+            <speak priority="toolTip">Check for Unsatisfactory – rating must be supported by comments in item 14</speak>
+            <toolTip>Check for Unsatisfactory – rating must be supported by comments in item 14</toolTip>
+          </assist>
+          <event activity="click" name="event__click">
+            <script>NOT_EVALUATED1.rawValue = 0
+            SAT1.rawValue = 0
+            SUPERIOR1.rawValue = 0
+            </script>               
+          </event>               
+          <traversal>                  
+            <traverse ref="SAT1[0]"/>               
+          </traversal>            
+        </field>            
+        <field name="SAT1" w="3.548mm" h="3.567mm" x="162.049mm" y="53.177mm">               
+          <ui>                  
+            <checkButton>                     
+              <border>                        
+                <edge/>                        
+                <fill/>                     
+              </border>                  
+            </checkButton>               
+          </ui>               
+          <font typeface="Times New Roman"/>               
+          <margin leftInset="0mm" rightInset="0mm"/>               
+          <para vAlign="middle"/>               
+          <value>                  
+            <integer>0</integer>
+          </value>
+          <items>
+            <integer>1</integer>
+            <integer>0</integer>
+            <integer>2</integer>
+          </items>
+          <border/>
+          <assist>
+            <speak priority="toolTip">Check for Satisfactory</speak>
+            <toolTip>Check for Satisfactory</toolTip>
+          </assist>
+          <event activity="click" name="event__click">
+            <script>NOT_EVALUATED1.rawValue = 0
+            UNSAT1.rawValue = 0
+            SUPERIOR1.rawValue = 0
+            </script>               
+          </event>               
+          <traversal>                  
+            <traverse ref="SUPERIOR1[0]"/>               
+          </traversal>            
+        </field>            
+        <field name="SUPERIOR1" w="3.548mm" h="3.567mm" x="177.583mm" y="53.177mm">               
+          <ui>                  
+            <checkButton>                     
+              <border>                        
+                <edge/>                        
+                <fill/>                     
+              </border>                  
+            </checkButton>               
+          </ui>               
+          <font typeface="Times New Roman"/>               
+          <margin leftInset="0mm" rightInset="0mm"/>               
+          <para vAlign="middle"/>               
+          <value>                  
+            <integer>0</integer>
+          </value>
+          <items>
+            <integer>1</integer>
+            <integer>0</integer>
+            <integer>2</integer>
+          </items>
+          <border/>
+          <assist>
+            <speak priority="toolTip">Check for Superior – rating must be supported by comments in item 14</speak>
+            <toolTip>Check for Superior – rating must be supported by comments in item 14</toolTip>
+          </assist>
+          <event activity="click" name="event__click">
+            <script>NOT_EVALUATED1.rawValue = 0
+            UNSAT1.rawValue = 0
+            SAT1.rawValue = 0
+            </script>               
+          </event>               
+          <traversal>                  
+            <traverse ref="NOT_EVALUATED2[0]"/>               
+          </traversal>            
+        </field>            
+        <field name="SUPERIOR2" w="3.548mm" h="3.567mm" x="177.583mm" y="62.417mm">               
+          <ui>                  
+            <checkButton>                     
+              <border>                        
+                <edge/>                        
+                <fill/>                     
+              </border>                  
+            </checkButton>               
+          </ui>               
+          <font typeface="Times New Roman"/>               
+          <margin leftInset="0mm" rightInset="0mm"/>               
+          <para vAlign="middle"/>               
+          <value>                  
+            <integer>0</integer>
+          </value>
+          <items>
+            <integer>1</integer>
+            <integer>0</integer>
+            <integer>2</integer>
+          </items>
+          <border/>
+          <assist>
+            <speak priority="toolTip">Check for Superior – rating must be supported by comments in item 14</speak>
+            <toolTip>Check for Superior – rating must be supported by comments in item 14</toolTip>
+          </assist>
+          <event activity="click" name="event__click">
+            <script>NOT_EVALUATED2.rawValue = 0
+            UNSAT2.rawValue = 0
+            SAT2.rawValue = 0
+            </script>               
+          </event>               
+          <traversal>                  
+            <traverse ref="NOT_EVALUATED3[0]"/>               
+          </traversal>            
+        </field>            
+        <field name="SAT2" w="3.548mm" h="3.567mm" x="162.049mm" y="62.417mm">               
+          <ui>                  
+            <checkButton>                     
+              <border>                        
+                <edge/>                        
+                <fill/>                     
+              </border>                  
+            </checkButton>               
+          </ui>               
+          <font typeface="Times New Roman"/>               
+          <margin leftInset="0mm" rightInset="0mm"/>               
+          <para vAlign="middle"/>               
+          <value>                  
+            <integer>0</integer>
+          </value>
+          <items>
+            <integer>1</integer>
+            <integer>0</integer>
+            <integer>2</integer>
+          </items>
+          <border/>
+          <assist>
+            <speak priority="toolTip">Check for Satisfactory</speak>
+            <toolTip>Check for Satisfactory</toolTip>
+          </assist>
+          <event activity="click" name="event__click">
+            <script>NOT_EVALUATED2.rawValue = 0
+            UNSAT2.rawValue = 0
+            SUPERIOR2.rawValue = 0
+            </script>               
+          </event>               
+          <traversal>                  
+            <traverse ref="SUPERIOR2[0]"/>               
+          </traversal>            
+        </field>            
+        <field name="UNSAT2" w="3.548mm" h="3.567mm" x="142.929mm" y="62.417mm">               
+          <ui>                  
+            <checkButton>                     
+              <border>                        
+                <edge/>                        
+                <fill/>                     
+              </border>                  
+            </checkButton>               
+          </ui>               
+          <font typeface="Times New Roman"/>               
+          <margin leftInset="0mm" rightInset="0mm"/>               
+          <para vAlign="middle"/>               
+          <value>                  
+            <integer>0</integer>
+          </value>
+          <items>
+            <integer>1</integer>
+            <integer>0</integer>
+            <integer>2</integer>
+          </items>
+          <border/>
+          <assist>
+            <speak priority="toolTip">Check for Unsatisfactory – rating must be supported by comments in item 14</speak>
+            <toolTip>Check for Unsatisfactory – rating must be supported by comments in item 14</toolTip>
+          </assist>
+          <event activity="click" name="event__click">
+            <script>NOT_EVALUATED2.rawValue = 0
+            SAT2.rawValue = 0
+            SUPERIOR2.rawValue = 0
+            </script>               
+          </event>               
+          <traversal>                  
+            <traverse ref="SAT2[0]"/>               
+          </traversal>            
+        </field>            
+        <field name="NOT_EVALUATED2" w="3.548mm" h="3.567mm" x="110.733mm" y="62.417mm">               
+          <ui>                  
+            <checkButton>                     
+              <border>                        
+                <edge/>                        
+                <fill/>                     
+              </border>                  
+            </checkButton>               
+          </ui>               
+          <font typeface="Times New Roman"/>               
+          <margin leftInset="0mm" rightInset="0mm"/>               
+          <para vAlign="middle"/>               
+          <value>                  
+            <integer>0</integer>
+          </value>
+          <items>
+            <integer>1</integer>
+            <integer>0</integer>
+            <integer>2</integer>
+          </items>
+          <border/>
+          <event activity="click" name="event__click">
+            <script>UNSAT2.rawValue = 0
+            SAT2.rawValue = 0
+            SUPERIOR2.rawValue = 0
+            </script>               
+          </event>               
+          <assist>                  
+            <speak priority="toolTip">Check for Not evaluated.</speak>
+            <toolTip>Check for Not evaluated</toolTip>
+          </assist>
+          <traversal>
+            <traverse ref="UNSAT2[0]"/>
+          </traversal>
+        </field>
+        <field name="SUPERIOR3" w="3.548mm" h="3.567mm" x="177.583mm" y="71.683mm">
+          <ui>
+            <checkButton>
+              <border>
+                <edge/>
+                <fill/>
+              </border>
+            </checkButton>
+          </ui>
+          <font typeface="Times New Roman"/>
+          <margin leftInset="0mm" rightInset="0mm"/>
+          <para vAlign="middle"/>
+          <value>
+            <integer>0</integer>
+          </value>
+          <items>
+            <integer>1</integer>
+            <integer>0</integer>
+            <integer>2</integer>
+          </items>
+          <border/>
+          <assist>
+            <speak priority="toolTip">Check for Superior – rating must be supported by comments in item 14</speak>
+            <toolTip>Check for Superior – rating must be supported by comments in item 14</toolTip>
+          </assist>
+          <event activity="click" name="event__click">
+            <script>NOT_EVALUATED3.rawValue = 0
+            UNSAT3.rawValue = 0
+            SAT3.rawValue = 0
+            </script>               
+          </event>               
+          <traversal>                  
+            <traverse ref="NOT_EVALUATED4[0]"/>               
+          </traversal>            
+        </field>            
+        <field name="SAT3" w="3.548mm" h="3.567mm" x="162.049mm" y="71.683mm">               
+          <ui>                  
+            <checkButton>                     
+              <border>                        
+                <edge/>                        
+                <fill/>                     
+              </border>                  
+            </checkButton>               
+          </ui>               
+          <font typeface="Times New Roman"/>               
+          <margin leftInset="0mm" rightInset="0mm"/>               
+          <para vAlign="middle"/>               
+          <value>                  
+            <integer>0</integer>
+          </value>
+          <items>
+            <integer>1</integer>
+            <integer>0</integer>
+            <integer>2</integer>
+          </items>
+          <border/>
+          <assist>
+            <speak priority="toolTip">Check for Satisfactory</speak>
+            <toolTip>Check for Satisfactory</toolTip>
+          </assist>
+          <event activity="click" name="event__click">
+            <script>NOT_EVALUATED3.rawValue = 0
+            UNSAT3.rawValue = 0
+            SUPERIOR3.rawValue = 0
+            </script>               
+          </event>               
+          <traversal>                  
+            <traverse ref="SUPERIOR3[0]"/>               
+          </traversal>            
+        </field>            
+        <field name="UNSAT3" w="3.548mm" h="3.567mm" x="142.929mm" y="71.683mm">               
+          <ui>                  
+            <checkButton>                     
+              <border>                        
+                <edge/>                        
+                <fill/>                     
+              </border>                  
+            </checkButton>               
+          </ui>               
+          <font typeface="Times New Roman"/>               
+          <margin leftInset="0mm" rightInset="0mm"/>               
+          <para vAlign="middle"/>               
+          <value>                  
+            <integer>0</integer>
+          </value>
+          <items>
+            <integer>1</integer>
+            <integer>0</integer>
+            <integer>2</integer>
+          </items>
+          <border/>
+          <assist>
+            <speak priority="toolTip">Check for Unsatisfactory – rating must be supported by comments in item 14</speak>
+            <toolTip>Check for Unsatisfactory – rating must be supported by comments in item 14</toolTip>
+          </assist>
+          <event activity="click" name="event__click">
+            <script>NOT_EVALUATED3.rawValue = 0
+            SAT3.rawValue = 0
+            SUPERIOR3.rawValue = 0
+            </script>               
+          </event>               
+          <traversal>                  
+            <traverse ref="SAT3[0]"/>               
+          </traversal>            
+        </field>            
+        <field name="NOT_EVALUATED3" w="3.548mm" h="3.567mm" x="110.733mm" y="71.683mm">               
+          <ui>                  
+            <checkButton>                     
+              <border>                        
+                <edge/>                        
+                <fill/>                     
+              </border>                  
+            </checkButton>               
+          </ui>               
+          <font typeface="Times New Roman"/>               
+          <margin leftInset="0mm" rightInset="0mm"/>               
+          <para vAlign="middle"/>               
+          <value>                  
+            <integer>0</integer>
+          </value>
+          <items>
+            <integer>1</integer>
+            <integer>0</integer>
+            <integer>2</integer>
+          </items>
+          <border/>
+          <event activity="click" name="event__click">
+            <script>UNSAT3.rawValue = 0
+            SAT3.rawValue = 0
+            SUPERIOR3.rawValue = 0
+            </script>               
+          </event>               
+          <assist>                  
+            <speak priority="toolTip">Check for Not evaluated.</speak>
+            <toolTip>Check for Not evaluated</toolTip>
+          </assist>
+          <traversal>
+            <traverse ref="UNSAT3[0]"/>
+          </traversal>
+        </field>
+        <field name="SUPERIOR4" w="3.548mm" h="3.567mm" x="177.583mm" y="80.924mm">
+          <ui>
+            <checkButton>
+              <border>
+                <edge/>
+                <fill/>
+              </border>
+            </checkButton>
+          </ui>
+          <font typeface="Times New Roman"/>
+          <margin leftInset="0mm" rightInset="0mm"/>
+          <para vAlign="middle"/>
+          <value>
+            <integer>0</integer>
+          </value>
+          <items>
+            <integer>1</integer>
+            <integer>0</integer>
+            <integer>2</integer>
+          </items>
+          <border/>
+          <assist>
+            <speak priority="toolTip">Check for Superior – rating must be supported by comments in item 14</speak>
+            <toolTip>Check for Superior – rating must be supported by comments in item 14</toolTip>
+          </assist>
+          <event activity="click" name="event__click">
+            <script>NOT_EVALUATED4.rawValue = 0
+            UNSAT4.rawValue = 0
+            SAT4.rawValue = 0
+            </script>               
+          </event>               
+          <traversal>                  
+            <traverse ref="NOT_EVALUATED5[0]"/>               
+          </traversal>            
+        </field>            
+        <field name="SAT4" w="3.548mm" h="3.567mm" x="162.049mm" y="80.924mm">               
+          <ui>                  
+            <checkButton>                     
+              <border>                        
+                <edge/>                        
+                <fill/>                     
+              </border>                  
+            </checkButton>               
+          </ui>               
+          <font typeface="Times New Roman"/>               
+          <margin leftInset="0mm" rightInset="0mm"/>               
+          <para vAlign="middle"/>               
+          <value>                  
+            <integer>0</integer>
+          </value>
+          <items>
+            <integer>1</integer>
+            <integer>0</integer>
+            <integer>2</integer>
+          </items>
+          <border/>
+          <assist>
+            <speak priority="toolTip">Check for Satisfactory</speak>
+            <toolTip>Check for Satisfactory</toolTip>
+          </assist>
+          <event activity="click" name="event__click">
+            <script>NOT_EVALUATED4.rawValue = 0
+            UNSAT4.rawValue = 0
+            SUPERIOR4.rawValue = 0
+            </script>               
+          </event>               
+          <traversal>                  
+            <traverse ref="SUPERIOR4[0]"/>               
+          </traversal>            
+        </field>            
+        <field name="UNSAT4" w="3.548mm" h="3.567mm" x="142.929mm" y="80.924mm">               
+          <ui>                  
+            <checkButton>                     
+              <border>                        
+                <edge/>                        
+                <fill/>                     
+              </border>                  
+            </checkButton>               
+          </ui>               
+          <font typeface="Times New Roman"/>               
+          <margin leftInset="0mm" rightInset="0mm"/>               
+          <para vAlign="middle"/>               
+          <value>                  
+            <integer>0</integer>
+          </value>
+          <items>
+            <integer>1</integer>
+            <integer>0</integer>
+            <integer>2</integer>
+          </items>
+          <border/>
+          <assist>
+            <speak priority="toolTip">Check for Unsatisfactory – rating must be supported by comments in item 14</speak>
+            <toolTip>Check for Unsatisfactory – rating must be supported by comments in item 14</toolTip>
+          </assist>
+          <event activity="click" name="event__click">
+            <script>NOT_EVALUATED4.rawValue = 0
+            SAT4.rawValue = 0
+            SUPERIOR4.rawValue = 0
+            </script>               
+          </event>               
+          <traversal>                  
+            <traverse ref="SAT4[0]"/>               
+          </traversal>            
+        </field>            
+        <field name="NOT_EVALUATED4" w="3.548mm" h="3.567mm" x="110.733mm" y="80.924mm">               
+          <ui>                  
+            <checkButton>                     
+              <border>                        
+                <edge/>                        
+                <fill/>                     
+              </border>                  
+            </checkButton>               
+          </ui>               
+          <font typeface="Times New Roman"/>               
+          <margin leftInset="0mm" rightInset="0mm"/>               
+          <para vAlign="middle"/>               
+          <value>                  
+            <integer>0</integer>
+          </value>
+          <items>
+            <integer>1</integer>
+            <integer>0</integer>
+            <integer>2</integer>
+          </items>
+          <border/>
+          <event activity="click" name="event__click">
+            <script>UNSAT4.rawValue = 0
+            SAT4.rawValue = 0
+            SUPERIOR4.rawValue = 0
+            </script>               
+          </event>               
+          <assist>                  
+            <speak priority="toolTip">Check for Not evaluated.</speak>
+            <toolTip>Check for Not evaluated</toolTip>
+          </assist>
+          <traversal>
+            <traverse ref="UNSAT4[0]"/>
+          </traversal>
+        </field>
+        <field name="SUPERIOR5" w="3.548mm" h="3.567mm" x="177.583mm" y="90.164mm">
+          <ui>
+            <checkButton>
+              <border>
+                <edge/>
+                <fill/>
+              </border>
+            </checkButton>
+          </ui>
+          <font typeface="Times New Roman"/>
+          <margin leftInset="0mm" rightInset="0mm"/>
+          <para vAlign="middle"/>
+          <value>
+            <integer>0</integer>
+          </value>
+          <items>
+            <integer>1</integer>
+            <integer>0</integer>
+            <integer>2</integer>
+          </items>
+          <border/>
+          <assist>
+            <speak priority="toolTip">Check for Superior – rating must be supported by comments in item 14</speak>
+            <toolTip>Check for Superior – rating must be supported by comments in item 14</toolTip>
+          </assist>
+          <event activity="click" name="event__click">
+            <script>NOT_EVALUATED5.rawValue = 0
+            UNSAT5.rawValue = 0
+            SAT5.rawValue = 0
+            </script>               
+          </event>               
+          <traversal>                  
+            <traverse ref="Academic_Potential_Yes[0]"/>               
+          </traversal>            
+        </field>            
+        <field name="SAT5" w="3.548mm" h="3.567mm" x="162.049mm" y="90.164mm">               
+          <ui>                  
+            <checkButton>                     
+              <border>                        
+                <edge/>                        
+                <fill/>                     
+              </border>                  
+            </checkButton>               
+          </ui>               
+          <font typeface="Times New Roman"/>               
+          <margin leftInset="0mm" rightInset="0mm"/>               
+          <para vAlign="middle"/>               
+          <value>                  
+            <integer>0</integer>
+          </value>
+          <items>
+            <integer>1</integer>
+            <integer>0</integer>
+            <integer>2</integer>
+          </items>
+          <border/>
+          <assist>
+            <speak priority="toolTip">Check for Satisfactory</speak>
+            <toolTip>Check for Satisfactory</toolTip>
+          </assist>
+          <event activity="click" name="event__click">
+            <script>NOT_EVALUATED5.rawValue = 0
+            UNSAT5.rawValue = 0
+            SUPERIOR5.rawValue = 0
+            </script>               
+          </event>               
+          <traversal>                  
+            <traverse ref="SUPERIOR5[0]"/>               
+          </traversal>            
+        </field>            
+        <field name="UNSAT5" w="3.548mm" h="3.567mm" x="142.929mm" y="90.164mm">               
+          <ui>                  
+            <checkButton>                     
+              <border>                        
+                <edge/>                        
+                <fill/>                     
+              </border>                  
+            </checkButton>               
+          </ui>               
+          <font typeface="Times New Roman"/>               
+          <margin leftInset="0mm" rightInset="0mm"/>               
+          <para vAlign="middle"/>               
+          <value>                  
+            <integer>0</integer>
+          </value>
+          <items>
+            <integer>1</integer>
+            <integer>0</integer>
+            <integer>2</integer>
+          </items>
+          <border/>
+          <assist>
+            <speak priority="toolTip">Check for Unsatisfactory – rating must be supported by comments in item 14</speak>
+            <toolTip>Check for Unsatisfactory – rating must be supported by comments in item 14</toolTip>
+          </assist>
+          <event activity="click" name="event__click">
+            <script>NOT_EVALUATED5.rawValue = 0
+            SAT5.rawValue = 0
+            SUPERIOR5.rawValue = 0
+            </script>               
+          </event>               
+          <traversal>                  
+            <traverse ref="SAT5[0]"/>               
+          </traversal>            
+        </field>            
+        <field name="NOT_EVALUATED5" w="3.548mm" h="3.567mm" x="110.733mm" y="90.164mm">               
+          <ui>                  
+            <checkButton>                     
+              <border>                        
+                <edge/>                        
+                <fill/>                     
+              </border>                  
+            </checkButton>               
+          </ui>               
+          <font typeface="Times New Roman"/>               
+          <margin leftInset="0mm" rightInset="0mm"/>               
+          <para vAlign="middle"/>               
+          <value>                  
+            <integer>0</integer>
+          </value>
+          <items>
+            <integer>1</integer>
+            <integer>0</integer>
+            <integer>2</integer>
+          </items>
+          <border/>
+          <event activity="click" name="event__click">
+            <script>UNSAT5.rawValue = 0
+            SAT5.rawValue = 0
+            SUPERIOR5.rawValue = 0
+            </script>               
+          </event>               
+          <assist>                  
+            <speak priority="toolTip">Check for Not evaluated.</speak>
+            <toolTip>Check for Not evaluated</toolTip>
+          </assist>
+          <traversal>
+            <traverse ref="UNSAT5[0]"/>
+          </traversal>
+        </field>
+        <field name="Rater_Signature" y="225.17mm" x="139.882mm" w="57.837mm" h="7.763mm">
+          <ui>
+            <signature type="PDF1.6">
+              <border presence="hidden"/>
+              <margin/>
+              <manifest use="#fe1bcad7-820a-4c14-aa9c-0342e632fd70"/>
+            </signature>
+          </ui>
+          <font typeface="Times New Roman"/>
+          <margin topInset="0mm" bottomInset="0mm" leftInset="0mm" rightInset="0mm"/>
+          <para vAlign="middle"/>
+          <bind match="none"/>
+          <traversal>
+            <traverse ref="Typed_Name_Grade_Review[0]"/>
+          </traversal>
+          <assist>
+            <toolTip>Click to digitally sign the form. The date will auto populate after signing.</toolTip>
+            <speak>Click to digital sign the form.</speak>
+          </assist>
+          <event activity="mouseDown" name="event__mouseDown">
+            <script contentType="application/x-javascript">
+              var question = xfa.host.messageBox("If you have a Common Access Card (CAC) to digitally sign this field, please select Yes. If not, please select No and apply a manual signature when required.\n\nCompleted evaluation forms, will be mailed to the following address for further processing:\n\nU.S. Army Human Resources Command\nATTN: AHRC-PDV-ER\n1600 Spearhead Division Avenue, Department 470\nFort Knox, KY 40122-5407\n\n", "Question?", 3,2);
+
+              if(question==3){
+              form1.Page1.Rater_Signature.access ="readOnly";
+              xfa.host.resetData("xfa.form.form1.Page1.Rater_Signature");
+              form1.Page1.Rater_Signature.rawValue="";
+              }
+              else{
+              form1.Page1.Rater_Signature.rawValue="";
+              form1.Page1.Rater_Signature.access ="open";
+              
+              }
+              
+              if(question==2){
+              form1.Page1.Rater_Signature.access ="open";
+              }
+            </script>               
+          </event>               
+          <event activity="preSign" name="event__preSign">                  
+            <script contentType="application/x-javascript">
+              xfa.host.messageBox("Your digital signature has the same legal effect and consequences as a hand written signature.", "", 1,0);
+            </script>               
+          </event>               
+          <event activity="change" name="event__change">                  
+            <script contentType="application/x-javascript">
+              try{
+              var getSigField = event.target.getField("form1[0].Page1[0].Rater_Signature[0]");
+              var oState =getSigField.signatureValidate();
+
+              var signDate = new Date();
+              var Month = signDate.getMonth()+1; //Add 1 because there are 12 months and the first month is 0 for January, December being 11 (0-11 months)
+              var Day = signDate.getDate();
+              var Year = signDate.getFullYear();
+
+              // Get the current field's signed state. 
+              if (oState == 0) { 
+              form1.Page1.RaterDate.rawValue = "";
+              } else {
+              form1.Page1.RaterDate.rawValue = util.printd("yyyymmdd", new Date());
+              }
+              }
+
+              catch(e){app.alert(e)
+              }
+            </script>               
+          </event>               
+          <event activity="exit" name="event__exit">                  
+            <script contentType="application/x-javascript">
+              if(form1.Page1.Rater_Signature.rawValue==null){
+              form1.Page1.RaterDate.rawValue=" ";
+              } 
+              
+            </script>               
+          </event>            
+        </field>            
+        <field name="Reviewing_Signature" y="238.074mm" x="139.882mm" w="57.837mm" h="7.763mm">               
+          <ui>                  
+            <signature type="PDF1.6">                     
+              <border presence="hidden"/>                     
+              <margin/>                     
+              <manifest use="#8e175e59-1d15-4b4d-ad30-46afcda3bcf2"/>                  
+            </signature>               
+          </ui>               
+          <font typeface="Times New Roman"/>               
+          <margin topInset="0mm" bottomInset="0mm" leftInset="0mm" rightInset="0mm"/>               
+          <para vAlign="middle"/>               
+          <bind match="none"/>               
+          <event activity="change" name="event__change">                  
+            <script contentType="application/x-javascript">
+              try{
+              var getSigField = event.target.getField("form1[0].Page1[0].Reviewing_Signature[0]");
+              var oState =getSigField.signatureValidate();
+
+              var signDate = new Date();
+              var Month = signDate.getMonth()+1; //Add 1 because there are 12 months and the first month is 0 for January, December being 11 (0-11 months)
+              var Day = signDate.getDate();
+              var Year = signDate.getFullYear();
+
+              // Get the current field's signed state. 
+              if (oState == 0) { 
+              form1.Page1.ReviewerDate.rawValue = "";
+              } else {
+              form1.Page1.ReviewerDate.rawValue = util.printd("yyyymmdd", new Date());
+              }
+              }
+              catch(e){app.alert(e)
+              }
+            </script>               
+          </event>               
+          <traversal>                  
+            <traverse ref="RatedSoldierDate[0]"/>               
+          </traversal>               
+          <assist>                  
+            <toolTip>Click to digitally sign the form. The date will auto populate after signing.</toolTip>
+            <speak>Click to digital sign the form.</speak>
+          </assist>
+          <event activity="mouseDown" name="event__mouseDown">
+            <script contentType="application/x-javascript">
+              var question = xfa.host.messageBox("If you have a Common Access Card (CAC) to digitally sign this field, please select Yes. If not, please select No and apply a manual signature when required.\n\nCompleted evaluation forms, will be mailed to the following address for further processing:\n\nU.S. Army Human Resources Command\nATTN: AHRC-PDV-ER\n1600 Spearhead Division Avenue, Department 470\nFort Knox, KY 40122-5407\n\n", "Question?", 3,2);
+
+              if(question==3){
+              form1.Page1.Reviewing_Signature.access ="readOnly";
+              xfa.host.resetData("xfa.form.form1.Page1.Reviewing_Signature");
+              form1.Page1.Reviewing_Signature.rawValue="";
+              }
+              else{
+              form1.Page1.Reviewing_Signature.rawValue="";
+              form1.Page1.Reviewing_Signature.access ="open";
+              
+              }
+              
+              if(question==2){
+              form1.Page1.Reviewing_Signature.access ="open";
+              }
+            </script>               
+          </event>               
+          <event activity="preSign" name="event__preSign">                  
+            <script contentType="application/x-javascript">
+              xfa.host.messageBox("Your digital signature has the same legal effect and consequences as a hand written signature.", "", 1,0);
+            </script>               
+          </event>               
+          <event activity="exit" name="event__exit">                  
+            <script contentType="application/x-javascript">
+              if(form1.Page1.Reviewing_Signature.rawValue==null){
+              form1.Page1.ReviewerDate.rawValue=" ";
+              } 
+            </script>               
+          </event>            
+        </field>            
+        <field name="RatedSoldier_Signature" y="250.912mm" x="88.573mm" w="109.146mm" h="7.763mm">               
+          <ui>                  
+            <signature type="PDF1.6">                     
+              <border presence="hidden"/>                     
+              <margin/>                     
+              <manifest use="#300be2d0-8c6e-4332-ab27-40e258062aa8"/>                  
+            </signature>               
+          </ui>               
+          <font typeface="Times New Roman"/>               
+          <margin topInset="0mm" bottomInset="0mm" leftInset="0mm" rightInset="0mm"/>               
+          <para vAlign="middle"/>               
+          <bind match="none"/>               
+          <traversal>                  
+            <traverse ref="T99[0]"/>               
+          </traversal>               
+          <assist>                  
+            <toolTip>Click to digitally sign the form. The date will auto populate after signing.</toolTip>
+            <speak>Click to digital sign the form.</speak>
+          </assist>
+          <event activity="mouseDown" name="event__mouseDown">
+            <script contentType="application/x-javascript">
+              var question = xfa.host.messageBox("If you have a Common Access Card (CAC) to digitally sign this field, please select Yes. If not, please select No and apply a manual signature when required.\n\nCompleted evaluation forms, will be mailed to the following address for further processing:\n\nU.S. Army Human Resources Command\nATTN: AHRC-PDV-ER\n1600 Spearhead Division Avenue, Department 470\nFort Knox, KY 40122-5407\n\n", "Question?", 3,2);
+
+              if(question==3){
+              form1.Page1.Rated_Soldier_Signature.access ="readOnly";
+              xfa.host.resetData("xfa.form.form1.Page1.Rated_Soldier_Signature");
+              form1.Page1.Rated_Soldier_Signature.rawValue="";
+              }
+              else{
+              form1.Page1.Rated_Soldier_Signature.rawValue="";
+              form1.Page1.Rated_Soldier_Signature.access ="open";
+              
+              }
+              
+              if(question==2){
+              form1.Page1.Rated_Soldier_Signature.access ="open";
+              }
+            </script>               
+          </event>               
+          <event activity="preSign" name="event__preSign">                  
+            <script contentType="application/x-javascript">
+              xfa.host.messageBox("Your digital signature has the same legal effect and consequences as a hand written signature.", "", 1,0);
+            </script>               
+          </event>               
+          <event activity="exit" name="event__exit">                  
+            <script contentType="application/x-javascript">
+              if(form1.Page1.RatedSoldier_Signature.rawValue==null){
+              form1.Page1.RatedSoldierDate.rawValue=" ";
+              }
+              xfa.host.setFocus(form1.Page1.Todays_Date);
+            </script>               
+          </event>               
+          <event activity="change" name="event__change">                  
+            <script contentType="application/x-javascript">
+              try{
+              var getSigField = event.target.getField("form1[0].Page1[0].Reviewing_Signature[0]");
+              var oState =getSigField.signatureValidate();
+
+              var signDate = new Date();
+              var Month = signDate.getMonth()+1; //Add 1 because there are 12 months and the first month is 0 for January, December being 11 (0-11 months)
+              var Day = signDate.getDate();
+              var Year = signDate.getFullYear();
+
+              // Get the current field's signed state. 
+              if (oState == 0) { 
+              form1.Page1.RatedSoldierDate.rawValue = "";
+              } else {
+              form1.Page1.RatedSoldierDate.rawValue = util.printd("yyyymmdd", new Date());
+              }
+              }
+              catch(e){app.alert(e)
+              }
+            </script>               
+          </event>            
+        </field>            
+        <field name="Academic_Potential_Yes" w="3.545mm" h="3.547mm" x="13.58mm" y="105.621mm">               
+          <ui>                  
+            <checkButton>                     
+              <border>                        
+                <edge/>                        
+                <fill/>                     
+              </border>                  
+            </checkButton>               
+          </ui>               
+          <font typeface="Times New Roman"/>               
+          <margin leftInset="0mm" rightInset="0mm"/>               
+          <para vAlign="middle"/>               
+          <value>                  
+            <integer>0</integer>
+          </value>
+          <items>
+            <integer>1</integer>
+            <integer>0</integer>
+            <integer>2</integer>
+          </items>
+          <border/>
+          <event activity="click" name="event__click">
+            <script>Academic_Potential_No.rawValue = 0
+            NA.rawValue = 0
+            </script>               
+          </event>               
+          <traversal>                  
+            <traverse ref="Academic_Potential_No[0]"/>               
+          </traversal>               
+          <assist>                  
+            <toolTip>Select for Yes</toolTip>
+            <speak priority="toolTip">Select for Yes</speak>
+          </assist>
+        </field>
+        <field name="Academic_Potential_No" w="3.545mm" h="3.547mm" x="35.267mm" y="105.621mm">
+          <ui>
+            <checkButton>
+              <border>
+                <edge/>
+                <fill/>
+              </border>
+            </checkButton>
+          </ui>
+          <font typeface="Times New Roman"/>
+          <margin leftInset="0mm" rightInset="0mm"/>
+          <para vAlign="middle"/>
+          <value>
+            <integer>0</integer>
+          </value>
+          <items>
+            <integer>1</integer>
+            <integer>0</integer>
+            <integer>2</integer>
+          </items>
+          <border/>
+          <event activity="click" name="event__click">
+            <script>Academic_Potential_Yes.rawValue = 0
+            NA.rawValue = 0
+            </script>               
+          </event>               
+          <traversal>                  
+            <traverse ref="NA[0]"/>               
+          </traversal>               
+          <assist>                  
+            <toolTip>Select for No – Supply comments in item 14</toolTip>
+            <speak priority="toolTip">Select for No – Supply comments in item 14</speak>
+          </assist>
+        </field>
+        <field name="NA" w="3.545mm" h="3.547mm" y="105.621mm" x="56.779mm">
+          <ui>
+            <checkButton>
+              <border>
+                <edge/>
+                <fill/>
+              </border>
+            </checkButton>
+          </ui>
+          <font typeface="Times New Roman"/>
+          <margin leftInset="0mm" rightInset="0mm"/>
+          <para vAlign="middle"/>
+          <value>
+            <integer>0</integer>
+          </value>
+          <items>
+            <integer>1</integer>
+            <integer>0</integer>
+            <integer>2</integer>
+          </items>
+          <border/>
+          <event activity="click" name="event__click">
+            <script>Academic_Potential_No.rawValue = 0
+            Academic_Potential_Yes.rawValue = 0
+            </script>               
+          </event>               
+          <traversal>                  
+            <traverse ref="Comments[0]"/>               
+          </traversal>               
+          <assist>                  
+            <toolTip>Select for Not Applicable</toolTip>
+            <speak priority="toolTip">Select for Not Applicable</speak>
+          </assist>
+        </field>
+        <traversal>
+          <traverse operation="first" ref="Todays_Date[0]"/>
+        </traversal>
+        <event activity="docReady" ref="$host" name="event__docReady">
+          <script contentType="application/x-javascript">if (!app.runtimeHighlight){
+          app.runtimeHighlight = true;
+          }
+          </script>            
+        </event>
+        <?templateDesigner expand 0?>            
+        <draw name="R175" y="14.292mm" x="4.233mm" w="194.733mm" h="0in">               
+          <value>                  
+            <line>                     
+              <edge thickness="0.3528mm"/>                  
+            </line>               
+          </value>            
+        </draw>            
+        <draw name="Text1" x="148.25mm" y="14.731mm" w="15.347mm" h="3.452mm">               
+          <ui>                  
+            <textEdit/>               
+          </ui>               
+          <value>                  
+            <text>4. BRANCH</text>
+          </value>
+          <font size="8pt" typeface="Arial"/>
+          <margin topInset="0.1764mm" bottomInset="0mm" leftInset="0mm" rightInset="0mm"/>
+          <traversal>
+            <traverse ref="RankdrpdwnListBox2[0]"/>
+          </traversal>
+          <para vAlign="middle"/>
+          <?renderCache.bounds 43503 9285 0 0 0 500 0 0?>
+          <?renderCache.textRun 9 4. BRANCH 0 0 7458 0 0 0 "Arial" 0 0 8000 ISO-8859-1?>
+
+        </draw>
+        <field name="Branch" y="18.517mm" x="148.25mm" w="15.347mm" h="3.529mm" hAlign="center">
+          <ui>
+            <textEdit/>
+          </ui>
+          <font typeface="Times New Roman"/>
+          <assist>
+            <speak priority="toolTip">Type the Branch</speak>
+            <toolTip>Type the Branch</toolTip>
+          </assist>
+          <margin topInset="0mm" rightInset="0mm" leftInset="0mm"/>
+          <bind match="none"/>
+          <event activity="prePrint" ref="$host" name="event__prePrint">
+            <script contentType="application/x-javascript"/>
+          </event>
+          <value>
+            <text maxChars="2"/>
+          </value>
+          <event activity="change" name="event__change">
+            <script contentType="application/x-javascript">xfa.event.change = xfa.event.change.toUpperCase();
+            </script>               
+          </event>               
+          <para hAlign="center"/>               
+          <traversal>                  
+            <traverse ref="SPECIALTY_MOSC[0]"/>               
+          </traversal>            
+        </field>            
+        <draw name="Text1" x="179.216mm" y="23.685mm" minH="2.823mm" minW="12.345mm">               
+          <ui>                  
+            <textEdit/>               
+          </ui>               
+          <value>                  
+            <text>8. COMPONENT</text>
+          </value>
+          <font size="7pt" typeface="Arial" baselineShift="0pt"/>
+          <margin topInset="0mm" bottomInset="0mm" leftInset="0mm" rightInset="0mm"/>
+          <para spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" marginLeft="0pt" marginRight="0pt"/>
+          <traversal>
+            <traverse ref="Component1BK[0]"/>
+          </traversal>
+        </draw>
+        <draw name="T371" x="48.165mm" y="39.749mm" minH="1.414mm" minW="31.393mm">
+          <value>
+            <text>Yes, comments are attached</text>
+          </value>
+          <ui>
+            <textEdit/>
+          </ui>
+          <para vAlign="middle"/>
+          <font size="8pt" typeface="Arial"/>
+          <traversal>
+            <traverse ref="T371[1]"/>
+          </traversal>
+        </draw>
+        <draw name="T161" x="14.496mm" y="39.749mm" minH="2.084mm" minW="8.733mm">
+          <value>
+            <text>Referred</text>
+          </value>
+          <ui>
+            <textEdit/>
+          </ui>
+          <para vAlign="middle" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" marginLeft="0pt" marginRight="0pt"/>
+          <font size="8pt" typeface="Arial" baselineShift="0pt"/>
+        </draw>
+        <field name="Referred_Report1" w="4.251mm" h="4.235mm" x="9.45mm" y="38.878mm">
+          <ui>
+            <checkButton size="4.2333mm">
+              <border>
+                <edge/>
+                <fill/>
+              </border>
+            </checkButton>
+          </ui>
+          <font typeface="Times New Roman"/>
+          <margin leftInset="0mm" rightInset="0mm"/>
+          <para vAlign="middle"/>
+          <value>
+            <integer>0</integer>
+          </value>
+          <items>
+            <integer>1</integer>
+            <integer>0</integer>
+            <integer>2</integer>
+          </items>
+          <border/>
+          <assist>
+            <speak priority="toolTip">Check for Referred.</speak>
+            <toolTip>Check for Referred.</toolTip>
+          </assist>
+          <event activity="change" name="event__change">
+            <script contentType="application/x-javascript">if(Referred_Report1.rawValue == "1"){
+            Referred_Report2.access = "open";
+            Referred_Report3.access = "open";
+            
+            }
+            else{
+            Referred_Report2.access = "readOnly";
+            Referred_Report2.rawValue=null;
+            Referred_Report3.access = "readOnly";
+            Referred_Report3.rawValue=null;
+            
+            }
+            </script>               
+          </event>               
+          <traversal>                  
+            <traverse ref="Referred_Report2[0]"/>               
+          </traversal>            
+        </field>            
+        <field name="Referred_Report2" w="4.251mm" h="4.235mm" x="43.065mm" y="38.878mm" access="readOnly">               
+          <ui>                  
+            <checkButton size="4.2333mm">                     
+              <border>                        
+                <edge/>                        
+                <fill/>                     
+              </border>                  
+            </checkButton>               
+          </ui>               
+          <font typeface="Times New Roman"/>               
+          <margin leftInset="0mm" rightInset="0mm"/>               
+          <para vAlign="middle"/>               
+          <value>                  
+            <integer>0</integer>
+          </value>
+          <items>
+            <integer>1</integer>
+            <integer>0</integer>
+            <integer>2</integer>
+          </items>
+          <border/>
+          <event activity="click" name="event__click">
+            <script contentType="application/x-javascript">if(this.rawValue == 1)
+            {   
+            Referred_Report3.rawValue = 0;
+            }
+            </script>               
+          </event>               
+          <assist>                  
+            <speak priority="toolTip">Check for Yes, comments are attached</speak>
+            <toolTip>Check for Yes, comments are attached</toolTip>
+          </assist>
+          <traversal>
+            <traverse ref="Referred_Report3[0]"/>
+          </traversal>
+        </field>
+        <draw name="T371" x="92.318mm" y="39.749mm" minH="2.084mm" minW="3.527mm">
+          <value>
+            <text>No</text>
+          </value>
+          <ui>
+            <textEdit/>
+          </ui>
+          <para vAlign="middle"/>
+          <font size="8pt" typeface="Arial"/>
+          <traversal>
+            <traverse ref="T161[0]"/>
+          </traversal>
+        </draw>
+        <field name="Referred_Report3" w="4.251mm" h="4.235mm" x="87.07mm" y="38.878mm" access="readOnly">
+          <ui>
+            <checkButton size="4.2333mm">
+              <border>
+                <edge/>
+                <fill/>
+              </border>
+            </checkButton>
+          </ui>
+          <font typeface="Times New Roman"/>
+          <margin leftInset="0mm" rightInset="0mm"/>
+          <para vAlign="middle"/>
+          <value>
+            <integer>0</integer>
+          </value>
+          <items>
+            <integer>1</integer>
+            <integer>0</integer>
+            <integer>2</integer>
+          </items>
+          <border/>
+          <event activity="click" name="event__click">
+            <script contentType="application/x-javascript">if(this.rawValue == 1)
+            {   
+            Referred_Report2.rawValue = 0;
+            }
+            </script>               
+          </event>               
+          <assist>                  
+            <speak priority="toolTip">Check for No</speak>
+            <toolTip>Check for No</toolTip>
+          </assist>
+          <traversal>
+            <traverse ref="From[0]"/>
+          </traversal>
+        </field>
+        <field name="Component1" y="27.112mm" x="179.216mm" w="18.69mm" h="3.529mm">
+          <ui>
+            <choiceList>
+              <border presence="hidden">
+                <?templateDesigner StyleID aped0?>
+              </border>
+            </choiceList>
+          </ui>
+          <font typeface="Times New Roman"/>
+          <margin leftInset="0.762mm" rightInset="0.508mm" topInset="0mm"/>
+          <para vAlign="middle"/>
+          <assist>
+            <speak priority="toolTip">Select Component from the drop down menu</speak>
+            <toolTip>Select Component from the drop down menu</toolTip>
+          </assist>
+          <traversal>
+            <traverse ref="Referred_Report1[0]"/>
+          </traversal>
+          <items>
+            <text> 
+            </text>
+          </items>
+          <items save="1" presence="hidden">
+            <text>4</text>
+          </items>
+          <event activity="mouseDown" name="event__mouseDown">
+            <script contentType="application/x-javascript">
+              Component1BK.presence="visible";
+              xfa.host.openList(form1.Page1.Component1BK);
+              Component1BK.fillColor = "255, 255, 255";
+              Component1BK.h="1.00"
+              Component1BK.w="1.42"
+              Component1BK.x="6.34"
+              xfa.host.setFocus(Component1BK);
+            </script>               
+          </event>               
+          <event activity="enter" name="event__enter">                  
+            <script contentType="application/x-javascript">
+              //Component1BK.fillColor = "255, 255, 255";
+            </script>               
+          </event>               
+          <event activity="exit" name="event__exit">                  
+            <script contentType="application/x-javascript">
+              Component1.para.hAlign = "center";
+              this.rawValue=this.rawValue.toUpperCase();
+              Component1.value.text.maxChars = "4";
+            </script>               
+          </event>               
+          <event activity="mouseEnter" name="event__mouseEnter">                  
+            <script contentType="application/x-javascript">
+              //Component1BK.fillColor = "255, 255, 255";
+            </script>               
+          </event>               
+          <event activity="click" name="event__click">                  
+            <script contentType="application/x-javascript">
+              Component1BK.presence="visible";
+              xfa.host.openList(form1.Page1.Component1BK);
+              Component1BK.fillColor = "255, 255, 255";
+              Component1BK.h="1.00"
+              Component1BK.w="1.42"
+              Component1BK.x="6.34"
+              xfa.host.setFocus(Component1BK);
+            </script>               
+          </event>            
+        </field>            
+        <field w="17.343mm" h="3.529mm" x="128.296mm" y="18.517mm" name="aRank1dropdwnList2">               
+          <ui>                  
+            <choiceList commitOn="select">                     
+              <border presence="hidden">
+                <?templateDesigner StyleID aped0?>
+              </border>                     
+              <margin/>                  
+            </choiceList>               
+          </ui>               
+          <font typeface="Times New Roman"/>               
+          <margin topInset="0mm" bottomInset="0mm" leftInset="0.254mm" rightInset="0mm"/>               
+          <para vAlign="middle" hAlign="center"/>               
+          <traversal>                  
+            <traverse ref="Branch[0]"/>               
+          </traversal>               
+          <event activity="click" name="event__click">                  
+            <script contentType="application/x-javascript">
+              RankdrpdwnListBox2.presence="visible";
+              xfa.host.openList(form1.Page1.RankdrpdwnListBox2);
+              RankdrpdwnListBox2.fillColor = "255, 255, 255";
+              RankdrpdwnListBox2.h="4.80"
+              RankdrpdwnListBox2.w="2.65"
+              RankdrpdwnListBox2.x="3.05"
+              xfa.host.setFocus(RankdrpdwnListBox2);
+            </script>               
+          </event>               
+          <items/>               
+          <items save="1" presence="hidden"/>               
+          <assist>                  
+            <speak priority="toolTip">Select the appropriate Rank from the drop down menu</speak>
+            <toolTip>Select the appropriate Rank from the drop down menu</toolTip>
+          </assist>
+          <event activity="mouseDown" name="event__mouseDown">
+            <script contentType="application/x-javascript">
+              RankdrpdwnListBox2.presence="visible";
+              xfa.host.openList(form1.Page1.RankdrpdwnListBox2);
+              RankdrpdwnListBox2.fillColor = "255, 255, 255";
+              RankdrpdwnListBox2.h="4.80"
+              RankdrpdwnListBox2.w="2.65"
+              RankdrpdwnListBox2.x="3.05"
+              xfa.host.setFocus(RankdrpdwnListBox2);
+
+
+            </script>               
+          </event>               
+          <event activity="enter" name="event__enter">                  
+            <script contentType="application/x-javascript">
+              RankdrpdwnListBox2.fillColor = "255, 255, 255";
+
+            </script>               
+          </event>               
+          <event activity="exit" name="event__exit">                  
+            <script contentType="application/x-javascript">
+              this.rawValue=this.rawValue.toUpperCase();
+            </script>               
+          </event>               
+          <event activity="mouseEnter" name="event__mouseEnter">                  
+            <script contentType="application/x-javascript">
+              RankdrpdwnListBox2.fillColor = "255, 255, 255";
+            </script>               
+          </event>               
+          <event activity="change" name="event__change">                  
+            <script contentType="application/x-javascript">if(xfa.event.newText.length &gt;4)xfa.event.change = "";
+            </script>               
+          </event>            
+        </field>            
+        <field name="RankdrpdwnListBox2" y="22.163mm" x="128.296mm" w="17.343mm" h="3.528mm">               
+          <ui>                  
+            <choiceList open="always">                     
+              <border>
+                <?templateDesigner StyleID aped2?>
+              </border>                     
+              <margin/>                  
+            </choiceList>               
+          </ui>               
+          <font typeface="Times New Roman"/>               
+          <margin topInset="0mm" bottomInset="0mm" leftInset="0.254mm" rightInset="0.254mm"/>               
+          <assist>                  
+            <speak>c. enter grade or rank.</speak>
+          </assist>
+          <event activity="exit" name="event__exit">
+            <script contentType="application/x-javascript">
+              RankdrpdwnListBox2.presence="invisible";
+              RankdrpdwnListBox2.fillColor = "255, 255, 255";
+              xfa.host.setFocus(aRank1dropdwnList2);
+
+            </script>               
+          </event>               
+          <event activity="mouseDown" name="event__mouseDown">                  
+            <script contentType="application/x-javascript">
+              RankdrpdwnListBox2.fillColor = "255, 255, 255";
+            </script>               
+          </event>               
+          <event activity="enter" name="event__enter">                  
+            <script contentType="application/x-javascript">
+              RankdrpdwnListBox2.fillColor = "255, 255, 255";
+            </script>               
+          </event>               
+          <event activity="initialize" name="event__initialize">                  
+            <script contentType="application/x-javascript">
+              RankdrpdwnListBox2.presence="invisible";
+            </script>               
+          </event>               
+          <event activity="change" name="event__change">                  
+            <script contentType="application/x-javascript">
+              if(RankdrpdwnListBox2.boundItem(xfa.event.newText)== "1"){
+              this.resolveNode("aRank1dropdwnList2").rawValue="WO1";
+              aRank1dropdwnList2.resolveNode("ui.#choiceList").textEntry = "";
+	            }
+              else if(RankdrpdwnListBox2.boundItem(xfa.event.newText)== "2"){
+              this.resolveNode("aRank1dropdwnList2").rawValue="CW2";
+              aRank1dropdwnList2.resolveNode("ui.#choiceList").textEntry = "";
+	            }
+
+              else if(RankdrpdwnListBox2.boundItem(xfa.event.newText)== "3"){
+              this.resolveNode("aRank1dropdwnList2").rawValue = "CW2P";
+              aRank1dropdwnList2.resolveNode("ui.#choiceList").textEntry = "";
+
+              }	
+              else if(RankdrpdwnListBox2.boundItem(xfa.event.newText)== "4"){
+              this.resolveNode("aRank1dropdwnList2").rawValue = "CW3";
+              aRank1dropdwnList2.resolveNode("ui.#choiceList").textEntry = "";
+              }
+              else if(RankdrpdwnListBox2.boundItem(xfa.event.newText)== "5"){
+              this.resolveNode("aRank1dropdwnList2").rawValue = "CW3P";
+              aRank1dropdwnList2.resolveNode("ui.#choiceList").textEntry = "";
+              }
+              else if(RankdrpdwnListBox2.boundItem(xfa.event.newText)== "6"){
+              this.resolveNode("aRank1dropdwnList2").rawValue = "CW4";
+              aRank1dropdwnList2.resolveNode("ui.#choiceList").textEntry = "";
+              }
+              else if(RankdrpdwnListBox2.boundItem(xfa.event.newText)== "7"){
+              this.resolveNode("aRank1dropdwnList2").rawValue = "CW4P";
+              aRank1dropdwnList2.resolveNode("ui.#choiceList").textEntry = "";
+              }
+              else if(RankdrpdwnListBox2.boundItem(xfa.event.newText)== "8"){
+              this.resolveNode("aRank1dropdwnList2").rawValue = "CW5";
+              aRank1dropdwnList2.resolveNode("ui.#choiceList").textEntry = "";
+              }
+              else if(RankdrpdwnListBox2.boundItem(xfa.event.newText)== "9"){
+              this.resolveNode("aRank1dropdwnList2").rawValue = "2LT";
+              aRank1dropdwnList2.resolveNode("ui.#choiceList").textEntry = "";
+              }		   
+              else if(RankdrpdwnListBox2.boundItem(xfa.event.newText)== "10"){
+              this.resolveNode("aRank1dropdwnList2").rawValue = "1LT";
+              aRank1dropdwnList2.resolveNode("ui.#choiceList").textEntry = "";
+              }
+              else if(RankdrpdwnListBox2.boundItem(xfa.event.newText)== "11"){
+              this.resolveNode("aRank1dropdwnList2").rawValue = "1LTP";
+              aRank1dropdwnList2.resolveNode("ui.#choiceList").textEntry = "";
+              }
+              else if(RankdrpdwnListBox2.boundItem(xfa.event.newText)== "12"){
+              this.resolveNode("aRank1dropdwnList2").rawValue = "CPT";
+              aRank1dropdwnList2.resolveNode("ui.#choiceList").textEntry = "";
+              }
+              else if(RankdrpdwnListBox2.boundItem(xfa.event.newText)== "13"){
+              this.resolveNode("aRank1dropdwnList2").rawValue = "CPTP";
+              aRank1dropdwnList2.resolveNode("ui.#choiceList").textEntry = "";
+              }
+              else if(RankdrpdwnListBox2.boundItem(xfa.event.newText)== "14"){
+              this.resolveNode("aRank1dropdwnList2").rawValue = "MAJ";
+              aRank1dropdwnList2.resolveNode("ui.#choiceList").textEntry = "";
+              }
+              else if(RankdrpdwnListBox2.boundItem(xfa.event.newText)== "15"){
+              this.resolveNode("aRank1dropdwnList2").rawValue = "MAJP";
+              aRank1dropdwnList2.resolveNode("ui.#choiceList").textEntry = "";
+              }
+              else if(RankdrpdwnListBox2.boundItem(xfa.event.newText)== "16"){
+              this.resolveNode("aRank1dropdwnList2").rawValue = "LTC";
+              aRank1dropdwnList2.resolveNode("ui.#choiceList").textEntry = "";
+              }
+              else if(RankdrpdwnListBox2.boundItem(xfa.event.newText)== "17"){
+              this.resolveNode("aRank1dropdwnList2").rawValue = "LTCP";
+              aRank1dropdwnList2.resolveNode("ui.#choiceList").textEntry = "";
+              }
+              else if(RankdrpdwnListBox2.boundItem(xfa.event.newText)== "18"){
+              this.resolveNode("aRank1dropdwnList2").rawValue = "COL";
+              aRank1dropdwnList2.resolveNode("ui.#choiceList").textEntry = "";
+              }
+              else if(RankdrpdwnListBox2.boundItem(xfa.event.newText)== "19"){
+              this.resolveNode("aRank1dropdwnList2").rawValue = "COLP";
+              aRank1dropdwnList2.resolveNode("ui.#choiceList").textEntry = "";
+              }
+              else if(RankdrpdwnListBox2.boundItem(xfa.event.newText)== "20"){
+              this.resolveNode("aRank1dropdwnList2").rawValue = "BG";
+              aRank1dropdwnList2.resolveNode("ui.#choiceList").textEntry = "";
+              }
+              else if(RankdrpdwnListBox2.boundItem(xfa.event.newText)== "21"){
+              this.resolveNode("aRank1dropdwnList2").rawValue = "BGP";
+              aRank1dropdwnList2.resolveNode("ui.#choiceList").textEntry = "";
+              }
+              else if(RankdrpdwnListBox2.boundItem(xfa.event.newText)== "22"){
+              this.resolveNode("aRank1dropdwnList2").rawValue = "MG";
+              aRank1dropdwnList2.resolveNode("ui.#choiceList").textEntry = "";
+              }
+              else if(RankdrpdwnListBox2.boundItem(xfa.event.newText)== "23"){
+              this.resolveNode("aRank1dropdwnList2").rawValue = "MGP";
+              aRank1dropdwnList2.resolveNode("ui.#choiceList").textEntry = "";
+              }
+              else if(RankdrpdwnListBox2.boundItem(xfa.event.newText)== "24"){
+              this.resolveNode("aRank1dropdwnList2").rawValue = "LTG";
+              aRank1dropdwnList2.resolveNode("ui.#choiceList").textEntry = "";
+              }
+              else if(RankdrpdwnListBox2.boundItem(xfa.event.newText)== "25"){
+              this.resolveNode("aRank1dropdwnList2").rawValue = "LTGP";
+              aRank1dropdwnList2.resolveNode("ui.#choiceList").textEntry = "";
+              }
+              else if(RankdrpdwnListBox2.boundItem(xfa.event.newText)== "26"){
+              this.resolveNode("aRank1dropdwnList2").rawValue = "GEN";
+              aRank1dropdwnList2.resolveNode("ui.#choiceList").textEntry = "";
+              }
+              else if(RankdrpdwnListBox2.boundItem(xfa.event.newText)== "27"){
+              this.resolveNode("aRank1dropdwnList2").rawValue = "";
+              aRank1dropdwnList2.resolveNode("ui.#choiceList").textEntry = "1";
+              } 
+  	  	  	  
+              RankdrpdwnListBox2.fillColor = "255, 255, 255";
+            </script>               
+          </event>               
+          <event activity="click" name="event__click">                  
+            <script contentType="application/x-javascript">
+              RankdrpdwnListBox2.fillColor = "255, 255, 255";
+              xfa.host.setFocus(aRank1dropdwnList2);
+              RankdrpdwnListBox2.presence="invisible";
+            </script>               
+          </event>               
+          <value>                  
+            <text>28</text>
+          </value>
+          <traversal>
+            <traverse ref="Text1[1]"/>
+          </traversal>
+          <items>
+            <text> 
+            </text>
+            <text>Warrant Officer 1</text>
+            <text>Chief Warrant Officer 2</text>
+            <text>Chief Warrant Officer 2 (Promotable)</text>
+            <text>Chief Warrant Officer 3</text>
+            <text>Chief Warrant Officer 3 (Promotable)</text>
+            <text>Chief Warrant Officer 4</text>
+            <text>Chief Warrant Officer 4 (Promotable)</text>
+            <text>Chief Warrant Officer 5</text>
+            <text>Second Lieutenant</text>
+            <text>First Lieutenant</text>
+            <text>First Lieutenant (Promotable)</text>
+            <text>Captain</text>
+            <text>Captain (Promotable)</text>
+            <text>Major</text>
+            <text>Major (Promotable)</text>
+            <text>Lieutenant Colonel </text>
+            <text>Lieutenant Colonel (Promotable)</text>
+            <text>Colonel</text>
+            <text>Colonel (Promotable)</text>
+            <text>Brigadier General </text>
+            <text>Brigadier General (Promotable)</text>
+            <text>Major General </text>
+            <text>Major General (Promotable)</text>
+            <text>Lieutenant General</text>
+            <text>Lieutenant General (Promotable)</text>
+            <text>General</text>
+            <text>Other</text>
+          </items>
+          <items save="1" presence="hidden">
+            <text>28</text>
+            <text>1</text>
+            <text>2</text>
+            <text>3</text>
+            <text>4</text>
+            <text>5</text>
+            <text>6</text>
+            <text>7</text>
+            <text>8</text>
+            <text>9</text>
+            <text>10</text>
+            <text>11</text>
+            <text>12</text>
+            <text>13</text>
+            <text>14</text>
+            <text>15</text>
+            <text>16</text>
+            <text>17</text>
+            <text>18</text>
+            <text>19</text>
+            <text>20</text>
+            <text>21</text>
+            <text>22</text>
+            <text>23</text>
+            <text>24</text>
+            <text>25</text>
+            <text>26</text>
+            <text>27</text>
+          </items>
+        </field>
+        <field name="Component1BK" y="30.625mm" x="180.098mm" w="18.69mm" h="3.529mm">
+          <ui>
+            <choiceList textEntry="1" open="always" commitOn="select">
+              <border>
+                <?templateDesigner StyleID aped2?>
+              </border>
+              <margin/>
+            </choiceList>
+          </ui>
+          <font typeface="Times New Roman"/>
+          <margin topInset="0mm" bottomInset="0mm" leftInset="0.508mm" rightInset="0.254mm"/>
+          <event activity="click" name="event__click">
+            <script contentType="application/x-javascript">
+              Component1BK.fillColor = "255, 255, 255";  
+              xfa.host.setFocus(Component1);
+              Component1BK.presence="invisible";
+
+
+
+            </script>               
+          </event>               
+          <event activity="initialize" name="event__initialize">                  
+            <script contentType="application/x-javascript">
+
+              Component1BK.presence="invisible";
+            </script>               
+          </event>               
+          <event activity="change" name="event__change">                  
+            <script contentType="application/x-javascript">
+              if(Component1BK.boundItem(xfa.event.newText)== "1"){
+              this.resolveNode("Component1").rawValue="RA";
+              Component1.resolveNode("ui.#choiceList").textEntry = "";
+	            }
+              else if(Component1BK.boundItem(xfa.event.newText)== "2"){
+              this.resolveNode("Component1").rawValue="USAR";
+              Component1.resolveNode("ui.#choiceList").textEntry = "";
+	            }
+              else if(Component1BK.boundItem(xfa.event.newText)== "3"){
+              this.resolveNode("Component1").rawValue="ARNG";
+              Component1.resolveNode("ui.#choiceList").textEntry = "";
+              }
+              else if(Component1BK.boundItem(xfa.event.newText)== "27"){
+              this.resolveNode("Component1").rawValue = "";
+              Component1.resolveNode("ui.#choiceList").textEntry = "1";
+              } 
+   	  	  	  
+              Component1BK.fillColor = "255, 255, 255";
+
+            </script>               
+          </event>               
+          <event activity="exit" name="event__exit">                  
+            <script contentType="application/x-javascript">
+
+              Component1BK.presence="invisible";
+              Component1BK.fillColor = "255, 255, 255";
+              xfa.host.setFocus(Component1);
+            </script>               
+          </event>               
+          <event activity="enter" name="event__enter">                  
+            <script contentType="application/x-javascript">
+              Component1BK.fillColor = "255, 255, 255";
+            </script>               
+          </event>               
+          <event activity="mouseDown" name="event__mouseDown">                  
+            <script contentType="application/x-javascript">
+              Component1BK.fillColor = "255, 255, 255";
+            </script>               
+          </event>               
+          <value>                  
+            <text>33</text>
+          </value>
+          <traversal>
+            <traverse ref="T371[0]"/>
+          </traversal>
+          <items>
+            <text> 
+            </text>
+            <text>Regular Army</text>
+            <text>US Army Reserve</text>
+            <text>Army National Guard</text>
+            <text>Other</text>
+          </items>
+          <items save="1" presence="hidden">
+            <text>33</text>
+            <text>1</text>
+            <text>2</text>
+            <text>3</text>
+            <text>27</text>
+          </items>
+        </field>
+      </subform>
+      <proto/>
+      <desc>
+        <text name="version">10.0.2.20120224.1.869952.867557</text>
+        <text name="creator">APD</text>
+        <text name="title">DA Form 1059, MAR 2014</text>
+        <text name="description">Service School Academic Evaluation Report</text>
+      </desc>
+      <variables>
+        <manifest name="Rater_Signature" id="fe1bcad7-820a-4c14-aa9c-0342e632fd70">
+          <ref>xfa[0].template[0].form1[0].Page1[0].Todays_Date[0]</ref>
+          <ref>xfa[0].template[0].form1[0].Page1[0].Name[0]</ref>
+          <ref>xfa[0].template[0].form1[0].Page1[0].SSN[0]</ref>
+          <ref>xfa[0].template[0].form1[0].Page1[0].SPECIALTY_MOSC[0]</ref>
+          <ref>xfa[0].template[0].form1[0].Page1[0].COURSE_TITLE[0]</ref>
+          <ref>xfa[0].template[0].form1[0].Page1[0].From[0]</ref>
+          <ref>xfa[0].template[0].form1[0].Page1[0].Thru[0]</ref>
+          <ref>xfa[0].template[0].form1[0].Page1[0].Typed_Name_Grade_Rater[0]</ref>
+          <ref>xfa[0].template[0].form1[0].Page1[0].Comments[0]</ref>
+          <ref>xfa[0].template[0].form1[0].Page1[0].Name_School[0]</ref>
+          <ref>xfa[0].template[0].form1[0].Page1[0].Performance_Summary1[0]</ref>
+          <ref>xfa[0].template[0].form1[0].Page1[0].Performance_Summary2[0]</ref>
+          <ref>xfa[0].template[0].form1[0].Page1[0].Performance_Summary3[0]</ref>
+          <ref>xfa[0].template[0].form1[0].Page1[0].Performance_Summary4[0]</ref>
+          <ref>xfa[0].template[0].form1[0].Page1[0].NOT_EVALUATED1[0]</ref>
+          <ref>xfa[0].template[0].form1[0].Page1[0].UNSAT1[0]</ref>
+          <ref>xfa[0].template[0].form1[0].Page1[0].SAT1[0]</ref>
+          <ref>xfa[0].template[0].form1[0].Page1[0].SUPERIOR1[0]</ref>
+          <ref>xfa[0].template[0].form1[0].Page1[0].SUPERIOR2[0]</ref>
+          <ref>xfa[0].template[0].form1[0].Page1[0].SAT2[0]</ref>
+          <ref>xfa[0].template[0].form1[0].Page1[0].UNSAT2[0]</ref>
+          <ref>xfa[0].template[0].form1[0].Page1[0].NOT_EVALUATED2[0]</ref>
+          <ref>xfa[0].template[0].form1[0].Page1[0].SUPERIOR3[0]</ref>
+          <ref>xfa[0].template[0].form1[0].Page1[0].SAT3[0]</ref>
+          <ref>xfa[0].template[0].form1[0].Page1[0].UNSAT3[0]</ref>
+          <ref>xfa[0].template[0].form1[0].Page1[0].NOT_EVALUATED3[0]</ref>
+          <ref>xfa[0].template[0].form1[0].Page1[0].SUPERIOR4[0]</ref>
+          <ref>xfa[0].template[0].form1[0].Page1[0].SAT4[0]</ref>
+          <ref>xfa[0].template[0].form1[0].Page1[0].UNSAT4[0]</ref>
+          <ref>xfa[0].template[0].form1[0].Page1[0].NOT_EVALUATED4[0]</ref>
+          <ref>xfa[0].template[0].form1[0].Page1[0].SUPERIOR5[0]</ref>
+          <ref>xfa[0].template[0].form1[0].Page1[0].SAT5[0]</ref>
+          <ref>xfa[0].template[0].form1[0].Page1[0].UNSAT5[0]</ref>
+          <ref>xfa[0].template[0].form1[0].Page1[0].NOT_EVALUATED5[0]</ref>
+          <ref>xfa[0].template[0].form1[0].Page1[0].Academic_Potential_Yes[0]</ref>
+          <ref>xfa[0].template[0].form1[0].Page1[0].Academic_Potential_No[0]</ref>
+          <ref>xfa[0].template[0].form1[0].Page1[0].NA[0]</ref>
+          <ref>xfa[0].template[0].form1[0].Page1[0].RankdrpdwnListBox2[0]</ref>
+          <ref>xfa[0].template[0].form1[0].Page1[0].aRank1dropdwnList2[0]</ref>
+          <ref>xfa[0].template[0].form1[0].Page1[0].Branch[0]</ref>
+          <ref>xfa[0].template[0].form1[0].Page1[0].Component1[0]</ref>
+          <ref>xfa[0].template[0].form1[0].Page1[0].Component1BK[0]</ref>
+          <ref>xfa[0].template[0].form1[0].Page1[0].Referred_Report1[0]</ref>
+          <ref>xfa[0].template[0].form1[0].Page1[0].Referred_Report2[0]</ref>
+          <ref>xfa[0].template[0].form1[0].Page1[0].Referred_Report3[0]</ref>
+          <ref>xfa[0].template[0].form1[0].Page1[0].Date1[0]</ref>
+        </manifest>
+        <manifest name="Reviewing_Signature" id="300be2d0-8c6e-4332-ab27-40e258062aa8">
+          <ref>xfa[0].template[0].form1[0].Page1[0].Todays_Date[0]</ref>
+          <ref>xfa[0].template[0].form1[0].Page1[0].Name[0]</ref>
+          <ref>xfa[0].template[0].form1[0].Page1[0].SSN[0]</ref>
+          <ref>xfa[0].template[0].form1[0].Page1[0].SPECIALTY_MOSC[0]</ref>
+          <ref>xfa[0].template[0].form1[0].Page1[0].COURSE_TITLE[0]</ref>
+          <ref>xfa[0].template[0].form1[0].Page1[0].From[0]</ref>
+          <ref>xfa[0].template[0].form1[0].Page1[0].Thru[0]</ref>
+          <ref>xfa[0].template[0].form1[0].Page1[0].Typed_Name_Grade_Rater[0]</ref>
+          <ref>xfa[0].template[0].form1[0].Page1[0].Typed_Name_Grade_Review[0]</ref>
+          <ref>xfa[0].template[0].form1[0].Page1[0].Comments[0]</ref>
+          <ref>xfa[0].template[0].form1[0].Page1[0].Performance_Summary1[0]</ref>
+          <ref>xfa[0].template[0].form1[0].Page1[0].Performance_Summary2[0]</ref>
+          <ref>xfa[0].template[0].form1[0].Page1[0].Performance_Summary3[0]</ref>
+          <ref>xfa[0].template[0].form1[0].Page1[0].Performance_Summary4[0]</ref>
+          <ref>xfa[0].template[0].form1[0].Page1[0].NOT_EVALUATED1[0]</ref>
+          <ref>xfa[0].template[0].form1[0].Page1[0].UNSAT1[0]</ref>
+          <ref>xfa[0].template[0].form1[0].Page1[0].SAT1[0]</ref>
+          <ref>xfa[0].template[0].form1[0].Page1[0].SUPERIOR1[0]</ref>
+          <ref>xfa[0].template[0].form1[0].Page1[0].SUPERIOR2[0]</ref>
+          <ref>xfa[0].template[0].form1[0].Page1[0].SAT2[0]</ref>
+          <ref>xfa[0].template[0].form1[0].Page1[0].UNSAT2[0]</ref>
+          <ref>xfa[0].template[0].form1[0].Page1[0].NOT_EVALUATED2[0]</ref>
+          <ref>xfa[0].template[0].form1[0].Page1[0].SUPERIOR3[0]</ref>
+          <ref>xfa[0].template[0].form1[0].Page1[0].SAT3[0]</ref>
+          <ref>xfa[0].template[0].form1[0].Page1[0].UNSAT3[0]</ref>
+          <ref>xfa[0].template[0].form1[0].Page1[0].NOT_EVALUATED3[0]</ref>
+          <ref>xfa[0].template[0].form1[0].Page1[0].SUPERIOR4[0]</ref>
+          <ref>xfa[0].template[0].form1[0].Page1[0].SAT4[0]</ref>
+          <ref>xfa[0].template[0].form1[0].Page1[0].UNSAT4[0]</ref>
+          <ref>xfa[0].template[0].form1[0].Page1[0].NOT_EVALUATED4[0]</ref>
+          <ref>xfa[0].template[0].form1[0].Page1[0].SUPERIOR5[0]</ref>
+          <ref>xfa[0].template[0].form1[0].Page1[0].SAT5[0]</ref>
+          <ref>xfa[0].template[0].form1[0].Page1[0].UNSAT5[0]</ref>
+          <ref>xfa[0].template[0].form1[0].Page1[0].NOT_EVALUATED5[0]</ref>
+          <ref>xfa[0].template[0].form1[0].Page1[0].Rater_Signature[0]</ref>
+          <ref>xfa[0].template[0].form1[0].Page1[0].Academic_Potential_Yes[0]</ref>
+          <ref>xfa[0].template[0].form1[0].Page1[0].Academic_Potential_No[0]</ref>
+          <ref>xfa[0].template[0].form1[0].Page1[0].NA[0]</ref>
+          <ref>xfa[0].template[0].form1[0].Page1[0].Date2[0]</ref>
+          <ref>xfa[0].template[0].form1[0].Page1[0].Date1[0]</ref>
+          <ref>xfa[0].template[0].form1[0].Page1[0].RankdrpdwnListBox2[0]</ref>
+          <ref>xfa[0].template[0].form1[0].Page1[0].aRank1dropdwnList2[0]</ref>
+          <ref>xfa[0].template[0].form1[0].Page1[0].Branch[0]</ref>
+          <ref>xfa[0].template[0].form1[0].Page1[0].Component1[0]</ref>
+          <ref>xfa[0].template[0].form1[0].Page1[0].Component1BK[0]</ref>
+          <ref>xfa[0].template[0].form1[0].Page1[0].Referred_Report1[0]</ref>
+          <ref>xfa[0].template[0].form1[0].Page1[0].Referred_Report2[0]</ref>
+          <ref>xfa[0].template[0].form1[0].Page1[0].Referred_Report3[0]</ref>
+        </manifest>
+        <manifest name="Rated_Soldier_Signature" id="8e175e59-1d15-4b4d-ad30-46afcda3bcf2">
+          <ref>xfa[0].template[0].form1[0].Page1[0].Todays_Date[0]</ref>
+          <ref>xfa[0].template[0].form1[0].Page1[0].Name[0]</ref>
+          <ref>xfa[0].template[0].form1[0].Page1[0].SSN[0]</ref>
+          <ref>xfa[0].template[0].form1[0].Page1[0].SPECIALTY_MOSC[0]</ref>
+          <ref>xfa[0].template[0].form1[0].Page1[0].COURSE_TITLE[0]</ref>
+          <ref>xfa[0].template[0].form1[0].Page1[0].From[0]</ref>
+          <ref>xfa[0].template[0].form1[0].Page1[0].Thru[0]</ref>
+          <ref>xfa[0].template[0].form1[0].Page1[0].Typed_Name_Grade_Rater[0]</ref>
+          <ref>xfa[0].template[0].form1[0].Page1[0].Typed_Name_Grade_Review[0]</ref>
+          <ref>xfa[0].template[0].form1[0].Page1[0].Comments[0]</ref>
+          <ref>xfa[0].template[0].form1[0].Page1[0].Name_School[0]</ref>
+          <ref>xfa[0].template[0].form1[0].Page1[0].Performance_Summary1[0]</ref>
+          <ref>xfa[0].template[0].form1[0].Page1[0].Performance_Summary2[0]</ref>
+          <ref>xfa[0].template[0].form1[0].Page1[0].Performance_Summary3[0]</ref>
+          <ref>xfa[0].template[0].form1[0].Page1[0].Performance_Summary4[0]</ref>
+          <ref>xfa[0].template[0].form1[0].Page1[0].NOT_EVALUATED1[0]</ref>
+          <ref>xfa[0].template[0].form1[0].Page1[0].UNSAT1[0]</ref>
+          <ref>xfa[0].template[0].form1[0].Page1[0].SAT1[0]</ref>
+          <ref>xfa[0].template[0].form1[0].Page1[0].SUPERIOR1[0]</ref>
+          <ref>xfa[0].template[0].form1[0].Page1[0].SUPERIOR2[0]</ref>
+          <ref>xfa[0].template[0].form1[0].Page1[0].SAT2[0]</ref>
+          <ref>xfa[0].template[0].form1[0].Page1[0].UNSAT2[0]</ref>
+          <ref>xfa[0].template[0].form1[0].Page1[0].NOT_EVALUATED2[0]</ref>
+          <ref>xfa[0].template[0].form1[0].Page1[0].SUPERIOR3[0]</ref>
+          <ref>xfa[0].template[0].form1[0].Page1[0].SAT3[0]</ref>
+          <ref>xfa[0].template[0].form1[0].Page1[0].UNSAT3[0]</ref>
+          <ref>xfa[0].template[0].form1[0].Page1[0].NOT_EVALUATED3[0]</ref>
+          <ref>xfa[0].template[0].form1[0].Page1[0].SUPERIOR4[0]</ref>
+          <ref>xfa[0].template[0].form1[0].Page1[0].SAT4[0]</ref>
+          <ref>xfa[0].template[0].form1[0].Page1[0].UNSAT4[0]</ref>
+          <ref>xfa[0].template[0].form1[0].Page1[0].NOT_EVALUATED4[0]</ref>
+          <ref>xfa[0].template[0].form1[0].Page1[0].SUPERIOR5[0]</ref>
+          <ref>xfa[0].template[0].form1[0].Page1[0].SAT5[0]</ref>
+          <ref>xfa[0].template[0].form1[0].Page1[0].UNSAT5[0]</ref>
+          <ref>xfa[0].template[0].form1[0].Page1[0].NOT_EVALUATED5[0]</ref>
+          <ref>xfa[0].template[0].form1[0].Page1[0].Rater_Signature[0]</ref>
+          <ref>xfa[0].template[0].form1[0].Page1[0].Reviewing_Signature[0]</ref>
+          <ref>xfa[0].template[0].form1[0].Page1[0].Academic_Potential_Yes[0]</ref>
+          <ref>xfa[0].template[0].form1[0].Page1[0].Academic_Potential_No[0]</ref>
+          <ref>xfa[0].template[0].form1[0].Page1[0].NA[0]</ref>
+          <ref>xfa[0].template[0].form1[0].Page1[0].Date3[0]</ref>
+          <ref>xfa[0].template[0].form1[0].Page1[0].Date1[0]</ref>
+          <ref>xfa[0].template[0].form1[0].Page1[0].Date2[0]</ref>
+          <ref>xfa[0].template[0].form1[0].Page1[0].RankdrpdwnListBox2[0]</ref>
+          <ref>xfa[0].template[0].form1[0].Page1[0].aRank1dropdwnList2[0]</ref>
+          <ref>xfa[0].template[0].form1[0].Page1[0].Branch[0]</ref>
+          <ref>xfa[0].template[0].form1[0].Page1[0].Component1[0]</ref>
+          <ref>xfa[0].template[0].form1[0].Page1[0].Component1BK[0]</ref>
+          <ref>xfa[0].template[0].form1[0].Page1[0].Referred_Report1[0]</ref>
+          <ref>xfa[0].template[0].form1[0].Page1[0].Referred_Report2[0]</ref>
+          <ref>xfa[0].template[0].form1[0].Page1[0].Referred_Report3[0]</ref>
+        </manifest>
+        <script name="SetFocusOnFirstFailedField" contentType="application/x-javascript">//+ GENERATED - DO NOT EDIT (ID:C82BC21E-9267-4233-B793-E8CE5A66D756 CRC:1706013869)
+        //+ Type: SetFocusOnFirstFailedField
+        function DoSetFocusOnFirstFailedField(oRootSubform) {
+
+	      if (xfa.host.name == "Acrobat") {
+	      
+		    var oInvalidNodes = oRootSubform.getInvalidObjects();
+		    var nCount = oInvalidNodes.length;
+	      
+		    if (nCount &gt; 0) {
+		    
+			  xfa.host.setFocus(oInvalidNodes.item(0));
+		    }
+	      }
+        }
+        //-
+        </script>
+        <?templateDesigner expand 1?>         
+      </variables>         
+      <event activity="postSubmit" ref="$form" name="event__postSubmit">            
+        <script contentType="application/x-javascript">//+ GENERATED - DO NOT EDIT (ID:C82BC21E-9267-4233-B793-E8CE5A66D756 CRC:3815899415)
+        SetFocusOnFirstFailedField.DoSetFocusOnFirstFailedField(this);
+        //-
+        </script>         
+      </event>         
+      <event activity="docReady" ref="$host" name="event__docReady">            
+        <script contentType="application/x-javascript">
+          xfa.host.setFocus(form1.Page1.Todays_Date);
+        </script>         
+      </event>
+      <?templateDesigner Hyphenation excludeInitialCap:1, excludeAllCaps:1, wordCharCnt:7, remainCharCnt:3, pushCharCnt:3?>
+      <?templateDesigner expand 1?>
+      <?renderCache.subset "Arial" 0 0 ISO-8859-1 4 244 61 0003000D000F0010001100120013001400150016001700180019001A001B001C001D001E0022002400250026002700280029002A002B002C002E002F003000310032003300350036003700380039003A003B003C004400450046004700480049004A004B004C005000510052005300550056005700580059005C *,-./0123456789:;?ABCDEFGHIKLMNOPRSTUVWXYabcdefghimnoprstuvy?>
+      <?renderCache.subset "Arial" 1 0 ISO-8859-1 4 124 31 0003000A000F00130014001500170018001C002400250026002700280029002A002B002C002E002F003000310032003300350036003700380039003A003C ',012459ABCDEFGHIKLMNOPRSTUVWY?>
+      <?renderCache.subset "Arial" 0 1 ISO-8859-1 4 204 51 000300050008000A000B000C000D000F001100120013001400150017002400270028002C002F00300031003200330035003600370038003C004400450046004700480049004A004B004C004E004F0050005100520053005400550056005700580059005A005C "%'()*,./0124ADEILMNOPRSTUYabcdefghiklmnopqrstuvwy?>
+      <?renderCache.subset "Times New Roman" 0 0 ISO-8859-1 4 172 43 0003000B000C001400150016001700180024002500260029002A002F0030003100320033003500360038003A004400450046004700480049004A004B004C004D004F005000510052005300550056005700580059005C ()12345ABCFGLMNOPRSUWabcdefghijlmnoprstuvy?>      
+    </subform>
+    <?templateDesigner DefaultPreviewDynamic 1?>
+    <?templateDesigner WidowOrphanControl 0?>
+    <?originalXFAVersion http://www.xfa.org/schema/xfa-template/3.0/?>
+    <?templateDesigner Grid show:0, snap:0, units:19, color:ff8080, origin:(10,10), interval:(120000,100000), objsnap:0, guidesnap:0, pagecentersnap:0?>
+    <?templateDesigner Print-PrinterName HP LaserJet 4100 PCL 5?>
+    <?templateDesigner Print-Copies 1?>
+    <?templateDesigner Print-Collate 0?>
+    <?templateDesigner Print-PageRange all?>
+    <?templateDesigner Print-ProductionPrint 0?>
+    <?templateDesigner Print-DuplexingOption simplex?>
+    <?templateDesigner SavePDFWithLog 0?>
+    <?templateDesigner DefaultLanguage JavaScript?>
+    <?templateDesigner DefaultRunAt client?>
+    <?acrobat JavaScript strictScoping?>
+    <?PDFPrintOptions embedViewerPrefs 1?>
+    <?PDFPrintOptions embedPrintOnFormOpen 0?>
+    <?PDFPrintOptions scalingPrefs 0?>
+    <?PDFPrintOptions enforceScalingPrefs 0?>
+    <?PDFPrintOptions paperSource 1?>
+    <?PDFPrintOptions duplexMode 0?>
+    <?templateDesigner DefaultPreviewType interactive?>
+    <?templateDesigner DefaultPreviewPagination simplex?>
+    <?templateDesigner XDPPreviewFormat 20?>
+    <?templateDesigner DefaultCaptionFontSettings face:Arial;size:8;weight:normal;style:normal?>
+    <?templateDesigner DefaultValueFontSettings face:Times New Roman;size:10;weight:normal;style:normal?>
+    <?templateDesigner ValidationMessaging allMessagesIndividually?>
+    <?templateDesigner Zoom 200?>
+    <?templateDesigner SaveTaggedPDF 1?>
+    <?templateDesigner SavePDFWithEmbeddedFonts 1?>
+    <?templateDesigner FormTargetVersion 30?>
+    <?templateDesigner Rulers horizontal:1, vertical:1, guidelines:0, crosshairs:0?>
+    <?templateDesigner Guidelines h:9003?>   
+  </template>
+  <localeSet xmlns="http://www.xfa.org/schema/xfa-locale-set/2.7/">      
+    <locale name="en_US" desc="English (United States)">         
+      <calendarSymbols name="gregorian">            
+        <monthNames>               
+          <month>January</month>
+          <month>February</month>
+          <month>March</month>
+          <month>April</month>
+          <month>May</month>
+          <month>June</month>
+          <month>July</month>
+          <month>August</month>
+          <month>September</month>
+          <month>October</month>
+          <month>November</month>
+          <month>December</month>
+        </monthNames>
+        <monthNames abbr="1">
+          <month>Jan</month>
+          <month>Feb</month>
+          <month>Mar</month>
+          <month>Apr</month>
+          <month>May</month>
+          <month>Jun</month>
+          <month>Jul</month>
+          <month>Aug</month>
+          <month>Sep</month>
+          <month>Oct</month>
+          <month>Nov</month>
+          <month>Dec</month>
+        </monthNames>
+        <dayNames>
+          <day>Sunday</day>
+          <day>Monday</day>
+          <day>Tuesday</day>
+          <day>Wednesday</day>
+          <day>Thursday</day>
+          <day>Friday</day>
+          <day>Saturday</day>
+        </dayNames>
+        <dayNames abbr="1">
+          <day>Sun</day>
+          <day>Mon</day>
+          <day>Tue</day>
+          <day>Wed</day>
+          <day>Thu</day>
+          <day>Fri</day>
+          <day>Sat</day>
+        </dayNames>
+        <meridiemNames>
+          <meridiem>AM</meridiem>
+          <meridiem>PM</meridiem>
+        </meridiemNames>
+        <eraNames>
+          <era>BC</era>
+          <era>AD</era>
+        </eraNames>
+      </calendarSymbols>
+      <datePatterns>
+        <datePattern name="full">EEEE, MMMM D, YYYY</datePattern>
+        <datePattern name="long">MMMM D, YYYY</datePattern>
+        <datePattern name="med">MMM D, YYYY</datePattern>
+        <datePattern name="short">M/D/YY</datePattern>
+      </datePatterns>
+      <timePatterns>
+        <timePattern name="full">h:MM:SS A Z</timePattern>
+        <timePattern name="long">h:MM:SS A Z</timePattern>
+        <timePattern name="med">h:MM:SS A</timePattern>
+        <timePattern name="short">h:MM A</timePattern>
+      </timePatterns>
+      <dateTimeSymbols>GyMdkHmsSEDFwWahKzZ</dateTimeSymbols>
+      <numberPatterns>
+        <numberPattern name="numeric">z,zz9.zzz</numberPattern>
+        <numberPattern name="currency">$z,zz9.99|($z,zz9.99)</numberPattern>
+        <numberPattern name="percent">z,zz9%</numberPattern>
+      </numberPatterns>
+      <numberSymbols>
+        <numberSymbol name="decimal">.</numberSymbol>
+        <numberSymbol name="grouping">,</numberSymbol>
+        <numberSymbol name="percent">%</numberSymbol>
+        <numberSymbol name="minus">-</numberSymbol>
+        <numberSymbol name="zero">0</numberSymbol>
+      </numberSymbols>
+      <currencySymbols>
+        <currencySymbol name="symbol">$</currencySymbol>
+        <currencySymbol name="isoname">USD</currencySymbol>
+        <currencySymbol name="decimal">.</currencySymbol>
+      </currencySymbols>
+      <typefaces>
+        <typeface name="Myriad Pro"/>
+        <typeface name="Minion Pro"/>
+        <typeface name="Courier Std"/>
+        <typeface name="Adobe Pi Std"/>
+        <typeface name="Adobe Hebrew"/>
+        <typeface name="Adobe Arabic"/>
+        <typeface name="Adobe Thai"/>
+        <typeface name="Kozuka Gothic Pro-VI M"/>
+        <typeface name="Kozuka Mincho Pro-VI R"/>
+        <typeface name="Adobe Ming Std L"/>
+        <typeface name="Adobe Song Std L"/>
+        <typeface name="Adobe Myungjo Std M"/>
+      </typefaces>
+    </locale>
+  </localeSet>
+  <xfa:datasets xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/">      
+    <xfa:data>         
+      <form1>            
+        <Page1>               
+          <Todays_Date/>               
+          <Name>Joe</Name>
+          <SSN/>
+          <SPECIALTY_MOSC/>
+          <COURSE_TITLE/>
+          <From/>
+          <Thru/>
+          <Typed_Name_Grade_Rater>rater</Typed_Name_Grade_Rater>
+          <RaterDate/>
+          <Typed_Name_Grade_Review>reviewer</Typed_Name_Grade_Review>
+          <ReviewerDate/>
+          <RatedSoldierDate/>
+          <Comments>comments</Comments>
+          <Name_School/>
+          <Performance_Summary1>0</Performance_Summary1>
+          <Performance_Summary2>0</Performance_Summary2>
+          <Performance_Summary3>0</Performance_Summary3>
+          <Performance_Summary4>0</Performance_Summary4>
+          <NOT_EVALUATED1>0</NOT_EVALUATED1>
+          <UNSAT1>0</UNSAT1>
+          <SAT1>0</SAT1>
+          <SUPERIOR1>0</SUPERIOR1>
+          <SUPERIOR2>0</SUPERIOR2>
+          <SAT2>0</SAT2>
+          <UNSAT2>0</UNSAT2>
+          <NOT_EVALUATED2>0</NOT_EVALUATED2>
+          <SUPERIOR3>0</SUPERIOR3>
+          <SAT3>0</SAT3>
+          <UNSAT3>0</UNSAT3>
+          <NOT_EVALUATED3>0</NOT_EVALUATED3>
+          <SUPERIOR4>0</SUPERIOR4>
+          <SAT4>0</SAT4>
+          <UNSAT4>0</UNSAT4>
+          <NOT_EVALUATED4>0</NOT_EVALUATED4>
+          <SUPERIOR5>0</SUPERIOR5>
+          <SAT5>0</SAT5>
+          <UNSAT5>0</UNSAT5>
+          <NOT_EVALUATED5>0</NOT_EVALUATED5>
+          <Academic_Potential_Yes>1</Academic_Potential_Yes>
+          <Academic_Potential_No>0</Academic_Potential_No>
+          <NA>0</NA>
+          <Referred_Report1>1</Referred_Report1>
+          <Referred_Report2>1</Referred_Report2>
+          <Referred_Report3>0</Referred_Report3>
+          <Component1/>
+          <aRank1dropdwnList2/>
+          <RankdrpdwnListBox2>28</RankdrpdwnListBox2>
+          <Component1BK>33</Component1BK>
+        </Page1>
+      </form1>
+    </xfa:data>
+  </xfa:datasets>
+  <x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 5.2-c001 63.139439, 2011/06/07-10:39:26        ">
+    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      
+      <rdf:Description xmlns:xmp="http://ns.adobe.com/xap/1.0/" rdf:about="">
+        
+        <xmp:MetadataDate>2014-05-12T19:50:19Z</xmp:MetadataDate>
+        
+        <xmp:CreatorTool>Adobe LiveCycle Designer 11.0</xmp:CreatorTool>
+        
+      </rdf:Description>
+      
+      <rdf:Description xmlns:pdf="http://ns.adobe.com/pdf/1.3/" rdf:about="">
+        
+        <pdf:Producer>Adobe LiveCycle Designer 11.0</pdf:Producer>
+        
+      </rdf:Description>
+      
+      <rdf:Description xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/" rdf:about="">
+        
+        <xmpMM:DocumentID>uuid:018124cf-6a10-413d-a994-7ee90c103497</xmpMM:DocumentID>
+        
+        <xmpMM:InstanceID>uuid:76dffa9b-9e0e-433f-8616-f3e802fcebf9</xmpMM:InstanceID>
+        
+      </rdf:Description>
+      
+      <rdf:Description xmlns:dc="http://purl.org/dc/elements/1.1/" rdf:about="">
+        
+        <dc:format>application/pdf</dc:format>
+        
+        <dc:description>
+          
+          <rdf:Alt>
+            
+            <rdf:li xml:lang="x-default">Service School Academic Evaluation Report</rdf:li>
+            
+          </rdf:Alt>
+          
+        </dc:description>
+        
+        <dc:creator>
+          
+          <rdf:Seq>
+            
+            <rdf:li>APD</rdf:li>
+            
+          </rdf:Seq>
+          
+        </dc:creator>
+        
+        <dc:title>
+          
+          <rdf:Alt>
+            
+            <rdf:li xml:lang="x-default">DA Form 1059, MAR 2014</rdf:li>
+            
+          </rdf:Alt>
+          
+        </dc:title>
+        
+      </rdf:Description>
+      
+      <rdf:Description xmlns:pdfx="http://ns.adobe.com/pdfx/1.3/" rdf:about="">
+        
+        <pdfx:Scope>army</pdfx:Scope>
+        
+        <pdfx:Prefix>DA</pdfx:Prefix>
+        
+        <pdfx:Doc_Num>1059</pdfx:Doc_Num>
+        
+        <pdfx:Product_Type>Form</pdfx:Product_Type>
+        
+        <pdfx:Suffix/>
+        
+        <pdfx:Form_Month>MAR</pdfx:Form_Month>
+        
+        <pdfx:Form_Year>2014</pdfx:Form_Year>
+        
+        <pdfx:Form_Version>1.0i</pdfx:Form_Version>
+        
+        <pdfx:PIN/>
+        
+        <pdfx:Pre_Dir>AR 623-3 </pdfx:Pre_Dir>
+        
+        <pdfx:Pub_Type>AR</pdfx:Pub_Type>
+        
+        <pdfx:Pub_ID>623</pdfx:Pub_ID>
+        
+        <pdfx:Pub_Series>3</pdfx:Pub_Series>
+        
+        <pdfx:Pub_Day/>
+        
+        <pdfx:Pub_Month>MAR</pdfx:Pub_Month>
+        
+        <pdfx:Pub_Year>2014</pdfx:Pub_Year>
+        
+        <pdfx:Proponent>TRADOC</pdfx:Proponent>
+        
+        <pdfx:Unicode>EMO</pdfx:Unicode>
+        
+        <pdfx:PA_Code>NO</pdfx:PA_Code>
+        
+        <pdfx:OMB_Number/>
+        
+        <pdfx:OMB_Expire/>
+        
+        <pdfx:Security_Class>UC</pdfx:Security_Class>
+        
+        <pdfx:Distrubution>Unrestricted</pdfx:Distrubution>
+        
+        <pdfx:Signature>Yes</pdfx:Signature>
+        
+      </rdf:Description>
+      
+      <rdf:Description xmlns:desc="http://ns.adobe.com/xfa/promoted-desc/" rdf:about="">
+        
+        <desc:version rdf:parseType="Resource">
+          
+          <rdf:value>10.0.2.20120224.1.869952.867557</rdf:value>
+          
+          <desc:ref>/template/subform[1]</desc:ref>
+          
+        </desc:version>
+        
+      </rdf:Description>
+      
+    </rdf:RDF>
+  </x:xmpmeta>
+  <xfdf xmlns="http://ns.adobe.com/xfdf/" xml:space="preserve">
+    
+    <annots/>
+  </xfdf>   
+  <PDFSecurity xmlns="http://ns.adobe.com/xtd/" print="1" printHighQuality="1" change="1" modifyAnnots="1" formFieldFilling="1" documentAssembly="1" contentCopy="1" accessibleContent="1" metadata="1">
+  </PDFSecurity>   
+  <form xmlns="http://www.xfa.org/schema/xfa-form/2.8/" checksum="o3idt+Jzk8tOC4HkhxUSLZAl2t8=">      
+    <subform name="form1">         
+      <instanceManager name="_Page1"/>         
+      <subform name="Page1">            
+        <field name="Name">               
+          <value override="1"/>            
+        </field>            
+        <field name="Typed_Name_Grade_Rater">               
+          <value override="1"/>            
+        </field>            
+        <field name="Typed_Name_Grade_Review">               
+          <value override="1"/>            
+        </field>            
+        <field name="Comments">               
+          <value override="1"/>            
+        </field>            
+        <field name="Academic_Potential_Yes">               
+          <value override="1"/>            
+        </field>            
+        <field name="Academic_Potential_No"/>            
+        <field name="NA"/>            
+        <field name="Referred_Report1">               
+          <value override="1"/>            
+        </field>            
+        <field name="Referred_Report2" access="open">               
+          <value override="1"/>            
+        </field>            
+        <field name="Referred_Report3" access="open">               
+          <value override="1"/>            
+        </field>            
+        <field name="RankdrpdwnListBox2" presence="invisible">               
+          <border>                  
+            <fill>                     
+              <color value="255, 255, 255"/>                  
+            </fill>               
+          </border>            
+        </field>            
+        <field name="Component1BK" presence="invisible"/>         
+      </subform>         
+      <pageSet>            
+        <pageArea/>         
+      </pageSet>      
+    </subform>   
+  </form>
+</xdp:xdp>
