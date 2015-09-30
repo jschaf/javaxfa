@@ -1,15 +1,7 @@
 package com.jschaf.xfa;
 
 import com.google.common.collect.Table;
-import org.w3c.dom.Document;
 
-import javax.xml.transform.OutputKeys;
-import javax.xml.transform.Transformer;
-import javax.xml.transform.TransformerException;
-import javax.xml.transform.TransformerFactory;
-import javax.xml.transform.dom.DOMSource;
-import javax.xml.transform.stream.StreamResult;
-import java.io.StringWriter;
 import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
@@ -42,22 +34,6 @@ public class TemplateExcel {
         this(excel.getDataTable(), excel.getVariables(), excel.getTranslation());
     }
 
-    public static String convertXmlToString(Document doc) {
-        try {
-            DOMSource domSource = new DOMSource(doc);
-            StringWriter writer = new StringWriter();
-            StreamResult result = new StreamResult(writer);
-            Transformer transformer = TransformerFactory.newInstance().newTransformer();
-            transformer.setOutputProperty(OutputKeys.OMIT_XML_DECLARATION, "yes");
-            transformer.transform(domSource, result);
-            return writer.toString();
-
-        } catch (TransformerException ex){
-            ex.printStackTrace();
-            return null;
-        }
-    }
-
     public List<FilledTemplate> getVariables() {
         return variableTemplates;
     }
@@ -83,7 +59,7 @@ public class TemplateExcel {
     }
 
     protected static List<String> convertEntriesToXml(List<FilledTemplate> entries) {
-        return entries.stream().map(FilledTemplate::toXml).collect(Collectors.toList());
+        return entries.stream().map(FilledTemplate::toXmlString).collect(Collectors.toList());
     }
 
     public List<String> getXmlStrings() {

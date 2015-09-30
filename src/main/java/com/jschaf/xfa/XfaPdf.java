@@ -1,6 +1,5 @@
 package com.jschaf.xfa;
 
-import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.dataformat.xml.XmlMapper;
 import com.fasterxml.jackson.datatype.jsr310.JavaTimeModule;
@@ -15,12 +14,6 @@ import org.w3c.dom.Node;
 import org.xml.sax.SAXException;
 
 import javax.xml.parsers.ParserConfigurationException;
-import javax.xml.transform.OutputKeys;
-import javax.xml.transform.Transformer;
-import javax.xml.transform.TransformerException;
-import javax.xml.transform.TransformerFactory;
-import javax.xml.transform.dom.DOMSource;
-import javax.xml.transform.stream.StreamResult;
 import java.io.*;
 import java.util.HashMap;
 
@@ -88,7 +81,7 @@ public class XfaPdf {
         }
     }
 
-    public void fillPdfWithXfa(String xml, OutputStream output) throws IOException, DocumentException {
+    public void fillPdfWithXfa(String xml, OutputStream output) {
         InputStream is = new ByteArrayInputStream(xml.getBytes());
         this.fillPdfWithXfa(is, output);
     }
