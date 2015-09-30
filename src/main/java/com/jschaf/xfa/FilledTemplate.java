@@ -38,11 +38,16 @@ public class FilledTemplate {
             Template template,
             Map<String, String> context){
 
-        final Function<String, String> bang = (k -> k + "!!!");
+        HashMap<String, Function<String, String>> functions = new HashMap<>();
+        functions.put("uppercase", String::toUpperCase);
+        functions.put("lowercase", String::toLowerCase);
+        functions.put("capitalize", TemplateFunctions::capitalizeFirstLetter);
+        functions.put("titlecase", TemplateFunctions::capitalizeFirstLetter);
 
         HashMap<String, String> filledTemplate = Maps.newHashMap();
-        ArrayList<Map<String, String>> scopes = new ArrayList<>();
+        ArrayList<Map<String, ?>> scopes = new ArrayList<>();
         scopes.add(context);
+        scopes.add(functions);
         scopes.add(filledTemplate);
         template.compiledTemplate.forEach((k, mustache) -> {
             StringWriter writer = new StringWriter();

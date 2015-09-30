@@ -3,7 +3,7 @@ package com.jschaf.xfa;
 import com.google.common.collect.ImmutableMap;
 import org.testng.annotations.Test;
 
-import static org.testng.Assert.*;
+import static org.testng.Assert.assertEquals;
 
 /**
  *
@@ -58,6 +58,16 @@ public class FilledTemplateTest {
                 .put("a", "smith")
                 .put("b", "smith, john")
                 .build();
+
+        assertEquals(actual.getMapIncludeContext(), expected);
+    }
+
+    @Test
+    public void testFunctions() throws Exception {
+        FilledTemplate actual = Template.builder().withEntry("a", "{{#bang}}joe{{/bang}}").build().execute();
+
+        ImmutableMap<String, String> expected = ImmutableMap.<String, String>builder()
+                .put("a", "joe!").build();
 
         assertEquals(actual.getMapIncludeContext(), expected);
     }

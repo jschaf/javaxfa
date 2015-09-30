@@ -23,6 +23,21 @@ public class Template {
         return new Builder();
     }
 
+    protected static ImmutableMap<String, Mustache> compileTemplate(Map<String, String> template) {
+        DefaultMustacheFactory factory = new NonEscapingMustacheFactory();
+        ImmutableMap.Builder<String, Mustache> mustacheBuilder = ImmutableMap.builder();
+        template.forEach((k, v) -> mustacheBuilder.put(k, factory.compile(new StringReader(v), k)));
+        return mustacheBuilder.build();
+    }
+
+    public FilledTemplate execute(Map<String, String> context) {
+        return new FilledTemplate(this, context);
+    }
+
+    public FilledTemplate execute() {
+        return new FilledTemplate(this, new HashMap<>());
+    }
+
     public static class Builder {
         private Map<String, String> template = new HashMap<>();
 
@@ -34,21 +49,6 @@ public class Template {
         public Template build() {
             return new Template(template);
         }
-    }
-
-    public FilledTemplate execute(Map<String, String> context) {
-        return new FilledTemplate(this, context);
-    }
-
-    public FilledTemplate execute() {
-        return new FilledTemplate(this, new HashMap<>());
-    }
-
-    protected static ImmutableMap<String, Mustache> compileTemplate(Map<String, String> template) {
-        DefaultMustacheFactory factory = new DefaultMustacheFactory();
-        ImmutableMap.Builder<String, Mustache> mustacheBuilder = ImmutableMap.builder();
-        template.forEach((k, v) -> mustacheBuilder.put(k, factory.compile(new StringReader(v), k)));
-        return mustacheBuilder.build();
     }
 
 }
