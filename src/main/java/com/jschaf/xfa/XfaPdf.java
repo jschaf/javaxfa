@@ -35,7 +35,7 @@ public class XfaPdf {
 
     public String path = "";
 
-    public XfaPdf(InputStream inputStream) {
+    private XfaPdf initXfaPdf(InputStream inputStream) {
         try {
             pdf = new PdfReader(inputStream);
         } catch (IOException e) {
@@ -43,10 +43,21 @@ public class XfaPdf {
         }
         mapper.registerModule(new JavaTimeModule());
         xmlMapper.registerModule(new JavaTimeModule());
+        return this;
     }
 
-    public XfaPdf(String path) throws IOException {
-        this(new FileInputStream(path));
+    public XfaPdf(InputStream inputStream) {
+        initXfaPdf(inputStream);
+    }
+
+    public XfaPdf(String path) {
+
+        try {
+            FileInputStream file = new FileInputStream(path);
+            initXfaPdf(file);
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        }
     }
 
     public Document getXfaDocument() {
@@ -54,13 +65,27 @@ public class XfaPdf {
         return form.getXfa().getDomDocument();
     }
 
-    public void fillPdfWithXfa(InputStream xmlStream, OutputStream outputStream) throws IOException, DocumentException {
+    public void fillPdfWithXfa(InputStream xmlStream, OutputStream outputStream) {
         PdfReader.unethicalreading = true;
-        PdfStamper stamper = new PdfStamper(this.pdf, outputStream);
+        PdfStamper stamper = null;
+        try {
+            stamper = new PdfStamper(this.pdf, outputStream);
+        } catch (DocumentException | IOException e) {
+            e.printStackTrace();
+            return;
+        }
         AcroFields form = stamper.getAcroFields();
         XfaForm xfa = form.getXfa();
-        xfa.fillXfaForm(xmlStream);
-        stamper.close();
+        try {
+            xfa.fillXfaForm(xmlStream);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        try {
+            stamper.close();
+        } catch (DocumentException | IOException e) {
+            e.printStackTrace();
+        }
     }
 
     public void fillPdfWithXfa(String xml, OutputStream output) throws IOException, DocumentException {
@@ -90,7 +115,7 @@ public class XfaPdf {
 //            out.write(DatasetGen.convertDocumentToString(xfaForm.getDomDocument()));
 //        }
 
-        System.out.println("\n\n* XFA Template SOM");
+        System.out.println("\n\n* XFA TemplateExcel SOM");
         XfaForm.Xml2SomTemplate templateSom = xfaForm.getTemplateSom();
         for (String name : templateSom.getOrder()) {
             System.out.println("    name: " + name);
@@ -103,7 +128,7 @@ public class XfaPdf {
             System.out.println();
         }
 
-        System.out.println("\n\n* XFA Template Name to Nodes");
+        System.out.println("\n\n* XFA TemplateExcel Name to Nodes");
         HashMap<String, Node> templateName2Node = templateSom.getName2Node();
         templateName2Node.forEach((k, v) -> {
             System.out.println("    key" + k);

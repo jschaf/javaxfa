@@ -65,9 +65,9 @@
                     <to>memory</to>
                     <mode>overwrite</mode>
                 </log>
-                <template>
+                <templateExcel>
                     <base>H:\DA PAM 25-40\Forms for Tarek\Forms for Tarek March2015\Tarek (3)\</base>
-                </template>
+                </templateExcel>
             </common>
             <script>
                 <runScripts>server</runScripts>
@@ -96,17 +96,17 @@
                         <uri/>
                     </outputXSL>
                 </data>
-                <template>
+                <templateExcel>
                     <base>H:\DA PAM 25-40\Forms for Tarek\Forms for Tarek March2015\Tarek (3)\</base>
                     <relevant/>
                     <uri/>
-                </template>
+                </templateExcel>
             </common>
             <autoSave>enabled</autoSave>
             <validate>preSubmit</validate>
         </acrobat>
     </config>
-    <template xmlns="http://www.xfa.org/schema/xfa-template/3.3/">
+    <templateExcel xmlns="http://www.xfa.org/schema/xfa-templateExcel/3.3/">
         <?formServer defaultPDFRenderFormat acrobat10.0dynamic?>
         <?formServer allowRenderCaching 0?>
         <?formServer formModel client?>
@@ -1552,7 +1552,7 @@
         <?templateDesigner DefaultPreviewDynamic 1?>
         <?templateDesigner Grid show:0, snap:0, units:0, color:ff8080, origin:(0,0), interval:(125000,125000), objsnap:0, guidesnap:0, pagecentersnap:0?>
         <?templateDesigner WidowOrphanControl 0?>
-        <?originalXFAVersion http://www.xfa.org/schema/xfa-template/3.3/?>
+        <?originalXFAVersion http://www.xfa.org/schema/xfa-templateExcel/3.3/?>
         <?templateDesigner SavePDFWithLog 0?>
         <?templateDesigner DefaultLanguage JavaScript?>
         <?templateDesigner DefaultRunAt client?>
@@ -1574,7 +1574,7 @@
         <?templateDesigner Rulers horizontal:1, vertical:1, guidelines:1, crosshairs:0?>
         <?templateDesigner SaveTaggedPDF 1?>
         <?templateDesigner SavePDFWithEmbeddedFonts 0?>
-    </template>
+    </templateExcel>
     <localeSet xmlns="http://www.xfa.org/schema/xfa-locale-set/2.7/">
         <locale name="en_CA" desc="English (Canada)">
             <calendarSymbols name="gregorian">
@@ -1920,7 +1920,7 @@
 
                     <rdf:value>1.00</rdf:value>
 
-                    <desc:ref>/template/subform[1]</desc:ref>
+                    <desc:ref>/templateExcel/subform[1]</desc:ref>
 
                 </desc:version>
 

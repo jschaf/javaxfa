@@ -84,8 +84,8 @@ public class Main {
 
     public static void main(String[] args) {
         AerExcel aerExcel = new AerExcel("C:/Users/joe/aerTest/AERData.xlsx");
-        Template template = new Template(aerExcel);
-        template.getXmlStrings();
+        TemplateExcel templateExcel = new TemplateExcel(aerExcel);
+        templateExcel.getXmlStrings();
 //        try {
 //            readFieldNames(RESOURCE, XMLDEST);
 //

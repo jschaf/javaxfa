@@ -42,7 +42,7 @@ public class XfaPdfTest {
     }
 
     @Test
-    public void getXfaTest() throws IOException, ParserConfigurationException, SAXException, TransformerException, XPathExpressionException {
+    public void getXfaTest() throws Exception {
         XfaPdf doc = new XfaPdf(da410Pdf);
         XfaForm xfaForm = new XfaForm(doc.pdf);
 
@@ -55,7 +55,7 @@ public class XfaPdfTest {
             System.out.println("XFA Form is static");
         }
 
-        System.out.println("XFA Template SOM");
+        System.out.println("XFA TemplateExcel SOM");
         XfaForm.Xml2SomTemplate templateSom = xfaForm.getTemplateSom();
         for (String name : templateSom.getOrder()) {
            System.out.println("    name: " + name);

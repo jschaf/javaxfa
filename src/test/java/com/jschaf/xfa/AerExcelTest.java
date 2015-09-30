@@ -25,13 +25,13 @@ public class AerExcelTest {
     @Test
     public void testParseVariables() throws Exception {
         ImmutableMap<String, String> expected = ImmutableMap.of(
-                "Boom", "Boom Value - {{[Last Name]}}",
+                "Boom", "Boom Value - {{Last Name}}",
                 "Explosion", "Explosion Value",
-                "Right", "1",
-                "Left", "4",
+                "Right", "{{Boom}} Explosion Value",
+                "Left", "5",
                 "Date", "2015-09-20");
         excel.parseVariables();
-        assertEquals(expected, excel.variables);
+        assertEquals(excel.variables, expected);
     }
 
     @Test

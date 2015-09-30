@@ -66,9 +66,9 @@
           <to>memory</to>
           <mode>overwrite</mode>
         </log>
-        <template>
+        <templateExcel>
           <base>C:\Users\pianwilt\Desktop\DA Form 1059\</base>
-        </template>
+        </templateExcel>
       </common>
       <cache>
         <macroCache/>
@@ -100,17 +100,17 @@
             <uri/>
           </outputXSL>
         </data>
-        <template>
+        <templateExcel>
           <base>C:\Users\pianwilt\Desktop\DA Form 1059\</base>
           <relevant/>
           <uri/>
-        </template>
+        </templateExcel>
       </common>
       <autoSave/>
       <validate>preSubmit</validate>
     </acrobat>
   </config>
-  <template xmlns="http://www.xfa.org/schema/xfa-template/3.0/">
+  <templateExcel xmlns="http://www.xfa.org/schema/xfa-templateExcel/3.0/">
     <?formServer defaultPDFRenderFormat acrobat9.1dynamic?>
     <?formServer allowRenderCaching 1?>
     <?formServer formModel both?>      
@@ -1103,7 +1103,7 @@
             <exData contentType="text/html">
               <body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/">
                 <p>b.
-                <span style="xfa-spacerun:yes"> </span>
+                <span style="xfa-spacerun:yes">ï¿½</span>
                 <span style="font-weight:bold">ORAL COMMUNICATION</span>
                 </p>
               </body>
@@ -1179,7 +1179,7 @@
             <exData contentType="text/html">
               <body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/">
                 <p>c.
-                <span style="xfa-spacerun:yes"> </span>
+                <span style="xfa-spacerun:yes">ï¿½</span>
                 <span style="font-weight:bold">LEADERSHIP SKILLS</span>
                 </p>
               </body>
@@ -1255,7 +1255,7 @@
             <exData contentType="text/html">
               <body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/">
                 <p>d.
-                <span style="xfa-spacerun:yes"> </span>
+                <span style="xfa-spacerun:yes">ï¿½</span>
                 <span style="font-weight:bold">CONTRIBUTION TO GROUP WORK</span>
                 </p>
               </body>
@@ -1331,7 +1331,7 @@
             <exData contentType="text/html">
               <body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/">
                 <p>e.
-                <span style="xfa-spacerun:yes"> </span>
+                <span style="xfa-spacerun:yes">ï¿½</span>
                 <span style="font-weight:bold">EVALUATION OF STUDENT'S RESEARCH ABILITY</span>
                 </p>
               </body>
@@ -1493,13 +1493,13 @@
             <exData contentType="text/html">
               <body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/">
                 <p style="font-family:Arial;text-decoration:none;letter-spacing:0in">14. COMMENTS
-                <span style="xfa-spacerun:yes"> </span>
+                <span style="xfa-spacerun:yes">ï¿½</span>
                 <span style="font-style:italic">(This item is intended to obtain a word picture of each student that will accurately and completely portray academic</span>
-                <span style="xfa-spacerun:yes"> </span>
+                <span style="xfa-spacerun:yes">ï¿½</span>
                 <span style="font-style:italic">performance, intellectual qualities, and communication skills and abilities. The narrative should also discuss broader aspects of the student's</span>
-                <span style="xfa-spacerun:yes"> </span>
+                <span style="xfa-spacerun:yes">ï¿½</span>
                 <span style="font-style:italic">potential, leadership capabilities, moral and overall professional qualities. In particular, comments should be made if the student failed to</span>
-                <span style="xfa-spacerun:yes"> </span>
+                <span style="xfa-spacerun:yes">ï¿½</span>
                 <span style="font-style:italic">respond to recommendations for improving academic or personal affairs.)</span>
                 </p>
               </body>
@@ -1825,8 +1825,8 @@
           </items>
           <border/>
           <assist>
-            <speak priority="toolTip">Check for Unsatisfactory – rating must be supported by comments in item 14</speak>
-            <toolTip>Check for Unsatisfactory – rating must be supported by comments in item 14</toolTip>
+            <speak priority="toolTip">Check for Unsatisfactory ï¿½ rating must be supported by comments in item 14</speak>
+            <toolTip>Check for Unsatisfactory ï¿½ rating must be supported by comments in item 14</toolTip>
           </assist>
           <event activity="click" name="event__click">
             <script>NOT_EVALUATED1.rawValue = 0
@@ -1895,8 +1895,8 @@
           </items>
           <border/>
           <assist>
-            <speak priority="toolTip">Check for Superior – rating must be supported by comments in item 14</speak>
-            <toolTip>Check for Superior – rating must be supported by comments in item 14</toolTip>
+            <speak priority="toolTip">Check for Superior ï¿½ rating must be supported by comments in item 14</speak>
+            <toolTip>Check for Superior ï¿½ rating must be supported by comments in item 14</toolTip>
           </assist>
           <event activity="click" name="event__click">
             <script>NOT_EVALUATED1.rawValue = 0
@@ -1930,8 +1930,8 @@
           </items>
           <border/>
           <assist>
-            <speak priority="toolTip">Check for Superior – rating must be supported by comments in item 14</speak>
-            <toolTip>Check for Superior – rating must be supported by comments in item 14</toolTip>
+            <speak priority="toolTip">Check for Superior ï¿½ rating must be supported by comments in item 14</speak>
+            <toolTip>Check for Superior ï¿½ rating must be supported by comments in item 14</toolTip>
           </assist>
           <event activity="click" name="event__click">
             <script>NOT_EVALUATED2.rawValue = 0
@@ -2000,8 +2000,8 @@
           </items>
           <border/>
           <assist>
-            <speak priority="toolTip">Check for Unsatisfactory – rating must be supported by comments in item 14</speak>
-            <toolTip>Check for Unsatisfactory – rating must be supported by comments in item 14</toolTip>
+            <speak priority="toolTip">Check for Unsatisfactory ï¿½ rating must be supported by comments in item 14</speak>
+            <toolTip>Check for Unsatisfactory ï¿½ rating must be supported by comments in item 14</toolTip>
           </assist>
           <event activity="click" name="event__click">
             <script>NOT_EVALUATED2.rawValue = 0
@@ -2070,8 +2070,8 @@
           </items>
           <border/>
           <assist>
-            <speak priority="toolTip">Check for Superior – rating must be supported by comments in item 14</speak>
-            <toolTip>Check for Superior – rating must be supported by comments in item 14</toolTip>
+            <speak priority="toolTip">Check for Superior ï¿½ rating must be supported by comments in item 14</speak>
+            <toolTip>Check for Superior ï¿½ rating must be supported by comments in item 14</toolTip>
           </assist>
           <event activity="click" name="event__click">
             <script>NOT_EVALUATED3.rawValue = 0
@@ -2140,8 +2140,8 @@
           </items>
           <border/>
           <assist>
-            <speak priority="toolTip">Check for Unsatisfactory – rating must be supported by comments in item 14</speak>
-            <toolTip>Check for Unsatisfactory – rating must be supported by comments in item 14</toolTip>
+            <speak priority="toolTip">Check for Unsatisfactory ï¿½ rating must be supported by comments in item 14</speak>
+            <toolTip>Check for Unsatisfactory ï¿½ rating must be supported by comments in item 14</toolTip>
           </assist>
           <event activity="click" name="event__click">
             <script>NOT_EVALUATED3.rawValue = 0
@@ -2210,8 +2210,8 @@
           </items>
           <border/>
           <assist>
-            <speak priority="toolTip">Check for Superior – rating must be supported by comments in item 14</speak>
-            <toolTip>Check for Superior – rating must be supported by comments in item 14</toolTip>
+            <speak priority="toolTip">Check for Superior ï¿½ rating must be supported by comments in item 14</speak>
+            <toolTip>Check for Superior ï¿½ rating must be supported by comments in item 14</toolTip>
           </assist>
           <event activity="click" name="event__click">
             <script>NOT_EVALUATED4.rawValue = 0
@@ -2280,8 +2280,8 @@
           </items>
           <border/>
           <assist>
-            <speak priority="toolTip">Check for Unsatisfactory – rating must be supported by comments in item 14</speak>
-            <toolTip>Check for Unsatisfactory – rating must be supported by comments in item 14</toolTip>
+            <speak priority="toolTip">Check for Unsatisfactory ï¿½ rating must be supported by comments in item 14</speak>
+            <toolTip>Check for Unsatisfactory ï¿½ rating must be supported by comments in item 14</toolTip>
           </assist>
           <event activity="click" name="event__click">
             <script>NOT_EVALUATED4.rawValue = 0
@@ -2350,8 +2350,8 @@
           </items>
           <border/>
           <assist>
-            <speak priority="toolTip">Check for Superior – rating must be supported by comments in item 14</speak>
-            <toolTip>Check for Superior – rating must be supported by comments in item 14</toolTip>
+            <speak priority="toolTip">Check for Superior ï¿½ rating must be supported by comments in item 14</speak>
+            <toolTip>Check for Superior ï¿½ rating must be supported by comments in item 14</toolTip>
           </assist>
           <event activity="click" name="event__click">
             <script>NOT_EVALUATED5.rawValue = 0
@@ -2420,8 +2420,8 @@
           </items>
           <border/>
           <assist>
-            <speak priority="toolTip">Check for Unsatisfactory – rating must be supported by comments in item 14</speak>
-            <toolTip>Check for Unsatisfactory – rating must be supported by comments in item 14</toolTip>
+            <speak priority="toolTip">Check for Unsatisfactory ï¿½ rating must be supported by comments in item 14</speak>
+            <toolTip>Check for Unsatisfactory ï¿½ rating must be supported by comments in item 14</toolTip>
           </assist>
           <event activity="click" name="event__click">
             <script>NOT_EVALUATED5.rawValue = 0
@@ -2757,8 +2757,8 @@
             <traverse ref="NA[0]"/>               
           </traversal>               
           <assist>                  
-            <toolTip>Select for No – Supply comments in item 14</toolTip>
-            <speak priority="toolTip">Select for No – Supply comments in item 14</speak>
+            <toolTip>Select for No ï¿½ Supply comments in item 14</toolTip>
+            <speak priority="toolTip">Select for No ï¿½ Supply comments in item 14</speak>
           </assist>
         </field>
         <field name="NA" w="3.545mm" h="3.547mm" y="105.621mm" x="56.779mm">
@@ -3480,155 +3480,155 @@
       </desc>
       <variables>
         <manifest name="Rater_Signature" id="fe1bcad7-820a-4c14-aa9c-0342e632fd70">
-          <ref>xfa[0].template[0].form1[0].Page1[0].Todays_Date[0]</ref>
-          <ref>xfa[0].template[0].form1[0].Page1[0].Name[0]</ref>
-          <ref>xfa[0].template[0].form1[0].Page1[0].SSN[0]</ref>
-          <ref>xfa[0].template[0].form1[0].Page1[0].SPECIALTY_MOSC[0]</ref>
-          <ref>xfa[0].template[0].form1[0].Page1[0].COURSE_TITLE[0]</ref>
-          <ref>xfa[0].template[0].form1[0].Page1[0].From[0]</ref>
-          <ref>xfa[0].template[0].form1[0].Page1[0].Thru[0]</ref>
-          <ref>xfa[0].template[0].form1[0].Page1[0].Typed_Name_Grade_Rater[0]</ref>
-          <ref>xfa[0].template[0].form1[0].Page1[0].Comments[0]</ref>
-          <ref>xfa[0].template[0].form1[0].Page1[0].Name_School[0]</ref>
-          <ref>xfa[0].template[0].form1[0].Page1[0].Performance_Summary1[0]</ref>
-          <ref>xfa[0].template[0].form1[0].Page1[0].Performance_Summary2[0]</ref>
-          <ref>xfa[0].template[0].form1[0].Page1[0].Performance_Summary3[0]</ref>
-          <ref>xfa[0].template[0].form1[0].Page1[0].Performance_Summary4[0]</ref>
-          <ref>xfa[0].template[0].form1[0].Page1[0].NOT_EVALUATED1[0]</ref>
-          <ref>xfa[0].template[0].form1[0].Page1[0].UNSAT1[0]</ref>
-          <ref>xfa[0].template[0].form1[0].Page1[0].SAT1[0]</ref>
-          <ref>xfa[0].template[0].form1[0].Page1[0].SUPERIOR1[0]</ref>
-          <ref>xfa[0].template[0].form1[0].Page1[0].SUPERIOR2[0]</ref>
-          <ref>xfa[0].template[0].form1[0].Page1[0].SAT2[0]</ref>
-          <ref>xfa[0].template[0].form1[0].Page1[0].UNSAT2[0]</ref>
-          <ref>xfa[0].template[0].form1[0].Page1[0].NOT_EVALUATED2[0]</ref>
-          <ref>xfa[0].template[0].form1[0].Page1[0].SUPERIOR3[0]</ref>
-          <ref>xfa[0].template[0].form1[0].Page1[0].SAT3[0]</ref>
-          <ref>xfa[0].template[0].form1[0].Page1[0].UNSAT3[0]</ref>
-          <ref>xfa[0].template[0].form1[0].Page1[0].NOT_EVALUATED3[0]</ref>
-          <ref>xfa[0].template[0].form1[0].Page1[0].SUPERIOR4[0]</ref>
-          <ref>xfa[0].template[0].form1[0].Page1[0].SAT4[0]</ref>
-          <ref>xfa[0].template[0].form1[0].Page1[0].UNSAT4[0]</ref>
-          <ref>xfa[0].template[0].form1[0].Page1[0].NOT_EVALUATED4[0]</ref>
-          <ref>xfa[0].template[0].form1[0].Page1[0].SUPERIOR5[0]</ref>
-          <ref>xfa[0].template[0].form1[0].Page1[0].SAT5[0]</ref>
-          <ref>xfa[0].template[0].form1[0].Page1[0].UNSAT5[0]</ref>
-          <ref>xfa[0].template[0].form1[0].Page1[0].NOT_EVALUATED5[0]</ref>
-          <ref>xfa[0].template[0].form1[0].Page1[0].Academic_Potential_Yes[0]</ref>
-          <ref>xfa[0].template[0].form1[0].Page1[0].Academic_Potential_No[0]</ref>
-          <ref>xfa[0].template[0].form1[0].Page1[0].NA[0]</ref>
-          <ref>xfa[0].template[0].form1[0].Page1[0].RankdrpdwnListBox2[0]</ref>
-          <ref>xfa[0].template[0].form1[0].Page1[0].aRank1dropdwnList2[0]</ref>
-          <ref>xfa[0].template[0].form1[0].Page1[0].Branch[0]</ref>
-          <ref>xfa[0].template[0].form1[0].Page1[0].Component1[0]</ref>
-          <ref>xfa[0].template[0].form1[0].Page1[0].Component1BK[0]</ref>
-          <ref>xfa[0].template[0].form1[0].Page1[0].Referred_Report1[0]</ref>
-          <ref>xfa[0].template[0].form1[0].Page1[0].Referred_Report2[0]</ref>
-          <ref>xfa[0].template[0].form1[0].Page1[0].Referred_Report3[0]</ref>
-          <ref>xfa[0].template[0].form1[0].Page1[0].Date1[0]</ref>
+          <ref>xfa[0].templateExcel[0].form1[0].Page1[0].Todays_Date[0]</ref>
+          <ref>xfa[0].templateExcel[0].form1[0].Page1[0].Name[0]</ref>
+          <ref>xfa[0].templateExcel[0].form1[0].Page1[0].SSN[0]</ref>
+          <ref>xfa[0].templateExcel[0].form1[0].Page1[0].SPECIALTY_MOSC[0]</ref>
+          <ref>xfa[0].templateExcel[0].form1[0].Page1[0].COURSE_TITLE[0]</ref>
+          <ref>xfa[0].templateExcel[0].form1[0].Page1[0].From[0]</ref>
+          <ref>xfa[0].templateExcel[0].form1[0].Page1[0].Thru[0]</ref>
+          <ref>xfa[0].templateExcel[0].form1[0].Page1[0].Typed_Name_Grade_Rater[0]</ref>
+          <ref>xfa[0].templateExcel[0].form1[0].Page1[0].Comments[0]</ref>
+          <ref>xfa[0].templateExcel[0].form1[0].Page1[0].Name_School[0]</ref>
+          <ref>xfa[0].templateExcel[0].form1[0].Page1[0].Performance_Summary1[0]</ref>
+          <ref>xfa[0].templateExcel[0].form1[0].Page1[0].Performance_Summary2[0]</ref>
+          <ref>xfa[0].templateExcel[0].form1[0].Page1[0].Performance_Summary3[0]</ref>
+          <ref>xfa[0].templateExcel[0].form1[0].Page1[0].Performance_Summary4[0]</ref>
+          <ref>xfa[0].templateExcel[0].form1[0].Page1[0].NOT_EVALUATED1[0]</ref>
+          <ref>xfa[0].templateExcel[0].form1[0].Page1[0].UNSAT1[0]</ref>
+          <ref>xfa[0].templateExcel[0].form1[0].Page1[0].SAT1[0]</ref>
+          <ref>xfa[0].templateExcel[0].form1[0].Page1[0].SUPERIOR1[0]</ref>
+          <ref>xfa[0].templateExcel[0].form1[0].Page1[0].SUPERIOR2[0]</ref>
+          <ref>xfa[0].templateExcel[0].form1[0].Page1[0].SAT2[0]</ref>
+          <ref>xfa[0].templateExcel[0].form1[0].Page1[0].UNSAT2[0]</ref>
+          <ref>xfa[0].templateExcel[0].form1[0].Page1[0].NOT_EVALUATED2[0]</ref>
+          <ref>xfa[0].templateExcel[0].form1[0].Page1[0].SUPERIOR3[0]</ref>
+          <ref>xfa[0].templateExcel[0].form1[0].Page1[0].SAT3[0]</ref>
+          <ref>xfa[0].templateExcel[0].form1[0].Page1[0].UNSAT3[0]</ref>
+          <ref>xfa[0].templateExcel[0].form1[0].Page1[0].NOT_EVALUATED3[0]</ref>
+          <ref>xfa[0].templateExcel[0].form1[0].Page1[0].SUPERIOR4[0]</ref>
+          <ref>xfa[0].templateExcel[0].form1[0].Page1[0].SAT4[0]</ref>
+          <ref>xfa[0].templateExcel[0].form1[0].Page1[0].UNSAT4[0]</ref>
+          <ref>xfa[0].templateExcel[0].form1[0].Page1[0].NOT_EVALUATED4[0]</ref>
+          <ref>xfa[0].templateExcel[0].form1[0].Page1[0].SUPERIOR5[0]</ref>
+          <ref>xfa[0].templateExcel[0].form1[0].Page1[0].SAT5[0]</ref>
+          <ref>xfa[0].templateExcel[0].form1[0].Page1[0].UNSAT5[0]</ref>
+          <ref>xfa[0].templateExcel[0].form1[0].Page1[0].NOT_EVALUATED5[0]</ref>
+          <ref>xfa[0].templateExcel[0].form1[0].Page1[0].Academic_Potential_Yes[0]</ref>
+          <ref>xfa[0].templateExcel[0].form1[0].Page1[0].Academic_Potential_No[0]</ref>
+          <ref>xfa[0].templateExcel[0].form1[0].Page1[0].NA[0]</ref>
+          <ref>xfa[0].templateExcel[0].form1[0].Page1[0].RankdrpdwnListBox2[0]</ref>
+          <ref>xfa[0].templateExcel[0].form1[0].Page1[0].aRank1dropdwnList2[0]</ref>
+          <ref>xfa[0].templateExcel[0].form1[0].Page1[0].Branch[0]</ref>
+          <ref>xfa[0].templateExcel[0].form1[0].Page1[0].Component1[0]</ref>
+          <ref>xfa[0].templateExcel[0].form1[0].Page1[0].Component1BK[0]</ref>
+          <ref>xfa[0].templateExcel[0].form1[0].Page1[0].Referred_Report1[0]</ref>
+          <ref>xfa[0].templateExcel[0].form1[0].Page1[0].Referred_Report2[0]</ref>
+          <ref>xfa[0].templateExcel[0].form1[0].Page1[0].Referred_Report3[0]</ref>
+          <ref>xfa[0].templateExcel[0].form1[0].Page1[0].Date1[0]</ref>
         </manifest>
         <manifest name="Reviewing_Signature" id="300be2d0-8c6e-4332-ab27-40e258062aa8">
-          <ref>xfa[0].template[0].form1[0].Page1[0].Todays_Date[0]</ref>
-          <ref>xfa[0].template[0].form1[0].Page1[0].Name[0]</ref>
-          <ref>xfa[0].template[0].form1[0].Page1[0].SSN[0]</ref>
-          <ref>xfa[0].template[0].form1[0].Page1[0].SPECIALTY_MOSC[0]</ref>
-          <ref>xfa[0].template[0].form1[0].Page1[0].COURSE_TITLE[0]</ref>
-          <ref>xfa[0].template[0].form1[0].Page1[0].From[0]</ref>
-          <ref>xfa[0].template[0].form1[0].Page1[0].Thru[0]</ref>
-          <ref>xfa[0].template[0].form1[0].Page1[0].Typed_Name_Grade_Rater[0]</ref>
-          <ref>xfa[0].template[0].form1[0].Page1[0].Typed_Name_Grade_Review[0]</ref>
-          <ref>xfa[0].template[0].form1[0].Page1[0].Comments[0]</ref>
-          <ref>xfa[0].template[0].form1[0].Page1[0].Performance_Summary1[0]</ref>
-          <ref>xfa[0].template[0].form1[0].Page1[0].Performance_Summary2[0]</ref>
-          <ref>xfa[0].template[0].form1[0].Page1[0].Performance_Summary3[0]</ref>
-          <ref>xfa[0].template[0].form1[0].Page1[0].Performance_Summary4[0]</ref>
-          <ref>xfa[0].template[0].form1[0].Page1[0].NOT_EVALUATED1[0]</ref>
-          <ref>xfa[0].template[0].form1[0].Page1[0].UNSAT1[0]</ref>
-          <ref>xfa[0].template[0].form1[0].Page1[0].SAT1[0]</ref>
-          <ref>xfa[0].template[0].form1[0].Page1[0].SUPERIOR1[0]</ref>
-          <ref>xfa[0].template[0].form1[0].Page1[0].SUPERIOR2[0]</ref>
-          <ref>xfa[0].template[0].form1[0].Page1[0].SAT2[0]</ref>
-          <ref>xfa[0].template[0].form1[0].Page1[0].UNSAT2[0]</ref>
-          <ref>xfa[0].template[0].form1[0].Page1[0].NOT_EVALUATED2[0]</ref>
-          <ref>xfa[0].template[0].form1[0].Page1[0].SUPERIOR3[0]</ref>
-          <ref>xfa[0].template[0].form1[0].Page1[0].SAT3[0]</ref>
-          <ref>xfa[0].template[0].form1[0].Page1[0].UNSAT3[0]</ref>
-          <ref>xfa[0].template[0].form1[0].Page1[0].NOT_EVALUATED3[0]</ref>
-          <ref>xfa[0].template[0].form1[0].Page1[0].SUPERIOR4[0]</ref>
-          <ref>xfa[0].template[0].form1[0].Page1[0].SAT4[0]</ref>
-          <ref>xfa[0].template[0].form1[0].Page1[0].UNSAT4[0]</ref>
-          <ref>xfa[0].template[0].form1[0].Page1[0].NOT_EVALUATED4[0]</ref>
-          <ref>xfa[0].template[0].form1[0].Page1[0].SUPERIOR5[0]</ref>
-          <ref>xfa[0].template[0].form1[0].Page1[0].SAT5[0]</ref>
-          <ref>xfa[0].template[0].form1[0].Page1[0].UNSAT5[0]</ref>
-          <ref>xfa[0].template[0].form1[0].Page1[0].NOT_EVALUATED5[0]</ref>
-          <ref>xfa[0].template[0].form1[0].Page1[0].Rater_Signature[0]</ref>
-          <ref>xfa[0].template[0].form1[0].Page1[0].Academic_Potential_Yes[0]</ref>
-          <ref>xfa[0].template[0].form1[0].Page1[0].Academic_Potential_No[0]</ref>
-          <ref>xfa[0].template[0].form1[0].Page1[0].NA[0]</ref>
-          <ref>xfa[0].template[0].form1[0].Page1[0].Date2[0]</ref>
-          <ref>xfa[0].template[0].form1[0].Page1[0].Date1[0]</ref>
-          <ref>xfa[0].template[0].form1[0].Page1[0].RankdrpdwnListBox2[0]</ref>
-          <ref>xfa[0].template[0].form1[0].Page1[0].aRank1dropdwnList2[0]</ref>
-          <ref>xfa[0].template[0].form1[0].Page1[0].Branch[0]</ref>
-          <ref>xfa[0].template[0].form1[0].Page1[0].Component1[0]</ref>
-          <ref>xfa[0].template[0].form1[0].Page1[0].Component1BK[0]</ref>
-          <ref>xfa[0].template[0].form1[0].Page1[0].Referred_Report1[0]</ref>
-          <ref>xfa[0].template[0].form1[0].Page1[0].Referred_Report2[0]</ref>
-          <ref>xfa[0].template[0].form1[0].Page1[0].Referred_Report3[0]</ref>
+          <ref>xfa[0].templateExcel[0].form1[0].Page1[0].Todays_Date[0]</ref>
+          <ref>xfa[0].templateExcel[0].form1[0].Page1[0].Name[0]</ref>
+          <ref>xfa[0].templateExcel[0].form1[0].Page1[0].SSN[0]</ref>
+          <ref>xfa[0].templateExcel[0].form1[0].Page1[0].SPECIALTY_MOSC[0]</ref>
+          <ref>xfa[0].templateExcel[0].form1[0].Page1[0].COURSE_TITLE[0]</ref>
+          <ref>xfa[0].templateExcel[0].form1[0].Page1[0].From[0]</ref>
+          <ref>xfa[0].templateExcel[0].form1[0].Page1[0].Thru[0]</ref>
+          <ref>xfa[0].templateExcel[0].form1[0].Page1[0].Typed_Name_Grade_Rater[0]</ref>
+          <ref>xfa[0].templateExcel[0].form1[0].Page1[0].Typed_Name_Grade_Review[0]</ref>
+          <ref>xfa[0].templateExcel[0].form1[0].Page1[0].Comments[0]</ref>
+          <ref>xfa[0].templateExcel[0].form1[0].Page1[0].Performance_Summary1[0]</ref>
+          <ref>xfa[0].templateExcel[0].form1[0].Page1[0].Performance_Summary2[0]</ref>
+          <ref>xfa[0].templateExcel[0].form1[0].Page1[0].Performance_Summary3[0]</ref>
+          <ref>xfa[0].templateExcel[0].form1[0].Page1[0].Performance_Summary4[0]</ref>
+          <ref>xfa[0].templateExcel[0].form1[0].Page1[0].NOT_EVALUATED1[0]</ref>
+          <ref>xfa[0].templateExcel[0].form1[0].Page1[0].UNSAT1[0]</ref>
+          <ref>xfa[0].templateExcel[0].form1[0].Page1[0].SAT1[0]</ref>
+          <ref>xfa[0].templateExcel[0].form1[0].Page1[0].SUPERIOR1[0]</ref>
+          <ref>xfa[0].templateExcel[0].form1[0].Page1[0].SUPERIOR2[0]</ref>
+          <ref>xfa[0].templateExcel[0].form1[0].Page1[0].SAT2[0]</ref>
+          <ref>xfa[0].templateExcel[0].form1[0].Page1[0].UNSAT2[0]</ref>
+          <ref>xfa[0].templateExcel[0].form1[0].Page1[0].NOT_EVALUATED2[0]</ref>
+          <ref>xfa[0].templateExcel[0].form1[0].Page1[0].SUPERIOR3[0]</ref>
+          <ref>xfa[0].templateExcel[0].form1[0].Page1[0].SAT3[0]</ref>
+          <ref>xfa[0].templateExcel[0].form1[0].Page1[0].UNSAT3[0]</ref>
+          <ref>xfa[0].templateExcel[0].form1[0].Page1[0].NOT_EVALUATED3[0]</ref>
+          <ref>xfa[0].templateExcel[0].form1[0].Page1[0].SUPERIOR4[0]</ref>
+          <ref>xfa[0].templateExcel[0].form1[0].Page1[0].SAT4[0]</ref>
+          <ref>xfa[0].templateExcel[0].form1[0].Page1[0].UNSAT4[0]</ref>
+          <ref>xfa[0].templateExcel[0].form1[0].Page1[0].NOT_EVALUATED4[0]</ref>
+          <ref>xfa[0].templateExcel[0].form1[0].Page1[0].SUPERIOR5[0]</ref>
+          <ref>xfa[0].templateExcel[0].form1[0].Page1[0].SAT5[0]</ref>
+          <ref>xfa[0].templateExcel[0].form1[0].Page1[0].UNSAT5[0]</ref>
+          <ref>xfa[0].templateExcel[0].form1[0].Page1[0].NOT_EVALUATED5[0]</ref>
+          <ref>xfa[0].templateExcel[0].form1[0].Page1[0].Rater_Signature[0]</ref>
+          <ref>xfa[0].templateExcel[0].form1[0].Page1[0].Academic_Potential_Yes[0]</ref>
+          <ref>xfa[0].templateExcel[0].form1[0].Page1[0].Academic_Potential_No[0]</ref>
+          <ref>xfa[0].templateExcel[0].form1[0].Page1[0].NA[0]</ref>
+          <ref>xfa[0].templateExcel[0].form1[0].Page1[0].Date2[0]</ref>
+          <ref>xfa[0].templateExcel[0].form1[0].Page1[0].Date1[0]</ref>
+          <ref>xfa[0].templateExcel[0].form1[0].Page1[0].RankdrpdwnListBox2[0]</ref>
+          <ref>xfa[0].templateExcel[0].form1[0].Page1[0].aRank1dropdwnList2[0]</ref>
+          <ref>xfa[0].templateExcel[0].form1[0].Page1[0].Branch[0]</ref>
+          <ref>xfa[0].templateExcel[0].form1[0].Page1[0].Component1[0]</ref>
+          <ref>xfa[0].templateExcel[0].form1[0].Page1[0].Component1BK[0]</ref>
+          <ref>xfa[0].templateExcel[0].form1[0].Page1[0].Referred_Report1[0]</ref>
+          <ref>xfa[0].templateExcel[0].form1[0].Page1[0].Referred_Report2[0]</ref>
+          <ref>xfa[0].templateExcel[0].form1[0].Page1[0].Referred_Report3[0]</ref>
         </manifest>
         <manifest name="Rated_Soldier_Signature" id="8e175e59-1d15-4b4d-ad30-46afcda3bcf2">
-          <ref>xfa[0].template[0].form1[0].Page1[0].Todays_Date[0]</ref>
-          <ref>xfa[0].template[0].form1[0].Page1[0].Name[0]</ref>
-          <ref>xfa[0].template[0].form1[0].Page1[0].SSN[0]</ref>
-          <ref>xfa[0].template[0].form1[0].Page1[0].SPECIALTY_MOSC[0]</ref>
-          <ref>xfa[0].template[0].form1[0].Page1[0].COURSE_TITLE[0]</ref>
-          <ref>xfa[0].template[0].form1[0].Page1[0].From[0]</ref>
-          <ref>xfa[0].template[0].form1[0].Page1[0].Thru[0]</ref>
-          <ref>xfa[0].template[0].form1[0].Page1[0].Typed_Name_Grade_Rater[0]</ref>
-          <ref>xfa[0].template[0].form1[0].Page1[0].Typed_Name_Grade_Review[0]</ref>
-          <ref>xfa[0].template[0].form1[0].Page1[0].Comments[0]</ref>
-          <ref>xfa[0].template[0].form1[0].Page1[0].Name_School[0]</ref>
-          <ref>xfa[0].template[0].form1[0].Page1[0].Performance_Summary1[0]</ref>
-          <ref>xfa[0].template[0].form1[0].Page1[0].Performance_Summary2[0]</ref>
-          <ref>xfa[0].template[0].form1[0].Page1[0].Performance_Summary3[0]</ref>
-          <ref>xfa[0].template[0].form1[0].Page1[0].Performance_Summary4[0]</ref>
-          <ref>xfa[0].template[0].form1[0].Page1[0].NOT_EVALUATED1[0]</ref>
-          <ref>xfa[0].template[0].form1[0].Page1[0].UNSAT1[0]</ref>
-          <ref>xfa[0].template[0].form1[0].Page1[0].SAT1[0]</ref>
-          <ref>xfa[0].template[0].form1[0].Page1[0].SUPERIOR1[0]</ref>
-          <ref>xfa[0].template[0].form1[0].Page1[0].SUPERIOR2[0]</ref>
-          <ref>xfa[0].template[0].form1[0].Page1[0].SAT2[0]</ref>
-          <ref>xfa[0].template[0].form1[0].Page1[0].UNSAT2[0]</ref>
-          <ref>xfa[0].template[0].form1[0].Page1[0].NOT_EVALUATED2[0]</ref>
-          <ref>xfa[0].template[0].form1[0].Page1[0].SUPERIOR3[0]</ref>
-          <ref>xfa[0].template[0].form1[0].Page1[0].SAT3[0]</ref>
-          <ref>xfa[0].template[0].form1[0].Page1[0].UNSAT3[0]</ref>
-          <ref>xfa[0].template[0].form1[0].Page1[0].NOT_EVALUATED3[0]</ref>
-          <ref>xfa[0].template[0].form1[0].Page1[0].SUPERIOR4[0]</ref>
-          <ref>xfa[0].template[0].form1[0].Page1[0].SAT4[0]</ref>
-          <ref>xfa[0].template[0].form1[0].Page1[0].UNSAT4[0]</ref>
-          <ref>xfa[0].template[0].form1[0].Page1[0].NOT_EVALUATED4[0]</ref>
-          <ref>xfa[0].template[0].form1[0].Page1[0].SUPERIOR5[0]</ref>
-          <ref>xfa[0].template[0].form1[0].Page1[0].SAT5[0]</ref>
-          <ref>xfa[0].template[0].form1[0].Page1[0].UNSAT5[0]</ref>
-          <ref>xfa[0].template[0].form1[0].Page1[0].NOT_EVALUATED5[0]</ref>
-          <ref>xfa[0].template[0].form1[0].Page1[0].Rater_Signature[0]</ref>
-          <ref>xfa[0].template[0].form1[0].Page1[0].Reviewing_Signature[0]</ref>
-          <ref>xfa[0].template[0].form1[0].Page1[0].Academic_Potential_Yes[0]</ref>
-          <ref>xfa[0].template[0].form1[0].Page1[0].Academic_Potential_No[0]</ref>
-          <ref>xfa[0].template[0].form1[0].Page1[0].NA[0]</ref>
-          <ref>xfa[0].template[0].form1[0].Page1[0].Date3[0]</ref>
-          <ref>xfa[0].template[0].form1[0].Page1[0].Date1[0]</ref>
-          <ref>xfa[0].template[0].form1[0].Page1[0].Date2[0]</ref>
-          <ref>xfa[0].template[0].form1[0].Page1[0].RankdrpdwnListBox2[0]</ref>
-          <ref>xfa[0].template[0].form1[0].Page1[0].aRank1dropdwnList2[0]</ref>
-          <ref>xfa[0].template[0].form1[0].Page1[0].Branch[0]</ref>
-          <ref>xfa[0].template[0].form1[0].Page1[0].Component1[0]</ref>
-          <ref>xfa[0].template[0].form1[0].Page1[0].Component1BK[0]</ref>
-          <ref>xfa[0].template[0].form1[0].Page1[0].Referred_Report1[0]</ref>
-          <ref>xfa[0].template[0].form1[0].Page1[0].Referred_Report2[0]</ref>
-          <ref>xfa[0].template[0].form1[0].Page1[0].Referred_Report3[0]</ref>
+          <ref>xfa[0].templateExcel[0].form1[0].Page1[0].Todays_Date[0]</ref>
+          <ref>xfa[0].templateExcel[0].form1[0].Page1[0].Name[0]</ref>
+          <ref>xfa[0].templateExcel[0].form1[0].Page1[0].SSN[0]</ref>
+          <ref>xfa[0].templateExcel[0].form1[0].Page1[0].SPECIALTY_MOSC[0]</ref>
+          <ref>xfa[0].templateExcel[0].form1[0].Page1[0].COURSE_TITLE[0]</ref>
+          <ref>xfa[0].templateExcel[0].form1[0].Page1[0].From[0]</ref>
+          <ref>xfa[0].templateExcel[0].form1[0].Page1[0].Thru[0]</ref>
+          <ref>xfa[0].templateExcel[0].form1[0].Page1[0].Typed_Name_Grade_Rater[0]</ref>
+          <ref>xfa[0].templateExcel[0].form1[0].Page1[0].Typed_Name_Grade_Review[0]</ref>
+          <ref>xfa[0].templateExcel[0].form1[0].Page1[0].Comments[0]</ref>
+          <ref>xfa[0].templateExcel[0].form1[0].Page1[0].Name_School[0]</ref>
+          <ref>xfa[0].templateExcel[0].form1[0].Page1[0].Performance_Summary1[0]</ref>
+          <ref>xfa[0].templateExcel[0].form1[0].Page1[0].Performance_Summary2[0]</ref>
+          <ref>xfa[0].templateExcel[0].form1[0].Page1[0].Performance_Summary3[0]</ref>
+          <ref>xfa[0].templateExcel[0].form1[0].Page1[0].Performance_Summary4[0]</ref>
+          <ref>xfa[0].templateExcel[0].form1[0].Page1[0].NOT_EVALUATED1[0]</ref>
+          <ref>xfa[0].templateExcel[0].form1[0].Page1[0].UNSAT1[0]</ref>
+          <ref>xfa[0].templateExcel[0].form1[0].Page1[0].SAT1[0]</ref>
+          <ref>xfa[0].templateExcel[0].form1[0].Page1[0].SUPERIOR1[0]</ref>
+          <ref>xfa[0].templateExcel[0].form1[0].Page1[0].SUPERIOR2[0]</ref>
+          <ref>xfa[0].templateExcel[0].form1[0].Page1[0].SAT2[0]</ref>
+          <ref>xfa[0].templateExcel[0].form1[0].Page1[0].UNSAT2[0]</ref>
+          <ref>xfa[0].templateExcel[0].form1[0].Page1[0].NOT_EVALUATED2[0]</ref>
+          <ref>xfa[0].templateExcel[0].form1[0].Page1[0].SUPERIOR3[0]</ref>
+          <ref>xfa[0].templateExcel[0].form1[0].Page1[0].SAT3[0]</ref>
+          <ref>xfa[0].templateExcel[0].form1[0].Page1[0].UNSAT3[0]</ref>
+          <ref>xfa[0].templateExcel[0].form1[0].Page1[0].NOT_EVALUATED3[0]</ref>
+          <ref>xfa[0].templateExcel[0].form1[0].Page1[0].SUPERIOR4[0]</ref>
+          <ref>xfa[0].templateExcel[0].form1[0].Page1[0].SAT4[0]</ref>
+          <ref>xfa[0].templateExcel[0].form1[0].Page1[0].UNSAT4[0]</ref>
+          <ref>xfa[0].templateExcel[0].form1[0].Page1[0].NOT_EVALUATED4[0]</ref>
+          <ref>xfa[0].templateExcel[0].form1[0].Page1[0].SUPERIOR5[0]</ref>
+          <ref>xfa[0].templateExcel[0].form1[0].Page1[0].SAT5[0]</ref>
+          <ref>xfa[0].templateExcel[0].form1[0].Page1[0].UNSAT5[0]</ref>
+          <ref>xfa[0].templateExcel[0].form1[0].Page1[0].NOT_EVALUATED5[0]</ref>
+          <ref>xfa[0].templateExcel[0].form1[0].Page1[0].Rater_Signature[0]</ref>
+          <ref>xfa[0].templateExcel[0].form1[0].Page1[0].Reviewing_Signature[0]</ref>
+          <ref>xfa[0].templateExcel[0].form1[0].Page1[0].Academic_Potential_Yes[0]</ref>
+          <ref>xfa[0].templateExcel[0].form1[0].Page1[0].Academic_Potential_No[0]</ref>
+          <ref>xfa[0].templateExcel[0].form1[0].Page1[0].NA[0]</ref>
+          <ref>xfa[0].templateExcel[0].form1[0].Page1[0].Date3[0]</ref>
+          <ref>xfa[0].templateExcel[0].form1[0].Page1[0].Date1[0]</ref>
+          <ref>xfa[0].templateExcel[0].form1[0].Page1[0].Date2[0]</ref>
+          <ref>xfa[0].templateExcel[0].form1[0].Page1[0].RankdrpdwnListBox2[0]</ref>
+          <ref>xfa[0].templateExcel[0].form1[0].Page1[0].aRank1dropdwnList2[0]</ref>
+          <ref>xfa[0].templateExcel[0].form1[0].Page1[0].Branch[0]</ref>
+          <ref>xfa[0].templateExcel[0].form1[0].Page1[0].Component1[0]</ref>
+          <ref>xfa[0].templateExcel[0].form1[0].Page1[0].Component1BK[0]</ref>
+          <ref>xfa[0].templateExcel[0].form1[0].Page1[0].Referred_Report1[0]</ref>
+          <ref>xfa[0].templateExcel[0].form1[0].Page1[0].Referred_Report2[0]</ref>
+          <ref>xfa[0].templateExcel[0].form1[0].Page1[0].Referred_Report3[0]</ref>
         </manifest>
         <script name="SetFocusOnFirstFailedField" contentType="application/x-javascript">//+ GENERATED - DO NOT EDIT (ID:C82BC21E-9267-4233-B793-E8CE5A66D756 CRC:1706013869)
         //+ Type: SetFocusOnFirstFailedField
@@ -3669,7 +3669,7 @@
     </subform>
     <?templateDesigner DefaultPreviewDynamic 1?>
     <?templateDesigner WidowOrphanControl 0?>
-    <?originalXFAVersion http://www.xfa.org/schema/xfa-template/3.0/?>
+    <?originalXFAVersion http://www.xfa.org/schema/xfa-templateExcel/3.0/?>
     <?templateDesigner Grid show:0, snap:0, units:19, color:ff8080, origin:(10,10), interval:(120000,100000), objsnap:0, guidesnap:0, pagecentersnap:0?>
     <?templateDesigner Print-PrinterName HP LaserJet 4100 PCL 5?>
     <?templateDesigner Print-Copies 1?>
@@ -3699,7 +3699,7 @@
     <?templateDesigner FormTargetVersion 30?>
     <?templateDesigner Rulers horizontal:1, vertical:1, guidelines:0, crosshairs:0?>
     <?templateDesigner Guidelines h:9003?>   
-  </template>
+  </templateExcel>
   <localeSet xmlns="http://www.xfa.org/schema/xfa-locale-set/2.7/">      
     <locale name="en_US" desc="English (United States)">         
       <calendarSymbols name="gregorian">            
@@ -3979,7 +3979,7 @@
           
           <rdf:value>10.0.2.20120224.1.869952.867557</rdf:value>
           
-          <desc:ref>/template/subform[1]</desc:ref>
+          <desc:ref>/templateExcel/subform[1]</desc:ref>
           
         </desc:version>
         
