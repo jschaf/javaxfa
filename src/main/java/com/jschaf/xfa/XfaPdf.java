@@ -1,8 +1,5 @@
 package com.jschaf.xfa;
 
-import com.fasterxml.jackson.databind.ObjectMapper;
-import com.fasterxml.jackson.dataformat.xml.XmlMapper;
-import com.fasterxml.jackson.datatype.jsr310.JavaTimeModule;
 import com.itextpdf.text.DocumentException;
 import com.itextpdf.text.pdf.AcroFields;
 import com.itextpdf.text.pdf.PdfReader;
@@ -22,22 +19,7 @@ import java.util.HashMap;
  */
 public class XfaPdf {
 
-    private final ObjectMapper mapper = new ObjectMapper();
-    private final ObjectMapper xmlMapper = new XmlMapper();
     public PdfReader pdf = null;
-
-    public String path = "";
-
-    private XfaPdf initXfaPdf(InputStream inputStream) {
-        try {
-            pdf = new PdfReader(inputStream);
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-        mapper.registerModule(new JavaTimeModule());
-        xmlMapper.registerModule(new JavaTimeModule());
-        return this;
-    }
 
     public XfaPdf(InputStream inputStream) {
         initXfaPdf(inputStream);
@@ -53,6 +35,15 @@ public class XfaPdf {
         }
     }
 
+    private XfaPdf initXfaPdf(InputStream inputStream) {
+        try {
+            pdf = new PdfReader(inputStream);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        return this;
+    }
+
     public Document getXfaDocument() {
         AcroFields form = pdf.getAcroFields();
         return form.getXfa().getDomDocument();
@@ -60,7 +51,7 @@ public class XfaPdf {
 
     public void fillPdfWithXfa(InputStream xmlStream, OutputStream outputStream) {
         PdfReader.unethicalreading = true;
-        PdfStamper stamper = null;
+        PdfStamper stamper;
         try {
             stamper = new PdfStamper(this.pdf, outputStream);
         } catch (DocumentException | IOException e) {

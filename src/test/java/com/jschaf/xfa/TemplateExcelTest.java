@@ -1,18 +1,15 @@
 package com.jschaf.xfa;
 
-import com.github.mustachejava.DefaultMustacheFactory;
-import com.github.mustachejava.MustacheFactory;
 import com.google.common.base.Joiner;
 import com.google.common.collect.ImmutableList;
 import com.google.common.collect.ImmutableMap;
-import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
 import java.io.InputStream;
 import java.util.List;
 import java.util.Map;
 
-import static org.testng.Assert.*;
+import static org.testng.Assert.assertEquals;
 
 /**
  *
@@ -36,20 +33,20 @@ public class TemplateExcelTest {
                         .withEntry("TranslateBlam", "Boom Value - SMITH")
                         .withEntry("Translated_Name", "SMITH, JOHN")
                         .build()
-                        .execute(ImmutableMap.of(
+                        .render(ImmutableMap.of(
                                 "Boom", "Boom Value - SMITH",
                                 "Right", "Boom Value - SMITH 2",
-                                "Last Name", "SMITH",
-                                "First Name", "JOHN")),
+                                "LastName", "SMITH",
+                                "FirstName", "JOHN")),
                 Template.builder()
                         .withEntry("TranslateBlam", "Boom Value - HENRY")
                         .withEntry("Translated_Name", "HENRY, FORD")
                         .build()
-                        .execute(ImmutableMap.of(
+                        .render(ImmutableMap.of(
                                 "Boom", "Boom Value - HENRY",
                                 "Right", "Boom Value - HENRY 2",
-                                "Last Name", "HENRY",
-                                "First Name", "FORD")));
+                                "LastName", "HENRY",
+                                "FirstName", "FORD")));
         assertEquals(actual, expected);
     }
 
@@ -66,16 +63,16 @@ public class TemplateExcelTest {
                         .withEntry("Boom", "Boom Value - SMITH")
                         .withEntry("Right", "Boom Value - SMITH 2")
                         .build()
-                        .execute(ImmutableMap.of(
-                                "Last Name", "SMITH",
-                                "First Name", "JOHN")),
+                        .render(ImmutableMap.of(
+                                "LastName", "SMITH",
+                                "FirstName", "JOHN")),
                 Template.builder()
                         .withEntry("Boom", "Boom Value - HENRY")
                         .withEntry("Right", "Boom Value - HENRY 2")
                         .build()
-                        .execute(ImmutableMap.of(
-                                "Last Name", "HENRY",
-                                "First Name", "FORD")));
+                        .render(ImmutableMap.of(
+                                "LastName", "HENRY",
+                                "FirstName", "FORD")));
 
         assertEquals(actual, expected);
     }

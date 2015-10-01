@@ -34,32 +34,32 @@ public class TemplateExcel {
         this(excel.getDataTable(), excel.getVariables(), excel.getTranslation());
     }
 
-    public List<FilledTemplate> getVariables() {
-        return variableTemplates;
-    }
-
-    public List<FilledTemplate> getTranslations() {
-        return translations;
-    }
-
     protected static List<FilledTemplate> fillVariableTemplates(
             Template template,
             Table<Integer, String, String> table) {
         return table
                 .rowMap().entrySet().stream()
-                .map(entry -> template.execute(entry.getValue()))
+                .map(entry -> template.render(entry.getValue()))
                 .collect(Collectors.toList());
     }
 
     protected static List<FilledTemplate> fillTranslationTemplates(List<FilledTemplate> variables,
                                                                    Template template) {
         return variables.stream()
-                .map(filledVars -> template.execute(filledVars.getMapIncludeContext()))
+                .map(filledVars -> template.render(filledVars.getMapIncludeContext()))
                 .collect(Collectors.toList());
     }
 
     protected static List<String> convertEntriesToXml(List<FilledTemplate> entries) {
         return entries.stream().map(FilledTemplate::toXmlString).collect(Collectors.toList());
+    }
+
+    public List<FilledTemplate> getVariables() {
+        return variableTemplates;
+    }
+
+    public List<FilledTemplate> getTranslations() {
+        return translations;
     }
 
     public List<String> getXmlStrings() {

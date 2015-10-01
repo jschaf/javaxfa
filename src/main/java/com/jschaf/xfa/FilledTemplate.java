@@ -2,6 +2,7 @@ package com.jschaf.xfa;
 
 import com.google.common.collect.ImmutableMap;
 import com.google.common.collect.Maps;
+import com.hubspot.jinjava.Jinjava;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 
@@ -15,7 +16,6 @@ import javax.xml.transform.TransformerFactory;
 import javax.xml.transform.dom.DOMSource;
 import javax.xml.transform.stream.StreamResult;
 import java.io.StringWriter;
-import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Optional;
@@ -45,17 +45,18 @@ public class FilledTemplate {
         functions.put("titlecase", TemplateFunctions::capitalizeFirstLetter);
 
         HashMap<String, String> filledTemplate = Maps.newHashMap();
-        ArrayList<Map<String, ?>> scopes = new ArrayList<>();
-        scopes.add(context);
-        scopes.add(functions);
-        scopes.add(filledTemplate);
-        template.compiledTemplate.forEach((k, mustache) -> {
-            StringWriter writer = new StringWriter();
-            mustache.execute(writer, scopes.toArray());
-            filledTemplate.put(k, writer.toString());
-        });
 
-        return filledTemplate;
+        Map<String, String> scope = Maps.newHashMap();
+        scope.putAll(context);
+        scope.putAll(filledTemplate);
+
+        return Maps.transformEntries(template.rawTemplate,
+                (k, v) -> {
+                    String rendered = new Jinjava().render(v, scope);
+                    scope.put(k, rendered);
+                    return rendered;
+                }
+        );
     }
 
     public static String convertXmlToString(Document doc) {
@@ -112,7 +113,7 @@ public class FilledTemplate {
     }
 
     public Optional<String> fileNameFormat() {
-        return Optional.ofNullable(getMapIncludeContext().get("File Name Format"));
+        return Optional.ofNullable(getMapIncludeContext().get("FileNameFormat"));
     }
 
     @Override

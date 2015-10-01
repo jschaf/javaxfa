@@ -20,6 +20,31 @@ import java.util.Optional;
 public class AerExcel {
 
     public XSSFWorkbook workbook;
+    protected ImmutableTable<Integer, String, String> dataTable;
+    protected ImmutableMap<String, String> variables;
+    protected ImmutableMap<String, String> translation;
+
+    public AerExcel(String path) {
+        try {
+            workbook = new XSSFWorkbook(path);
+            parseDataTable();
+            parseVariables();
+            parseTranslation();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+    public AerExcel(InputStream excelFile) {
+        try {
+            workbook = new XSSFWorkbook(excelFile);
+            parseDataTable();
+            parseVariables();
+            parseTranslation();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
 
     public ImmutableTable<Integer, String, String> getDataTable() {
         if (dataTable == null) {
@@ -40,32 +65,6 @@ public class AerExcel {
             parseTranslation();
         }
         return translation;
-    }
-
-    protected ImmutableTable<Integer, String, String> dataTable;
-    protected ImmutableMap<String, String> variables;
-    protected ImmutableMap<String, String> translation;
-
-
-    public AerExcel(String path) {
-        try {
-            workbook = new XSSFWorkbook(path);
-            parseDataTable();
-            parseVariables();
-            parseTranslation();
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-    }
-    public AerExcel(InputStream excelFile) {
-        try {
-            workbook = new XSSFWorkbook(excelFile);
-            parseDataTable();
-            parseVariables();
-            parseTranslation();
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
     }
 
     public Optional<CellReference[]> getTableCells(String name) {
@@ -138,8 +137,12 @@ public class AerExcel {
 
     private ImmutableMap<Integer, String> parseHeaderRow(Row row) {
         ImmutableMap.Builder<Integer, String> headerMap = ImmutableMap.builder();
+        DataFormatter formatter = new DataFormatter();
+        XSSFFormulaEvaluator formulator = new XSSFFormulaEvaluator(workbook);
         for (Cell cell : row) {
-            headerMap.put(cell.getColumnIndex(), cell.getStringCellValue());
+            String cellValue = formatter.formatCellValue(cell, formulator);
+            headerMap.put(cell.getColumnIndex(), cellValue);
+            System.out.println("parsing R" + row.getRowNum() + " C" + cell.getColumnIndex());
         }
         return headerMap.build();
     }

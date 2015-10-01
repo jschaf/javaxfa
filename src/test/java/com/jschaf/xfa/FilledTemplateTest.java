@@ -11,8 +11,8 @@ import static org.testng.Assert.assertEquals;
 public class FilledTemplateTest {
 
     private final ImmutableMap<String, String> defaultContext = ImmutableMap.of(
-            "last name", "smith",
-            "first name", "john",
+            "last_name", "smith",
+            "first_name", "john",
             "title", "Mr.");
 
     @Test
@@ -20,7 +20,7 @@ public class FilledTemplateTest {
         FilledTemplate actual = Template.builder()
                 .withEntry("a", "{{title}}")
                 .build()
-                .execute(defaultContext);
+                .render(defaultContext);
 
         ImmutableMap<String, String> expected = ImmutableMap.<String, String>builder()
                 .putAll(defaultContext)
@@ -31,11 +31,11 @@ public class FilledTemplateTest {
     }
 
     @Test
-    public void testFillTemplateWithSpaces() throws Exception {
+    public void testFillTemplate2() throws Exception {
         FilledTemplate actual = Template.builder()
-                .withEntry("a", "{{last name}}, {{first name}}")
+                .withEntry("a", "{{last_name}}, {{first_name}}")
                 .build()
-                .execute(defaultContext);
+                .render(defaultContext);
 
         ImmutableMap<String, String> expected = ImmutableMap.<String, String>builder()
                 .putAll(defaultContext)
@@ -48,10 +48,10 @@ public class FilledTemplateTest {
     @Test
     public void testFillTemplateRecursive() throws Exception {
         FilledTemplate actual = Template.builder()
-                .withEntry("a", "{{last name}}")
-                .withEntry("b", "{{a}}, {{first name}}")
+                .withEntry("a", "{{last_name}}")
+                .withEntry("b", "{{a}}, {{first_name}}")
                 .build()
-                .execute(defaultContext);
+                .render(defaultContext);
 
         ImmutableMap<String, String> expected = ImmutableMap.<String, String>builder()
                 .putAll(defaultContext)
@@ -64,10 +64,9 @@ public class FilledTemplateTest {
 
     @Test
     public void testFunctions() throws Exception {
-        FilledTemplate actual = Template.builder().withEntry("a", "{{#bang}}joe{{/bang}}").build().execute();
+        FilledTemplate actual = Template.builder().withEntry("a", "{{'joe'|capitalize}}").build().render();
 
-        ImmutableMap<String, String> expected = ImmutableMap.<String, String>builder()
-                .put("a", "joe!").build();
+        ImmutableMap<String, String> expected = ImmutableMap.of("a", "Joe");
 
         assertEquals(actual.getMapIncludeContext(), expected);
     }

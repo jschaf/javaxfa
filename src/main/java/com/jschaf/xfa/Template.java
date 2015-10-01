@@ -1,10 +1,5 @@
 package com.jschaf.xfa;
 
-import com.github.mustachejava.DefaultMustacheFactory;
-import com.github.mustachejava.Mustache;
-import com.google.common.collect.ImmutableMap;
-
-import java.io.StringReader;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -13,28 +8,21 @@ import java.util.Map;
  */
 public class Template {
 
-    protected final Map<String, Mustache> compiledTemplate;
+    protected final Map<String, String> rawTemplate;
 
     public Template(Map<String, String> rawTemplate) {
-        this.compiledTemplate = compileTemplate(rawTemplate);
+        this.rawTemplate = rawTemplate;
     }
 
     public static Builder builder() {
         return new Builder();
     }
 
-    protected static ImmutableMap<String, Mustache> compileTemplate(Map<String, String> template) {
-        DefaultMustacheFactory factory = new NonEscapingMustacheFactory();
-        ImmutableMap.Builder<String, Mustache> mustacheBuilder = ImmutableMap.builder();
-        template.forEach((k, v) -> mustacheBuilder.put(k, factory.compile(new StringReader(v), k)));
-        return mustacheBuilder.build();
-    }
-
-    public FilledTemplate execute(Map<String, String> context) {
+    public FilledTemplate render(Map<String, String> context) {
         return new FilledTemplate(this, context);
     }
 
-    public FilledTemplate execute() {
+    public FilledTemplate render() {
         return new FilledTemplate(this, new HashMap<>());
     }
 

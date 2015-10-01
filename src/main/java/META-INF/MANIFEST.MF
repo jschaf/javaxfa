@@ -1,0 +1,19 @@
+Manifest-Version: 1.0
+Class-Path: commons-lang3-3.4.jar jinjava-2.0.10.jar slf4j-api-1.7.12.
+ jar jackson-annotations-2.6.0.jar itextpdf-5.5.6.jar guava-19.0-rc2.j
+ ar jackson-dataformat-xml-2.5.3.jar bcpkix-jdk15on-1.52.jar bcprov-jd
+ k15on-1.52.jar juel-spi-2.2.7.jar jackson-datatype-jsr310-2.6.2.jar p
+ oi-ooxml-schemas-3.13-beta1.jar jcommander-1.48.jar joda-time-2.8.2.j
+ ar jackson-databind-2.6.2.jar poi-3.13-beta1.jar stax-api-1.0.1.jar j
+ avassist-3.18.2-GA.jar compiler-0.9.1.jar hamcrest-core-1.3.jar xmlbe
+ ans-2.6.0.jar jsoup-1.8.1.jar xmlsec-2.0.5.jar slf4j-api-1.7.12.jar w
+ oodstox-core-asl-4.4.1.jar stax-api-1.0-2.jar stax2-api-3.1.4.jar com
+ mons-codec-1.10.jar commons-codec-1.9.jar gson-2.3.1.jar poi-ooxml-3.
+ 13-beta1.jar slf4j-nop-1.7.12.jar jackson-module-jaxb-annotations-2.5
+ .3.jar jackson-core-2.6.2.jar junit-4.12.jar auto-value-1.1.jar juel-
+ api-2.2.7.jar xmlunit-1.6.jar annotations-3.0.0.jar testng-6.8.21.jar
+  bsh-2.0b4.jar guice-2.0.jar aopalliance-1.0.jar jcommander-1.27.jar 
+ bcprov-jdk15on-1.52.jar stax2-api-3.1.4.jar xml-apis-1.3.04.jar juel-
+ impl-2.2.7.jar
+Main-Class: com.jschaf.xfa.Main
+

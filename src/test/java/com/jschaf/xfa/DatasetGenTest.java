@@ -1,16 +1,15 @@
 package com.jschaf.xfa;
 
 import org.custommonkey.xmlunit.*;
-import org.custommonkey.xmlunit.examples.RecursiveElementNameAndTextQualifier;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 import org.w3c.dom.Document;
 import org.w3c.dom.Node;
 
 import java.io.InputStream;
-import java.util.Optional;
 
-import static org.testng.Assert.*;
+import static org.testng.Assert.assertEquals;
+import static org.testng.Assert.assertTrue;
 
 /**
  * Tests for Dataset
@@ -18,6 +17,12 @@ import static org.testng.Assert.*;
 public class DatasetGenTest {
 
     private InputStream da410xml;
+
+    public static void assertDatasetCorrect(String template, String dataset) {
+        Document expected = DatasetGen.convertStringToDocument(dataset);
+        Document actual = DatasetGen.createDatasetFromTemplate(template);
+        XMLAssert.assertXMLEqual(expected, actual);
+    }
 
     @BeforeClass
     public void setUp() throws Exception {
@@ -111,12 +116,6 @@ public class DatasetGenTest {
         String input = "<template></template>";
         Document actual = DatasetGen.createDatasetFromTemplate(input);
         assertEquals(actual.getChildNodes().getLength(), 0);
-    }
-
-    public static void assertDatasetCorrect(String template, String dataset) {
-        Document expected = DatasetGen.convertStringToDocument(dataset);
-        Document actual = DatasetGen.createDatasetFromTemplate(template);
-        XMLAssert.assertXMLEqual(expected, actual);
     }
 
     @Test
