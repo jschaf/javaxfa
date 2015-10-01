@@ -1,8 +1,8 @@
 package com.jschaf.xfa;
 
 import java.io.File;
-import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
+import java.io.IOException;
 import java.net.MalformedURLException;
 import java.net.URISyntaxException;
 import java.net.URL;
@@ -11,7 +11,7 @@ import java.util.concurrent.ThreadLocalRandom;
 /**
  *
  */
-public class Main {
+class Main {
 
     /**
      * Compute the absolute file path to the jar file.
@@ -23,7 +23,7 @@ public class Main {
      * During testing with NetBeans, the result is ./build/classes/,
      * which is the directory containing what will be in the jar.
      */
-    public static File getJarDir(Class aclass) {
+    private static File getJarDir(Class aclass) {
         URL url;
         String extURL;      //  url.toExternalForm();
 
@@ -73,7 +73,7 @@ public class Main {
         File currentDirectory = getJarDir(Main.class);
 
         File pdfDirectory = new File(currentDirectory, "AerPdfs");
-        boolean wasCreated = pdfDirectory.mkdirs();
+        pdfDirectory.mkdirs();
 
         File dataPath = new File(currentDirectory, "AERData.xlsx");
 
@@ -88,16 +88,13 @@ public class Main {
             int i = ThreadLocalRandom.current().nextInt(1, 1000000);
             String defaultFileName = "default" + i + ".pdf";
             String fileName = filledTemplate.fileNameFormat().orElse(defaultFileName);
-            FileOutputStream output;
             File filledPdf = new File(pdfDirectory, fileName);
-            try {
-                output = new FileOutputStream(filledPdf.getAbsoluteFile());
-            } catch (FileNotFoundException e) {
+            try (FileOutputStream output = new FileOutputStream(filledPdf.getAbsoluteFile())) {
+                xfaPdf.fillPdfWithXfa(filledTemplate.toXmlString(), output);
+            } catch (IOException e) {
                 e.printStackTrace();
-                return;
             }
 
-            xfaPdf.fillPdfWithXfa(filledTemplate.toXmlString(), output);
         });
     }
 }

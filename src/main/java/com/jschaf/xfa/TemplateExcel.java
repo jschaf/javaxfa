@@ -9,19 +9,19 @@ import java.util.stream.Collectors;
 /**
  *
  */
-public class TemplateExcel {
+class TemplateExcel {
 
 
-    protected final Table<Integer, String, String> dataTable;
-    protected final Template variables;
-    protected final Template translation;
+    private final Table<Integer, String, String> dataTable;
+    private final Template variables;
+    private final Template translation;
 
-    private List<FilledTemplate> variableTemplates;
-    private List<FilledTemplate> translations;
+    private final List<FilledTemplate> variableTemplates;
+    private final List<FilledTemplate> translations;
 
-    public TemplateExcel(Table<Integer, String, String> dataTable,
-                         Map<String, String> variables,
-                         Map<String, String> translation) {
+    private TemplateExcel(Table<Integer, String, String> dataTable,
+                          Map<String, String> variables,
+                          Map<String, String> translation) {
         this.dataTable = dataTable;
         this.variables = new Template(variables);
         this.translation = new Template(translation);
@@ -34,7 +34,7 @@ public class TemplateExcel {
         this(excel.getDataTable(), excel.getVariables(), excel.getTranslation());
     }
 
-    protected static List<FilledTemplate> fillVariableTemplates(
+    private static List<FilledTemplate> fillVariableTemplates(
             Template template,
             Table<Integer, String, String> table) {
         return table
@@ -43,14 +43,14 @@ public class TemplateExcel {
                 .collect(Collectors.toList());
     }
 
-    protected static List<FilledTemplate> fillTranslationTemplates(List<FilledTemplate> variables,
-                                                                   Template template) {
+    private static List<FilledTemplate> fillTranslationTemplates(List<FilledTemplate> variables,
+                                                                 Template template) {
         return variables.stream()
                 .map(filledVars -> template.render(filledVars.getMapIncludeContext()))
                 .collect(Collectors.toList());
     }
 
-    protected static List<String> convertEntriesToXml(List<FilledTemplate> entries) {
+    private static List<String> convertEntriesToXml(List<FilledTemplate> entries) {
         return entries.stream().map(FilledTemplate::toXmlString).collect(Collectors.toList());
     }
 

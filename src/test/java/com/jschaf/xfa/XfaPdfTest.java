@@ -1,19 +1,15 @@
 package com.jschaf.xfa;
 
-import com.itextpdf.text.*;
 import com.itextpdf.text.pdf.XfaForm;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import org.xml.sax.SAXException;
 
 import javax.xml.parsers.ParserConfigurationException;
-import javax.xml.transform.TransformerException;
-import javax.xml.xpath.XPathExpressionException;
+import java.io.IOException;
+import java.io.InputStream;
 
-import java.io.*;
-import java.time.LocalDate;
-
-import static org.testng.Assert.*;
+import static org.testng.Assert.assertEquals;
 
 /**
  * Test for XfaPdf
@@ -49,7 +45,7 @@ public class XfaPdfTest {
         System.out.println("Is XFA Present?");
         System.out.println(xfaForm.isXfaPresent());
 
-        if (xfaForm != null && xfaForm.isXfaPresent() && doc.pdf.getAcroFields().getFields().keySet().size() == 0) {
+        if (xfaForm.isXfaPresent() && doc.pdf.getAcroFields().getFields().keySet().size() == 0) {
             System.out.println("XFA Form is dynamic");
         } else {
             System.out.println("XFA Form is static");

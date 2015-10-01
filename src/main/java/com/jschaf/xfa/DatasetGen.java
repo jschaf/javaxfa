@@ -29,9 +29,9 @@ import java.util.stream.StreamSupport;
 /**
  * Generates the XFA Dataset from the template.
  */
-public class DatasetGen {
+class DatasetGen {
 
-    public static Document newEmptyDocument() {
+    private static Document newEmptyDocument() {
         DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
         DocumentBuilder builder;
         Document doc = null;
@@ -60,7 +60,7 @@ public class DatasetGen {
     }
 
     public static String convertDocumentToString(Document document) {
-        return convertNodeToString((Node) document);
+        return convertNodeToString(document);
     }
 
     public static Document convertStringToDocument(String xml) {
@@ -82,29 +82,24 @@ public class DatasetGen {
     }
 
 
-    public static Iterable<Node> iterable(final NodeList nodes) {
-       return new Iterable<Node>() {
+    private static Iterable<Node> iterable(final NodeList nodes) {
+        return () -> new Iterator<Node>() {
+            int index = 0;
+
            @Override
-           public Iterator<Node> iterator() {
-               return new Iterator<Node>() {
-                   int index = 0;
-
-                   @Override
-                   public boolean hasNext() {
-                       return index < nodes.getLength();
-                   }
-
-                   @Override
-                   public Node next() {
-                       if (hasNext()) {
-                           return nodes.item(index++);
-                       } else {
-                           throw new NoSuchElementException();
-                       }
-                   }
-
-               };
+           public boolean hasNext() {
+               return index < nodes.getLength();
            }
+
+            @Override
+            public Node next() {
+                if (hasNext()) {
+                    return nodes.item(index++);
+                } else {
+                    throw new NoSuchElementException();
+                }
+           }
+
        };
     }
 
@@ -125,7 +120,7 @@ public class DatasetGen {
         return text.map(Node::getFirstChild).map(Node::getNodeValue);
     }
 
-    public static Optional<Element> handleField(Document doc, Node field) {
+    private static Optional<Element> handleField(Document doc, Node field) {
         Node name = field.getAttributes().getNamedItem("name");
         String nodeName = "#field";
         if (name != null) {
@@ -140,14 +135,14 @@ public class DatasetGen {
         return Optional.of(element);
     }
 
-    public static Optional<String> getBindValue(Node next) {
+    private static Optional<String> getBindValue(Node next) {
         return nodeChildren(next)
                 .filter(e -> e.getNodeName().equals("bind"))
                 .findFirst()
                 .map(bind -> ((Element) bind).getAttribute("match"));
     }
 
-    public static Optional<Element> handleSubform(Document doc, Node subform) {
+    private static Optional<Element> handleSubform(Document doc, Node subform) {
         Node name = subform.getAttributes().getNamedItem("name");
         String nodeName = "#subform";
         if (name != null) {
@@ -188,7 +183,7 @@ public class DatasetGen {
         return doc;
     }
 
-    public static Document createDatasetFromTemplate(Document xml) {
+    private static Document createDatasetFromTemplate(Document xml) {
         return createDatasetFromTemplate(xml.getFirstChild());
     }
 

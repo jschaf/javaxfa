@@ -8,7 +8,7 @@ import java.util.Map;
  */
 public class Template {
 
-    protected final Map<String, String> rawTemplate;
+    final Map<String, String> rawTemplate;
 
     public Template(Map<String, String> rawTemplate) {
         this.rawTemplate = rawTemplate;
@@ -27,7 +27,7 @@ public class Template {
     }
 
     public static class Builder {
-        private Map<String, String> template = new HashMap<>();
+        private final Map<String, String> template = new HashMap<>();
 
         public Builder withEntry(String key, String value) {
             template.put(key, value);

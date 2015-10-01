@@ -17,12 +17,12 @@ import java.util.Optional;
 /**
  * Define interface between AER Excel file and the AER hierarchy.
  */
-public class AerExcel {
+class AerExcel {
 
-    public XSSFWorkbook workbook;
-    protected ImmutableTable<Integer, String, String> dataTable;
-    protected ImmutableMap<String, String> variables;
-    protected ImmutableMap<String, String> translation;
+    ImmutableTable<Integer, String, String> dataTable;
+    ImmutableMap<String, String> variables;
+    private XSSFWorkbook workbook;
+    private ImmutableMap<String, String> translation;
 
     public AerExcel(String path) {
         try {
@@ -108,7 +108,7 @@ public class AerExcel {
         printCell(cell);
     }
 
-    public void printCell(Cell cell) {
+    private void printCell(Cell cell) {
         switch (cell.getCellType()) {
             case Cell.CELL_TYPE_STRING:
                 System.out.print(cell.getRichStringCellValue().getString());
@@ -148,7 +148,7 @@ public class AerExcel {
     }
 
 
-    protected ImmutableTable<Integer, String, String> parseDataTable() {
+    public void parseDataTable() {
         ImmutableTable.Builder<Integer, String, String> table = ImmutableTable.builder();
         Sheet sheet = workbook.getSheet("Data");
         DataFormatter formatter = new DataFormatter();
@@ -166,7 +166,6 @@ public class AerExcel {
             }
         }
         dataTable = table.build();
-        return dataTable;
     }
 
     public void printDataTable() {
@@ -183,7 +182,7 @@ public class AerExcel {
         XSSFFormulaEvaluator formulator = new XSSFFormulaEvaluator(workbook);
 
         String key = "";
-        String value = "";
+        String value;
         for (Row row : sheet) {
             // Skip Header
             if (row.getRowNum() < 3) { continue; }
@@ -212,7 +211,7 @@ public class AerExcel {
         variables = parseTable("Variables");
     }
 
-    public void parseTranslation() {
+    private void parseTranslation() {
         translation = parseTable("Form Translation");
     }
 

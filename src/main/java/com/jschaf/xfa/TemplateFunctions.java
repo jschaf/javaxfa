@@ -2,7 +2,7 @@ package com.jschaf.xfa;
 
 /**
  */
-public class TemplateFunctions {
+class TemplateFunctions {
 
     public static String capitalizeFirstLetter(String s) {
 

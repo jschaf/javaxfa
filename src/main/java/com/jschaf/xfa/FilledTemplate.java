@@ -18,8 +18,8 @@ import javax.xml.transform.stream.StreamResult;
 import java.io.StringWriter;
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Objects;
 import java.util.Optional;
-import java.util.function.Function;
 
 /**
  *
@@ -34,20 +34,12 @@ public class FilledTemplate {
         filledTemplate = fill(template, context);
     }
 
-    protected static Map<String, String> fill(
+    private static Map<String, String> fill(
             Template template,
             Map<String, String> context){
 
-        HashMap<String, Function<String, String>> functions = new HashMap<>();
-        functions.put("uppercase", String::toUpperCase);
-        functions.put("lowercase", String::toLowerCase);
-        functions.put("capitalize", TemplateFunctions::capitalizeFirstLetter);
-        functions.put("titlecase", TemplateFunctions::capitalizeFirstLetter);
-
         HashMap<String, String> filledTemplate = Maps.newHashMap();
-
-        Map<String, String> scope = Maps.newHashMap();
-        scope.putAll(context);
+        Map<String, String> scope = Maps.newHashMap(context);
         scope.putAll(filledTemplate);
 
         return Maps.transformEntries(template.rawTemplate,
@@ -59,7 +51,7 @@ public class FilledTemplate {
         );
     }
 
-    public static String convertXmlToString(Document doc) {
+    private static String convertXmlToString(Document doc) {
         try {
             DOMSource domSource = new DOMSource(doc);
             StringWriter writer = new StringWriter();
@@ -75,7 +67,7 @@ public class FilledTemplate {
         }
     }
 
-    public Map<String, String> getMap() {
+    private Map<String, String> getMap() {
         return filledTemplate;
     }
 
@@ -83,7 +75,7 @@ public class FilledTemplate {
         return ImmutableMap.<String, String>builder().putAll(filledTemplate).putAll(context).build();
     }
 
-    public Document toXmlDocument() {
+    private Document toXmlDocument() {
         DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
         Document doc;
         DocumentBuilder builder;
@@ -117,8 +109,13 @@ public class FilledTemplate {
     }
 
     @Override
+    public int hashCode() {
+        return Objects.hash(filledTemplate, context);
+    }
+
+    @Override
     public boolean equals(Object obj) {
-        if (getClass() != obj.getClass()) {
+        if (obj == null || getClass() != obj.getClass()) {
             return false;
         }
         FilledTemplate other = (FilledTemplate) obj;

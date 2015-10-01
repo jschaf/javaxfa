@@ -16,9 +16,7 @@ import static org.testng.Assert.assertTrue;
  */
 public class DatasetGenTest {
 
-    private InputStream da410xml;
-
-    public static void assertDatasetCorrect(String template, String dataset) {
+    private static void assertDatasetCorrect(String template, String dataset) {
         Document expected = DatasetGen.convertStringToDocument(dataset);
         Document actual = DatasetGen.createDatasetFromTemplate(template);
         XMLAssert.assertXMLEqual(expected, actual);
@@ -26,7 +24,6 @@ public class DatasetGenTest {
 
     @BeforeClass
     public void setUp() throws Exception {
-        da410xml = this.getClass().getResourceAsStream("/da410.xml");
         XMLUnit.setIgnoreWhitespace(true);
     }
 

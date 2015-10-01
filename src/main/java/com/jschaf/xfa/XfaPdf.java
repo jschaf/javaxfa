@@ -17,7 +17,7 @@ import java.util.HashMap;
 /**
  * Actually do things with the PDF.
  */
-public class XfaPdf {
+class XfaPdf {
 
     public PdfReader pdf = null;
 
@@ -35,13 +35,12 @@ public class XfaPdf {
         }
     }
 
-    private XfaPdf initXfaPdf(InputStream inputStream) {
+    private void initXfaPdf(InputStream inputStream) {
         try {
             pdf = new PdfReader(inputStream);
         } catch (IOException e) {
             e.printStackTrace();
         }
-        return this;
     }
 
     public Document getXfaDocument() {
@@ -49,7 +48,7 @@ public class XfaPdf {
         return form.getXfa().getDomDocument();
     }
 
-    public void fillPdfWithXfa(InputStream xmlStream, OutputStream outputStream) {
+    private void fillPdfWithXfa(InputStream xmlStream, OutputStream outputStream) {
         PdfReader.unethicalreading = true;
         PdfStamper stamper;
         try {
